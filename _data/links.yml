@@ -1,0 +1,13 @@
+main_link:
+  title: Personal website
+  url: https://alpinemily.com/
+
+sections:
+  - label: Tiny Project Tracker
+    links:
+      - title: Obsidian mood atlas plugin
+        url: https://community.obsidian.md/plugins/mood-atlas
+      - title: Mandarin flash cards
+        url: https://alpinemily.github.io/all-hands-on-deck/
+      - title: Career mind map
+        url: https://alpinemily.github.io/career-mind-map

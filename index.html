@@ -1,0 +1,104 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>alpinemily</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      background: #f7f5f2;
+      color: #2c2c2c;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 48px 56px;
+      max-width: 420px;
+      width: 90%;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin-bottom: 4px;
+    }
+
+    .subtitle {
+      font-size: 0.85rem;
+      color: #888;
+      margin-bottom: 32px;
+    }
+
+    .main-link {
+      display: block;
+      margin-bottom: 32px;
+    }
+
+    .section-label {
+      font-size: 0.7rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #aaa;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    a {
+      color: #3a7d5c;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.15s;
+    }
+
+    a:hover {
+      color: #1f4d39;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    li a::before {
+      content: '→ ';
+      opacity: 0.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>alpinemily</h1>
+    <p class="subtitle">Emily Bei Cheng</p>
+
+    <a class="main-link" href="{{ site.data.links.main_link.url }}" target="_blank" rel="noopener">{{ site.data.links.main_link.title }}</a>
+
+    {% for section in site.data.links.sections %}
+    <p class="section-label">{{ section.label }}</p>
+    <ul>
+      {% for link in section.links %}
+      <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</body>
+</html>

@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://alpinemily.com/sitemap.xml
+Sitemap: https://alpinemily.github.io/sitemap.xml

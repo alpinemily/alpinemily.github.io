@@ -30,6 +30,10 @@
     U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -482,7 +486,7 @@ figure img {
 .shop-list {
   text-align: center;
   list-style: none;
-  margin: 0;
+  margin: 50px 0 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;

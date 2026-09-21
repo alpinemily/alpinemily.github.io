@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page not found — Emily Bei Cheng</title>
+    <meta name="description" content="This page doesn't exist." />
+    <link rel="canonical" href="https://emilybei.com/404.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Page not found — Emily Bei Cheng" />
+    <meta property="og:description" content="This page doesn't exist." />
+    <meta property="og:url" content="https://emilybei.com/404.html" />
+    <meta property="og:site_name" content="Emily Bei Cheng" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Page not found — Emily Bei Cheng" />
+    <meta name="twitter:description" content="This page doesn't exist." />
+    <link rel="preload" href="/fonts/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/css/style.css" />
+    <style>
+      .not-found {
+        max-width: 500px;
+        margin: 100px auto;
+        text-align: center;
+      }
+
+      .not-found h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+      }
+
+      .not-found p {
+        color: #666;
+        margin-bottom: 30px;
+      }
+
+      .splash-stamp {
+        position: fixed;
+        right: 45px;
+        bottom: 15px;
+        width: 90px;
+        height: auto;
+        pointer-events: none;
+        z-index: 2;
+      }
+
+      @media (max-width: 700px) {
+        .splash-stamp {
+          width: 56px;
+          right: 28px;
+          bottom: 6px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a id="logo" href="/" data-site-name>Emily Bei Cheng</a>
+        <nav>
+          <a href="/work.html">Photoblog</a> /
+          <a href="/art.html">Art</a> /
+          <a href="/shop.html">Shop</a> /
+          <a href="/about.html">About</a>
+          <span id="cart-nav-item" hidden> / <a href="/cart.html" id="cart-badge">Cart</a></span>
+        </nav>
+      </header>
+
+      <main class="not-found">
+        <h1><span>404</span></h1>
+        <p>This page doesn’t exist — it may have moved, or the link might be off.</p>
+        <p><a href="/">Back to the homepage</a></p>
+      </main>
+    </div>
+
+    <img class="splash-stamp" src="/images/logo/stamp.svg" alt="" />
+
+    <script src="/common.js"></script>
+    <script src="/cart.js"></script>
+  </body>
+</html>

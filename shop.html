@@ -16,12 +16,31 @@
     <meta name="twitter:description" content="Art prints for sale by Emily Bei Cheng." />
     <link rel="preload" href="/fonts/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/css/style.css" />
+    <style>
+      .splash-stamp {
+        position: fixed;
+        right: 45px;
+        bottom: 15px;
+        width: 90px;
+        height: auto;
+        pointer-events: none;
+        z-index: 2;
+      }
+
+      @media (max-width: 700px) {
+        .splash-stamp {
+          width: 56px;
+          right: 28px;
+          bottom: 6px;
+        }
+      }
+    </style>
   </head>
 
   <body>
     <div class="container">
       <header>
-        <a id="logo" href="/index.html" data-site-name>Emily Bei Cheng</a>
+        <a id="logo" href="/" data-site-name>Emily Bei Cheng</a>
         <nav>
           <a href="/work.html">Photoblog</a> /
           <a href="/art.html">Art</a> /
@@ -35,6 +54,8 @@
         <ul class="shop-list" id="shop-list"></ul>
       </main>
     </div>
+
+    <img class="splash-stamp" src="/images/logo/stamp.svg" alt="" />
 
     <script src="/common.js"></script>
     <script src="/cart.js"></script>

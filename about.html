@@ -17,10 +17,6 @@
     <link rel="preload" href="/fonts/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/css/style.css" />
     <style>
-      :root {
-        --accent: #dd5233;
-      }
-
       .about-layout {
         display: flex;
         gap: 48px;
@@ -31,22 +27,24 @@
 
       .about-text {
         flex: 1 1 360px;
-        font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
       }
 
       .tagline {
-        font-family: Georgia, "Times New Roman", serif;
         font-style: italic;
-        color: var(--accent);
+        color: #000;
         font-size: 2rem;
         margin: 0 0 24px;
       }
 
       .about-body p {
-        color: var(--accent);
+        color: #000;
         font-size: 1.2rem;
         line-height: 1.5;
         margin: 0 0 24px;
+      }
+
+      .about-body a {
+        color: red;
       }
 
       .about-photo {
@@ -54,11 +52,50 @@
         max-width: 480px;
       }
 
-      .about-photo img {
-        width: 100%;
+      .photo-carousel {
+        position: relative;
+        overflow: hidden;
         aspect-ratio: 4 / 5;
+      }
+
+      .carousel-track {
+        display: flex;
+        height: 100%;
+        transition: transform 0.4s ease;
+      }
+
+      .carousel-track img {
+        flex: 0 0 100%;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
         display: block;
+      }
+
+      .carousel-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        background: rgba(255, 255, 255, 0.8);
+        color: #000;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1;
+        padding: 10px 14px;
+        cursor: pointer;
+      }
+
+      .carousel-arrow:hover {
+        color: red;
+      }
+
+      .carousel-prev {
+        left: 0;
+      }
+
+      .carousel-next {
+        right: 0;
       }
 
       .splash-stamp {
@@ -84,7 +121,7 @@
   <body>
     <div class="container">
       <header>
-        <a id="logo" href="index.html" data-site-name>Emily Bei Cheng</a>
+        <a id="logo" href="/" data-site-name>Emily Bei Cheng</a>
         <nav>
           <a href="work.html">Photoblog</a> /
           <a href="art.html">Art</a> /
@@ -96,12 +133,16 @@
 
       <main>
         <div class="about-layout">
+          <div class="about-photo">
+            <div class="photo-carousel" id="photo-carousel">
+              <div class="carousel-track" id="carousel-track"></div>
+              <button type="button" class="carousel-arrow carousel-prev" id="carousel-prev" aria-label="Previous photo">❬</button>
+              <button type="button" class="carousel-arrow carousel-next" id="carousel-next" aria-label="Next photo">❭</button>
+            </div>
+          </div>
           <div class="about-text">
             <h1 class="tagline" id="tagline"></h1>
             <div class="about-body" id="about-body"></div>
-          </div>
-          <div class="about-photo">
-            <img id="about-photo" src="/images/about-placeholder.svg" alt="" />
           </div>
         </div>
       </main>
@@ -118,10 +159,33 @@
           .split(/\n\s*\n/)
           .map((para) => `<p>${para.replace(/\n/g, "<br>")}</p>`)
           .join("");
-        const photo = document.getElementById("about-photo");
-        photo.alt = `Portrait of ${site.name}`;
-        if (site.photo) {
-          photo.src = `/${site.photo}`;
+
+        const photos = site.aboutPhotos && site.aboutPhotos.length ? site.aboutPhotos : site.photo ? [site.photo] : [];
+        const track = document.getElementById("carousel-track");
+        const carousel = document.getElementById("photo-carousel");
+        const prevBtn = document.getElementById("carousel-prev");
+        const nextBtn = document.getElementById("carousel-next");
+
+        if (photos.length === 0) {
+          carousel.hidden = true;
+        } else {
+          track.innerHTML = photos
+            .map((src, i) => `<img src="/${src}" alt="${site.name} — photo ${i + 1}" />`)
+            .join("");
+
+          let index = 0;
+          function goTo(i) {
+            index = (i + photos.length) % photos.length;
+            track.style.transform = `translateX(-${index * 100}%)`;
+          }
+
+          if (photos.length > 1) {
+            prevBtn.addEventListener("click", () => goTo(index - 1));
+            nextBtn.addEventListener("click", () => goTo(index + 1));
+          } else {
+            prevBtn.hidden = true;
+            nextBtn.hidden = true;
+          }
         }
       });
     </script>

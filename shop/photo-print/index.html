@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Print — Emily Bei Cheng</title>
+    <meta name="description" content="Archival giclée photo print. Signed and numbered. Starting at $45." />
+    <link rel="canonical" href="https://alpinemily.com/shop/photo-print/" />
+    <meta property="og:type" content="product" />
+    <meta property="og:title" content="Photo Print — Emily Bei Cheng" />
+    <meta property="og:description" content="Archival giclée photo print. Signed and numbered. Starting at $45." />
+    <meta property="og:url" content="https://alpinemily.com/shop/photo-print/" />
+    <meta property="og:site_name" content="Emily Bei Cheng" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Photo Print — Emily Bei Cheng" />
+    <meta name="twitter:description" content="Archival giclée photo print. Signed and numbered. Starting at $45." />
+    <meta property="og:image" content="https://alpinemily.com/images/1789499662804-72db1098.svg" />
+    <meta name="twitter:image" content="https://alpinemily.com/images/1789499662804-72db1098.svg" />
+    <link rel="preload" href="/fonts/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a id="logo" href="/index.html" data-site-name>Emily Bei Cheng</a>
+        <nav>
+          <a href="/work.html">Photoblog</a> /
+          <a href="/art.html">Art</a> /
+          <a href="/shop.html">Shop</a> /
+          <a href="/about.html">About</a>
+          <span id="cart-nav-item" hidden> / <a href="/cart.html" id="cart-badge">Cart</a></span>
+        </nav>
+      </header>
+
+      <main class="product-page" id="product-content">
+        <p style="text-align: center">Loading&hellip;</p>
+      </main>
+    </div>
+
+    <script src="/common.js"></script>
+    <script src="/cart.js"></script>
+    <script>
+      function currentSlug() {
+        const pathMatch = window.location.pathname.match(/^\/shop\/([^/]+)\/?$/);
+        if (pathMatch) return decodeURIComponent(pathMatch[1]);
+        return new URLSearchParams(window.location.search).get("id");
+      }
+
+      async function loadProduct() {
+        const slug = currentSlug();
+        const [site, products] = await Promise.all([
+          loadSite(),
+          fetch("/data/products.json").then((r) => r.json()),
+        ]);
+        const product = products.find((p) => (p.slug === slug || p.id === slug) && !p.hidden);
+        const el = document.getElementById("product-content");
+
+        if (!product) {
+          el.innerHTML = `<p style="text-align:center">Print not found.</p>`;
+          return;
+        }
+
+        const hasSizes = Boolean(product.sizes && product.sizes.length);
+        const sizes = hasSizes ? product.sizes : [{ id: "default", label: "", price: 0 }];
+
+        // Photo-picker mode: instead of a fixed image, the customer chooses
+        // a #photoblog-tagged project, then a specific photo from it.
+        let photoblogProjects = [];
+        if (product.photoSelector) {
+          const projects = await fetch("/data/projects.json").then((r) => r.json());
+          photoblogProjects = projects.filter((p) => (p.tags || []).includes("photoblog") && !p.hidden);
+        }
+
+        // Art-picker mode: instead of a fixed image, the customer chooses
+        // which art piece they want from a dropdown.
+        let artPieces = [];
+        if (product.artSelector) {
+          artPieces = (await fetch("/data/art.json").then((r) => r.json())).filter((a) => !a.hidden);
+          // Numbered pieces ("No. 12") sort numerically; anything without a
+          // number (e.g. "Mother Daughter") falls to the end, in file order.
+          artPieces.sort((a, b) => {
+            const numA = parseInt((a.caption || "").match(/^No\.\s*(\d+)/i)?.[1], 10);
+            const numB = parseInt((b.caption || "").match(/^No\.\s*(\d+)/i)?.[1], 10);
+            const keyA = Number.isNaN(numA) ? Infinity : numA;
+            const keyB = Number.isNaN(numB) ? Infinity : numB;
+            return keyA - keyB;
+          });
+        }
+
+        document.title = `${product.title} — ${site.name}`;
+        el.innerHTML = `
+          <div class="article-head">
+            <div class="next-prev"><a href="/shop.html">❬</a></div>
+            <div class="article-head-main">
+              <h1><span>${product.title}</span></h1>
+            </div>
+            <div class="next-prev"></div>
+          </div>
+          <div class="product-body">
+            <figure class="product-image">
+              <img id="product-hero-image" src="/${product.image}" alt="${product.imageAlt || product.title}" />
+            </figure>
+            <div class="product-text">
+              <p>${(product.description || "").replace(/\n/g, "<br>")}</p>
+              ${
+                product.photoSelector
+                  ? `<div class="photo-picker" id="photo-picker">
+                      <label for="photoblog-select">Choose a photoblog</label>
+                      <select id="photoblog-select"></select>
+                      <div class="photo-options" id="photo-thumbs"></div>
+                      <p class="cart-status" id="photo-status"></p>
+                    </div>`
+                  : ""
+              }
+              ${
+                product.artSelector
+                  ? `<div class="photo-picker" id="art-picker">
+                      <label for="art-select">Choose a piece</label>
+                      <select id="art-select"></select>
+                      <p class="cart-status" id="art-status"></p>
+                    </div>`
+                  : ""
+              }
+              <p class="product-price" id="product-price"></p>
+              ${
+                sizes.length > 1
+                  ? `<ul class="size-options" id="size-options">
+                      ${sizes
+                        .map(
+                          (s, i) => `
+                        <li>
+                          <label>
+                            <input type="radio" name="size" value="${s.id}" data-price="${s.price}" ${i === 0 ? "checked" : ""} />
+                            ${s.label} — $${s.price}
+                          </label>
+                        </li>
+                      `,
+                        )
+                        .join("")}
+                    </ul>`
+                  : ""
+              }
+              <div class="qty-row">
+                <label for="qty">Qty</label>
+                <input type="number" id="qty" value="1" min="1" />
+              </div>
+              <button type="button" class="add-to-cart" id="add-to-cart" ${hasSizes ? "" : "disabled"}>
+                ${hasSizes ? "Add to cart" : "Not yet available"}
+              </button>
+              <p class="cart-status" id="cart-status"></p>
+            </div>
+          </div>
+        `;
+
+        function selectedSize() {
+          if (sizes.length > 1) {
+            const checked = document.querySelector('input[name="size"]:checked');
+            return sizes.find((s) => s.id === checked.value);
+          }
+          return sizes[0];
+        }
+
+        function updatePrice() {
+          document.getElementById("product-price").textContent = `$${selectedSize().price}`;
+        }
+        updatePrice();
+
+        if (sizes.length > 1) {
+          document.getElementById("size-options").addEventListener("change", updatePrice);
+        }
+
+        // --- Photo picker wiring ---
+        let selectedPhoto = null; // { src, label }
+        let selectedArt = null; // { src, caption }
+        const addToCartBtn = document.getElementById("add-to-cart");
+
+        function photosFor(project) {
+          const cover = { src: project.image, label: project.title };
+          const gallery = (project.images || []).map((img) => ({
+            src: img.src,
+            label: img.caption ? `${project.title} — ${img.caption}` : project.title,
+          }));
+          return [cover, ...gallery];
+        }
+
+        function renderPhotoThumbs(project) {
+          const thumbs = document.getElementById("photo-thumbs");
+          const photos = photosFor(project);
+          thumbs.innerHTML = photos
+            .map(
+              (photo, i) => `
+              <button type="button" class="photo-thumb" data-index="${i}">
+                <img src="/${photo.src}" alt="${photo.label}" />
+              </button>
+            `,
+            )
+            .join("");
+
+          selectedPhoto = null;
+          document.getElementById("product-hero-image").src = `/${product.image}`;
+          updateAddToCartState();
+
+          thumbs.querySelectorAll(".photo-thumb").forEach((btn) => {
+            btn.addEventListener("click", () => {
+              thumbs.querySelectorAll(".photo-thumb").forEach((b) => b.classList.remove("selected"));
+              btn.classList.add("selected");
+              selectedPhoto = photos[Number(btn.dataset.index)];
+              document.getElementById("product-hero-image").src = `/${selectedPhoto.src}`;
+              document.getElementById("photo-status").textContent = "";
+              updateAddToCartState();
+            });
+          });
+        }
+
+        function updateAddToCartState() {
+          if (product.photoSelector) {
+            const ready = Boolean(selectedPhoto) && photoblogProjects.length > 0;
+            addToCartBtn.disabled = !hasSizes || !ready;
+          } else if (product.artSelector) {
+            const ready = Boolean(selectedArt) && artPieces.length > 0;
+            addToCartBtn.disabled = !hasSizes || !ready;
+          }
+        }
+
+        if (product.photoSelector) {
+          const select = document.getElementById("photoblog-select");
+          const photoStatus = document.getElementById("photo-status");
+
+          if (photoblogProjects.length === 0) {
+            document.getElementById("photo-picker").innerHTML = `
+              <p style="color: #666">
+                No projects are tagged <strong>#photoblog</strong> yet — tag one in the admin to let
+                customers pick a photo here.
+              </p>
+            `;
+            addToCartBtn.disabled = true;
+          } else {
+            select.innerHTML = photoblogProjects
+              .map((p) => `<option value="${p.id}">${p.title}</option>`)
+              .join("");
+            const defaultProject =
+              photoblogProjects.find((p) => p.id === product.defaultPhotoblogId) || photoblogProjects[0];
+            select.value = defaultProject.id;
+            renderPhotoThumbs(defaultProject);
+            select.addEventListener("change", () => {
+              const project = photoblogProjects.find((p) => p.id === select.value);
+              renderPhotoThumbs(project);
+            });
+            photoStatus.textContent = "Select a photo below.";
+          }
+        }
+
+        // --- Art picker wiring ---
+        if (product.artSelector) {
+          const select = document.getElementById("art-select");
+          const artStatus = document.getElementById("art-status");
+
+          if (artPieces.length === 0) {
+            document.getElementById("art-picker").innerHTML = `
+              <p style="color: #666">
+                No art pieces yet — add some on the Art page in admin.
+              </p>
+            `;
+            addToCartBtn.disabled = true;
+          } else {
+            select.innerHTML =
+              `<option value="">Choose a piece…</option>` +
+              artPieces
+                .map((a, i) => `<option value="${i}">${a.caption || a.src.split("/").pop()}</option>`)
+                .join("");
+            select.addEventListener("change", () => {
+              if (select.value === "") {
+                selectedArt = null;
+                document.getElementById("product-hero-image").src = `/${product.image}`;
+              } else {
+                selectedArt = artPieces[Number(select.value)];
+                document.getElementById("product-hero-image").src = `/${selectedArt.src}`;
+              }
+              artStatus.textContent = "";
+              updateAddToCartState();
+            });
+
+            const defaultArtIndex = artPieces.findIndex((a) => a.src === product.defaultArtSrc);
+            if (defaultArtIndex !== -1) {
+              select.value = String(defaultArtIndex);
+              selectedArt = artPieces[defaultArtIndex];
+              document.getElementById("product-hero-image").src = `/${selectedArt.src}`;
+            } else {
+              artStatus.textContent = "Select a piece above.";
+            }
+            updateAddToCartState();
+          }
+        }
+
+        addToCartBtn.addEventListener("click", () => {
+          if (product.photoSelector && !selectedPhoto) {
+            document.getElementById("photo-status").textContent = "Pick a photo first.";
+            document.getElementById("photo-status").style.color = "red";
+            return;
+          }
+          if (product.artSelector && !selectedArt) {
+            document.getElementById("art-status").textContent = "Pick a piece first.";
+            document.getElementById("art-status").style.color = "red";
+            return;
+          }
+
+          const size = selectedSize();
+          const qty = Math.max(1, parseInt(document.getElementById("qty").value, 10) || 1);
+          addToCart({
+            productId: product.id,
+            slug: product.slug,
+            title: product.title,
+            image: product.image,
+            sizeId: size.id,
+            sizeLabel: size.label,
+            price: size.price,
+            qty,
+            ...(selectedPhoto ? { sourceImage: selectedPhoto.src, sourceLabel: selectedPhoto.label } : {}),
+            ...(selectedArt ? { sourceImage: selectedArt.src, sourceLabel: selectedArt.caption } : {}),
+          });
+          document.getElementById("cart-status").textContent = `Added to cart.`;
+        });
+      }
+
+      loadProduct();
+    </script>
+  </body>
+</html>

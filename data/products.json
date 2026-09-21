@@ -1,0 +1,93 @@
+[
+  {
+    "id": "f14c5d2b8d03",
+    "title": "Graphite Art Print",
+    "slug": "graphite-art-print",
+    "description": "Archival reproduction print of an original graphite drawing.",
+    "image": "images/1789499662680-8dfc857c.svg",
+    "imageAlt": "A graphite drawing print",
+    "sizes": [
+      {
+        "id": "90025adc",
+        "label": "8x10 in",
+        "price": 35
+      },
+      {
+        "id": "fbf9295c",
+        "label": "11x14 in",
+        "price": 55
+      },
+      {
+        "id": "727f7e9b",
+        "label": "16x20 in",
+        "price": 85
+      }
+    ],
+    "artSelector": true,
+    "defaultArtSrc": ""
+  },
+  {
+    "id": "7e64087f8e9b",
+    "title": "Original Graphite Art",
+    "slug": "graphite-original",
+    "description": "One-of-a-kind original graphite drawing, unframed.",
+    "image": "images/1789499662748-31607ecd.svg",
+    "imageAlt": "An original graphite drawing",
+    "sizes": [
+      {
+        "id": "a776bbc5",
+        "label": "Original (unframed)",
+        "price": 300
+      }
+    ],
+    "photoSelector": false,
+    "artSelector": false,
+    "defaultPhotoblogId": "",
+    "defaultArtSrc": ""
+  },
+  {
+    "id": "a706c0ec2458",
+    "title": "Photo Print",
+    "slug": "photo-print",
+    "description": "Archival giclée photo print. Signed and numbered.",
+    "image": "images/1789499662804-72db1098.svg",
+    "imageAlt": "A photo print",
+    "sizes": [
+      {
+        "id": "78ab9998",
+        "label": "8x10 in",
+        "price": 45
+      },
+      {
+        "id": "b6c32b99",
+        "label": "11x14 in",
+        "price": 65
+      },
+      {
+        "id": "a91691a6",
+        "label": "16x20 in",
+        "price": 100
+      }
+    ],
+    "photoSelector": true,
+    "defaultPhotoblogId": "2537f1e55ccc",
+    "artSelector": false,
+    "defaultArtSrc": "images/art/art01.jpg"
+  },
+  {
+    "id": "0ba3ab0bbf21",
+    "title": "Zine",
+    "slug": "zine",
+    "description": "A self-published zine of photos and writing.",
+    "image": "images/1789499662859-07f31f37.svg",
+    "imageAlt": "A zine cover",
+    "sizes": [
+      {
+        "id": "c8b7acc2",
+        "label": "Zine",
+        "price": 15
+      }
+    ],
+    "hidden": false
+  }
+]

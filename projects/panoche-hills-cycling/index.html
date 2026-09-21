@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panoche Hills Cycling — Emily Bei Cheng</title>
+    <meta name="description" content="We spent our first night around a campfire at Mercey Hot Springs, listening to Isaac describe the Panoche Hills. The Panoche Hills are a desert ecosystem locat…" />
+    <link rel="canonical" href="https://alpinemily.com/projects/panoche-hills-cycling/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Panoche Hills Cycling — Emily Bei Cheng" />
+    <meta property="og:description" content="We spent our first night around a campfire at Mercey Hot Springs, listening to Isaac describe the Panoche Hills. The Panoche Hills are a desert ecosystem locat…" />
+    <meta property="og:url" content="https://alpinemily.com/projects/panoche-hills-cycling/" />
+    <meta property="og:site_name" content="Emily Bei Cheng" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Panoche Hills Cycling — Emily Bei Cheng" />
+    <meta name="twitter:description" content="We spent our first night around a campfire at Mercey Hot Springs, listening to Isaac describe the Panoche Hills. The Panoche Hills are a desert ecosystem locat…" />
+    <meta property="og:image" content="https://alpinemily.com/images/projects/panoche-hills-cycling/img01.jpg" />
+    <meta name="twitter:image" content="https://alpinemily.com/images/projects/panoche-hills-cycling/img01.jpg" />
+    <link rel="preload" href="/fonts/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a id="logo" href="/index.html" data-site-name>Emily Bei Cheng</a>
+        <nav>
+          <a href="/work.html">Photoblog</a> /
+          <a href="/art.html">Art</a> /
+          <a href="/shop.html">Shop</a> /
+          <a href="/about.html">About</a>
+          <span id="cart-nav-item" hidden> / <a href="/cart.html" id="cart-badge">Cart</a></span>
+        </nav>
+      </header>
+
+      <main class="project-page" id="project-content">
+        <p style="text-align: center">Loading&hellip;</p>
+      </main>
+
+      <section>
+        <h2 class="page-title"><span>More Work</span></h2>
+        <ul class="project-list" id="more-work-list"></ul>
+      </section>
+    </div>
+
+    <script src="/common.js"></script>
+    <script src="/cart.js"></script>
+    <script>
+      function projectUrl(p) {
+        return `/projects/${encodeURIComponent(p.slug || p.id)}/`;
+      }
+
+      function renderMoreWork(projects, excludeId) {
+        const list = document.getElementById("more-work-list");
+        list.innerHTML = projects
+          .filter((p) => p.id !== excludeId && !p.hidden)
+          .map(
+            (p) => `
+          <li>
+            <a href="${projectUrl(p)}">
+              <img src="/${p.image}" alt="${p.imageAlt || p.title}" />
+              <div class="project-meta">
+                <span class="title">${p.title}</span>
+                <date>(${p.year})</date>
+              </div>
+            </a>
+          </li>
+        `,
+          )
+          .join("");
+      }
+
+      function currentSlug() {
+        const pathMatch = window.location.pathname.match(/^\/projects\/([^/]+)\/?$/);
+        if (pathMatch) return decodeURIComponent(pathMatch[1]);
+        return new URLSearchParams(window.location.search).get("id");
+      }
+
+      async function loadProject() {
+        const slug = currentSlug();
+        const [site, projects] = await Promise.all([
+          loadSite(),
+          fetch("/data/projects.json").then((r) => r.json()),
+        ]);
+        const project = projects.find((p) => (p.slug === slug || p.id === slug) && !p.hidden);
+        const el = document.getElementById("project-content");
+
+        if (!project) {
+          el.innerHTML = `<p style="text-align:center">Project not found.</p>`;
+          renderMoreWork(projects, null);
+          return;
+        }
+
+        const index = projects.findIndex((p) => p.id === project.id);
+        const prev = index > 0 ? projects[index - 1] : null;
+        const next = index < projects.length - 1 ? projects[index + 1] : null;
+        const prevLink = prev ? `<a href="${projectUrl(prev)}">❬</a>` : `<span>❬</span>`;
+        const nextLink = next ? `<a href="${projectUrl(next)}">❭</a>` : `<span>❭</span>`;
+
+        const visibleGalleryImages = (project.images || []).filter((img) => !img.hidden);
+        const images = visibleGalleryImages.length
+          ? visibleGalleryImages
+          : [{ id: "cover", src: project.image, caption: "" }];
+
+        const imgAlt = (img) => img.caption || project.imageAlt || project.title;
+
+        const galleryHtml =
+          project.template === "blog"
+            ? `
+            <div class="project-blog">
+              ${images
+                .map(
+                  (img) => `
+                <figure>
+                  <img src="/${img.src}" alt="${imgAlt(img)}" />
+                  ${img.caption ? `<figcaption>${img.caption.replace(/\n/g, "<br>")}</figcaption>` : ""}
+                </figure>
+              `,
+                )
+                .join("")}
+            </div>
+          `
+            : project.template === "photo-column"
+              ? `
+            <div class="project-columns">
+              <div class="project-columns-photos">
+                ${images
+                  .map(
+                    (img) => `
+                  <figure>
+                    <img src="/${img.src}" alt="${imgAlt(img)}" />
+                  </figure>
+                `,
+                  )
+                  .join("")}
+              </div>
+              <div class="project-columns-text">
+                <div class="project-columns-text-inner">
+                  ${(project.description || "")
+                    .split(/\n\s*\n/)
+                    .filter((para) => para.trim())
+                    .map((para) => `<p>${para.replace(/\n/g, "<br>")}</p>`)
+                    .join("")}
+                </div>
+              </div>
+            </div>
+          `
+              : images
+                  .map(
+                    (img) => `
+              <div class="project-body">
+                <figure class="project-image">
+                  <img src="/${img.src}" alt="${imgAlt(img)}" />
+                </figure>
+                <div class="project-text">
+                  ${img.caption ? `<p>${img.caption.replace(/\n/g, "<br>")}</p>` : ""}
+                </div>
+              </div>
+            `,
+                  )
+                  .join("");
+
+        document.title = `${project.title} — ${site.name}`;
+        el.innerHTML = `
+          <div class="article-head">
+            <div class="next-prev">${prevLink}</div>
+            <div class="article-head-main">
+              <h1><span>${project.title}</span></h1>
+              <p class="meta"><time>${project.year}</time></p>
+              <p class="project-tags">
+                ${(project.tags || []).map((t) => `<span class="tag-pill static">#${t}</span>`).join(" ")}
+              </p>
+            </div>
+            <div class="next-prev">${nextLink}</div>
+          </div>
+          ${
+            project.description && project.template !== "photo-column"
+              ? `<p class="project-intro">${project.description.replace(/\n/g, "<br>")}</p>`
+              : ""
+          }
+          ${galleryHtml}
+        `;
+
+        renderMoreWork(projects, project.id);
+      }
+
+      loadProject();
+    </script>
+  </body>
+</html>

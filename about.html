@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About — Emily Bei Cheng</title>
+    <meta name="description" content="Hi, I’m Emily Bei Cheng. I explore life at photo pace and share what I’ve experienced through words and images. Occasionally I like to do ultras and I write ab…" />
+    <link rel="canonical" href="https://alpinemily.com/about.html" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="About — Emily Bei Cheng" />
+    <meta property="og:description" content="Hi, I’m Emily Bei Cheng. I explore life at photo pace and share what I’ve experienced through words and images. Occasionally I like to do ultras and I write ab…" />
+    <meta property="og:url" content="https://alpinemily.com/about.html" />
+    <meta property="og:site_name" content="Emily Bei Cheng" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="About — Emily Bei Cheng" />
+    <meta name="twitter:description" content="Hi, I’m Emily Bei Cheng. I explore life at photo pace and share what I’ve experienced through words and images. Occasionally I like to do ultras and I write ab…" />
+    <link rel="preload" href="/fonts/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/css/style.css" />
+    <style>
+      :root {
+        --accent: #dd5233;
+      }
+
+      .about-layout {
+        display: flex;
+        gap: 48px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+
+      .about-text {
+        flex: 1 1 360px;
+        font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+      }
+
+      .tagline {
+        font-family: Georgia, "Times New Roman", serif;
+        font-style: italic;
+        color: var(--accent);
+        font-size: 2rem;
+        margin: 0 0 24px;
+      }
+
+      .about-body p {
+        color: var(--accent);
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin: 0 0 24px;
+      }
+
+      .about-photo {
+        flex: 1 1 360px;
+        max-width: 480px;
+      }
+
+      .about-photo img {
+        width: 100%;
+        aspect-ratio: 4 / 5;
+        object-fit: cover;
+        display: block;
+      }
+
+      .splash-stamp {
+        position: fixed;
+        right: 45px;
+        bottom: 15px;
+        width: 90px;
+        height: auto;
+        pointer-events: none;
+        z-index: 2;
+      }
+
+      @media (max-width: 700px) {
+        .splash-stamp {
+          width: 56px;
+          right: 28px;
+          bottom: 6px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a id="logo" href="index.html" data-site-name>Emily Bei Cheng</a>
+        <nav>
+          <a href="work.html">Photoblog</a> /
+          <a href="art.html">Art</a> /
+          <a href="shop.html">Shop</a> /
+          <a href="about.html">About</a>
+          <span id="cart-nav-item" hidden> / <a href="cart.html" id="cart-badge">Cart</a></span>
+        </nav>
+      </header>
+
+      <main>
+        <div class="about-layout">
+          <div class="about-text">
+            <h1 class="tagline" id="tagline"></h1>
+            <div class="about-body" id="about-body"></div>
+          </div>
+          <div class="about-photo">
+            <img id="about-photo" src="/images/about-placeholder.svg" alt="" />
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <img class="splash-stamp" src="/images/logo/stamp.svg" alt="" />
+
+    <script src="common.js"></script>
+    <script src="cart.js"></script>
+    <script>
+      loadSite().then((site) => {
+        document.getElementById("tagline").textContent = site.tagline || "";
+        document.getElementById("about-body").innerHTML = (site.about || "")
+          .split(/\n\s*\n/)
+          .map((para) => `<p>${para.replace(/\n/g, "<br>")}</p>`)
+          .join("");
+        const photo = document.getElementById("about-photo");
+        photo.alt = `Portrait of ${site.name}`;
+        if (site.photo) {
+          photo.src = `/${site.photo}`;
+        }
+      });
+    </script>
+  </body>
+</html>

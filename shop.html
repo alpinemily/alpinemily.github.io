@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop — Emily Bei Cheng</title>
+    <meta name="description" content="Art prints for sale by Emily Bei Cheng." />
+    <link rel="canonical" href="https://alpinemily.com/shop.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Shop — Emily Bei Cheng" />
+    <meta property="og:description" content="Art prints for sale by Emily Bei Cheng." />
+    <meta property="og:url" content="https://alpinemily.com/shop.html" />
+    <meta property="og:site_name" content="Emily Bei Cheng" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Shop — Emily Bei Cheng" />
+    <meta name="twitter:description" content="Art prints for sale by Emily Bei Cheng." />
+    <link rel="preload" href="/fonts/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a id="logo" href="/index.html" data-site-name>Emily Bei Cheng</a>
+        <nav>
+          <a href="/work.html">Photoblog</a> /
+          <a href="/art.html">Art</a> /
+          <a href="/shop.html">Shop</a> /
+          <a href="/about.html">About</a>
+          <span id="cart-nav-item" hidden> / <a href="/cart.html" id="cart-badge">Cart</a></span>
+        </nav>
+      </header>
+
+      <main>
+        <ul class="shop-list" id="shop-list"></ul>
+      </main>
+    </div>
+
+    <script src="/common.js"></script>
+    <script src="/cart.js"></script>
+    <script>
+      function priceRange(product) {
+        const prices = (product.sizes || []).map((s) => s.price);
+        if (!prices.length) return "";
+        const min = Math.min(...prices);
+        const max = Math.max(...prices);
+        return min === max ? `$${min}` : `from $${min}`;
+      }
+
+      async function loadProducts() {
+        const res = await fetch("/data/products.json");
+        const products = (await res.json()).filter((p) => !p.hidden);
+        const list = document.getElementById("shop-list");
+        list.innerHTML = products
+          .map(
+            (p) => `
+          <li>
+            <a href="/shop/${encodeURIComponent(p.slug || p.id)}/">
+              <img src="/${p.image}" alt="${p.imageAlt || p.title}" />
+              <div class="product-meta">
+                <span class="title">${p.title}</span>
+                <div class="price">${priceRange(p)}</div>
+              </div>
+            </a>
+          </li>
+        `,
+          )
+          .join("");
+      }
+
+      loadProducts();
+    </script>
+  </body>
+</html>

@@ -1,104 +1,169 @@
----
----
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>alpinemily</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emily Bei Cheng</title>
+    <meta name="description" content="Hi, I’m Emily Bei Cheng. I explore life at photo pace and share what I’ve experienced through words and images. Occasionally I like to do ultras and I write ab…" />
+    <link rel="canonical" href="https://alpinemily.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Emily Bei Cheng" />
+    <meta property="og:description" content="Hi, I’m Emily Bei Cheng. I explore life at photo pace and share what I’ve experienced through words and images. Occasionally I like to do ultras and I write ab…" />
+    <meta property="og:url" content="https://alpinemily.com/" />
+    <meta property="og:site_name" content="Emily Bei Cheng" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Emily Bei Cheng" />
+    <meta name="twitter:description" content="Hi, I’m Emily Bei Cheng. I explore life at photo pace and share what I’ve experienced through words and images. Occasionally I like to do ultras and I write ab…" />
+    <meta property="og:image" content="https://alpinemily.com/images/splash/splash01.jpg" />
+    <meta name="twitter:image" content="https://alpinemily.com/images/splash/splash01.jpg" />
+    <link rel="preload" href="/fonts/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/css/style.css" />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
 
-    body {
-      font-family: 'Inter', sans-serif;
-      font-weight: 300;
-      background: #f7f5f2;
-      color: #2c2c2c;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+      body {
+        display: flex;
+        flex-direction: column;
+      }
 
-    .card {
-      background: #fff;
-      border-radius: 16px;
-      padding: 48px 56px;
-      max-width: 420px;
-      width: 90%;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.07);
-    }
+      .container {
+        padding: 20px 40px 0;
+      }
 
-    h1 {
-      font-size: 1.5rem;
-      font-weight: 500;
-      letter-spacing: -0.02em;
-      margin-bottom: 4px;
-    }
+      @media (max-width: 700px) {
+        .container {
+          padding: 15px 15px 0;
+        }
+      }
 
-    .subtitle {
-      font-size: 0.85rem;
-      color: #888;
-      margin-bottom: 32px;
-    }
+      .splash-frame {
+        position: relative;
+        flex: 1;
+        min-height: 0;
+        box-sizing: border-box;
+        padding: 30px 40px 40px;
+      }
 
-    .main-link {
-      display: block;
-      margin-bottom: 32px;
-    }
+      .splash-stamp {
+        position: fixed;
+        right: 45px;
+        bottom: 15px;
+        width: 90px;
+        height: auto;
+        pointer-events: none;
+        z-index: 2;
+      }
 
-    .section-label {
-      font-size: 0.7rem;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: #aaa;
-      margin-bottom: 12px;
-    }
+      @media (max-width: 700px) {
+        .splash-stamp {
+          width: 56px;
+          right: 28px;
+          bottom: 6px;
+        }
+      }
 
-    ul {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
+      .splash-img-link {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
 
-    a {
-      color: #3a7d5c;
-      text-decoration: none;
-      font-size: 0.95rem;
-      transition: color 0.15s;
-    }
+      .splash-img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: opacity 0.4s ease;
+      }
 
-    a:hover {
-      color: #1f4d39;
-      text-decoration: underline;
-      text-underline-offset: 3px;
-    }
+      @media (max-width: 700px) {
+        .splash-frame {
+          padding: 20px 15px;
+        }
+      }
+    </style>
+  </head>
 
-    li a::before {
-      content: '→ ';
-      opacity: 0.4;
-    }
-  </style>
-</head>
-<body>
-  <div class="card">
-    <h1>alpinemily</h1>
-    <p class="subtitle">Emily Bei Cheng</p>
+  <body>
+    <div class="container">
+      <header>
+        <span id="logo" data-site-name>Emily Bei Cheng</span>
+        <nav>
+          <a href="/work.html">Photoblog</a> /
+          <a href="/art.html">Art</a> /
+          <a href="/shop.html">Shop</a> /
+          <a href="/about.html">About</a>
+          <span id="cart-nav-item" hidden> / <a href="/cart.html" id="cart-badge">Cart</a></span>
+        </nav>
+      </header>
+    </div>
 
-    <a class="main-link" href="{{ site.data.links.main_link.url }}" target="_blank" rel="noopener">{{ site.data.links.main_link.title }}</a>
+    <div class="splash-frame">
+      <a href="/work.html" class="splash-img-link" aria-label="Enter site">
+        <img class="splash-img" id="splash-img" alt="" style="opacity: 0" />
+      </a>
+      <img class="splash-stamp" src="/images/logo/stamp.svg" alt="" />
+    </div>
 
-    {% for section in site.data.links.sections %}
-    <p class="section-label">{{ section.label }}</p>
-    <ul>
-      {% for link in section.links %}
-      <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a></li>
-      {% endfor %}
-    </ul>
-    {% endfor %}
-  </div>
-</body>
+    <script src="/common.js"></script>
+    <script src="/cart.js"></script>
+    <script>
+      const DISPLAY_MS = 4500; // how long each image stays fully visible
+
+      function wait(ms) {
+        return new Promise((resolve) => setTimeout(resolve, ms));
+      }
+
+      async function loadSplash() {
+        const site = await loadSite();
+        const images = (site.splashImages || []).filter((entry) => !entry.hidden);
+        if (images.length === 0) return;
+
+        const img = document.getElementById("splash-img");
+
+        function loadInto(entry) {
+          const src = entry.src || entry;
+          const focal = entry.focal || { x: 50, y: 50 };
+          return new Promise((resolve) => {
+            img.onload = resolve;
+            img.onerror = resolve;
+            img.style.objectPosition = `${focal.x}% ${focal.y}%`;
+            img.src = "/" + src;
+          });
+        }
+
+        let i = 0;
+
+        // First image: load, then fade in from black.
+        await loadInto(images[i]);
+        void img.offsetWidth; // flush so the browser registers opacity:0 first
+        img.style.opacity = "1";
+
+        if (images.length === 1) return;
+
+        while (true) {
+          await wait(DISPLAY_MS);
+
+          // Hard cut to hidden — no fade-out, just skip the transition for
+          // this one change.
+          img.style.transition = "none";
+          img.style.opacity = "0";
+          void img.offsetWidth;
+          img.style.transition = ""; // restore the CSS transition for the fade-in below
+
+          // Swap the image while it's invisible, then fade the new one in.
+          i = (i + 1) % images.length;
+          await loadInto(images[i]);
+          void img.offsetWidth;
+          img.style.opacity = "1";
+        }
+      }
+
+      loadSplash();
+    </script>
+  </body>
 </html>

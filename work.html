@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selected Work — Emily Bei Cheng</title>
+    <meta name="description" content="Selected work by Emily Bei Cheng." />
+    <link rel="canonical" href="https://alpinemily.com/work.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Selected Work — Emily Bei Cheng" />
+    <meta property="og:description" content="Selected work by Emily Bei Cheng." />
+    <meta property="og:url" content="https://alpinemily.com/work.html" />
+    <meta property="og:site_name" content="Emily Bei Cheng" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Selected Work — Emily Bei Cheng" />
+    <meta name="twitter:description" content="Selected work by Emily Bei Cheng." />
+    <link rel="preload" href="/fonts/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a id="logo" href="index.html" data-site-name>Emily Bei Cheng</a>
+        <nav>
+          <a href="work.html">Photoblog</a> /
+          <a href="art.html">Art</a> /
+          <a href="shop.html">Shop</a> /
+          <a href="about.html">About</a>
+          <span id="cart-nav-item" hidden> / <a href="cart.html" id="cart-badge">Cart</a></span>
+        </nav>
+      </header>
+
+      <main>
+        <p class="tag-filters" id="tag-filters"></p>
+        <ul class="project-list" id="project-list"></ul>
+      </main>
+    </div>
+
+    <script src="common.js"></script>
+    <script src="cart.js"></script>
+    <script>
+      const CATEGORIES = [
+        { slug: "art", label: "Art" },
+        { slug: "photoblog", label: "Photoblog" },
+        { slug: "cycling", label: "Cycling" },
+        { slug: "writing", label: "Writing" },
+        { slug: "data-viz", label: "Data Viz" },
+      ];
+
+      let allProjects = [];
+      let activeTags = new Set();
+
+      function renderFilters() {
+        const filters = document.getElementById("tag-filters");
+        const items = [{ slug: "", label: "All" }, ...CATEGORIES];
+        filters.innerHTML =
+          `<span class="filters-label">Filters:</span> ` +
+          items
+            .map(
+              (c, i) => `
+              ${i > 0 ? " / " : ""}<button type="button" class="tag-filter${(c.slug === "" ? activeTags.size === 0 : activeTags.has(c.slug)) ? " active" : ""}" data-tag="${c.slug}">${c.label}</button>
+            `,
+            )
+            .join("");
+      }
+
+      function renderProjects() {
+        const list = document.getElementById("project-list");
+        const visible = allProjects.filter((p) => !p.hidden);
+        const filtered =
+          activeTags.size === 0
+            ? visible
+            : visible.filter((p) => (p.tags || []).some((t) => activeTags.has(t)));
+
+        list.innerHTML = filtered
+          .map(
+            (p) => `
+          <li>
+            <a href="/projects/${encodeURIComponent(p.slug || p.id)}/">
+              <img src="/${p.image}" alt="${p.imageAlt || p.title}" />
+              <div class="project-meta">
+                <span class="title">${p.title}</span>
+                <date>(${p.year})</date>
+              </div>
+            </a>
+            <div class="project-tags">
+              ${(p.tags || [])
+                .map((t) => `<button type="button" class="tag-pill" data-tag="${t}">#${t}</button>`)
+                .join(" ")}
+            </div>
+          </li>
+        `,
+          )
+          .join("");
+      }
+
+      function toggleTag(tag) {
+        if (!tag) {
+          activeTags.clear();
+        } else if (activeTags.has(tag)) {
+          activeTags.delete(tag);
+        } else {
+          activeTags.add(tag);
+        }
+        renderFilters();
+        renderProjects();
+      }
+
+      document.getElementById("tag-filters").addEventListener("click", (e) => {
+        const btn = e.target.closest("button[data-tag]");
+        if (btn) toggleTag(btn.dataset.tag);
+      });
+
+      document.getElementById("project-list").addEventListener("click", (e) => {
+        const btn = e.target.closest("button.tag-pill");
+        if (!btn) return;
+        e.preventDefault();
+        toggleTag(btn.dataset.tag);
+      });
+
+      async function loadProjects() {
+        const res = await fetch("/data/projects.json");
+        allProjects = await res.json();
+        renderFilters();
+        renderProjects();
+      }
+
+      loadProjects();
+    </script>
+  </body>
+</html>

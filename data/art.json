@@ -1,0 +1,114 @@
+[
+  {
+    "src": "images/art/art01.jpg",
+    "caption": "No. 16",
+    "size": "large",
+    "hidden": false
+  },
+  {
+    "src": "images/art/art02.jpg",
+    "caption": "No. 13",
+    "size": "medium"
+  },
+  {
+    "src": "images/art/art03.jpg",
+    "caption": "No. 22",
+    "size": "large"
+  },
+  {
+    "src": "images/art/art04.jpg",
+    "caption": "No. 14",
+    "size": "large"
+  },
+  {
+    "src": "images/art/art05.jpg",
+    "caption": "No. 9",
+    "size": "medium"
+  },
+  {
+    "src": "images/art/art06.jpg",
+    "caption": "No. 12",
+    "size": "large"
+  },
+  {
+    "src": "images/art/art07.jpg",
+    "caption": "No. 11",
+    "size": "large"
+  },
+  {
+    "src": "images/art/art08.jpg",
+    "caption": "No. 4",
+    "size": "medium"
+  },
+  {
+    "src": "images/art/art09.jpg",
+    "caption": "No. 10",
+    "size": "medium"
+  },
+  {
+    "src": "images/art/art10.jpg",
+    "caption": "No. 28",
+    "size": "small"
+  },
+  {
+    "src": "images/art/art11.jpg",
+    "caption": "No. 15",
+    "size": "medium"
+  },
+  {
+    "src": "images/art/art12.jpg",
+    "caption": "No. 7",
+    "size": "large"
+  },
+  {
+    "src": "images/art/art13.jpg",
+    "caption": "No. 0",
+    "size": "medium"
+  },
+  {
+    "src": "images/art/art14.jpg",
+    "caption": "No. 17",
+    "size": "medium"
+  },
+  {
+    "src": "images/art/art15.jpg",
+    "caption": "No. 1",
+    "size": "medium"
+  },
+  {
+    "src": "images/art/art16.jpg",
+    "caption": "No. 21",
+    "size": "medium"
+  },
+  {
+    "src": "images/art/art17.jpg",
+    "caption": "No. 6",
+    "size": "medium"
+  },
+  {
+    "src": "images/art/art18.jpg",
+    "caption": "Mother Daughter",
+    "size": "medium"
+  },
+  {
+    "src": "images/art/art19.jpg",
+    "caption": "No. 1",
+    "size": "medium"
+  },
+  {
+    "src": "images/art/art20.jpg",
+    "caption": "No. 2",
+    "size": "medium"
+  },
+  {
+    "src": "images/art/art21.jpg",
+    "caption": "Protein Engineering",
+    "size": "small",
+    "hidden": false
+  },
+  {
+    "src": "images/art/art22.jpg",
+    "caption": "No. 19",
+    "size": "medium"
+  }
+]

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art — Emily Bei Cheng</title>
+    <meta name="description" content="Art by Emily Bei Cheng." />
+    <link rel="canonical" href="https://alpinemily.com/art.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Art — Emily Bei Cheng" />
+    <meta property="og:description" content="Art by Emily Bei Cheng." />
+    <meta property="og:url" content="https://alpinemily.com/art.html" />
+    <meta property="og:site_name" content="Emily Bei Cheng" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Art — Emily Bei Cheng" />
+    <meta name="twitter:description" content="Art by Emily Bei Cheng." />
+    <link rel="preload" href="/fonts/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a id="logo" href="/index.html" data-site-name>Emily Bei Cheng</a>
+        <nav>
+          <a href="/work.html">Photoblog</a> /
+          <a href="/art.html">Art</a> /
+          <a href="/shop.html">Shop</a> /
+          <a href="/about.html">About</a>
+          <span id="cart-nav-item" hidden> / <a href="/cart.html" id="cart-badge">Cart</a></span>
+        </nav>
+      </header>
+
+      <main>
+        <div class="art-intro">
+          <p class="art-intro-shaped">
+            I improvise on giant sheets of paper, intersecting lines to create positive and
+            negative space for bodies to extend beyond their boundaries.
+          </p>
+          <p class="art-intro-plain">
+            In this age of short attention spans, my hope as an artist is to create pieces that
+            draw you in to take a closer look.
+          </p>
+        </div>
+        <div class="project-blog" id="art-list"></div>
+      </main>
+    </div>
+
+    <script src="/common.js"></script>
+    <script src="/cart.js"></script>
+    <script>
+      async function loadArt() {
+        const res = await fetch("/data/art.json");
+        const images = (await res.json()).filter((img) => !img.hidden);
+        const list = document.getElementById("art-list");
+        list.innerHTML = images
+          .map(
+            (img) => `
+          <figure class="art-size-${img.size || "medium"}">
+            <img src="/${img.src}" alt="${img.caption || "Art"}" />
+            ${img.caption ? `<figcaption>${img.caption}</figcaption>` : ""}
+          </figure>
+        `,
+          )
+          .join("");
+      }
+
+      loadArt();
+    </script>
+  </body>
+</html>

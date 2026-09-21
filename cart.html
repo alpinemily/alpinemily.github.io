@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart — Emily Bei Cheng</title>
+    <meta name="description" content="Your cart." />
+    <link rel="canonical" href="https://alpinemily.com/cart.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cart — Emily Bei Cheng" />
+    <meta property="og:description" content="Your cart." />
+    <meta property="og:url" content="https://alpinemily.com/cart.html" />
+    <meta property="og:site_name" content="Emily Bei Cheng" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Cart — Emily Bei Cheng" />
+    <meta name="twitter:description" content="Your cart." />
+    <link rel="preload" href="/fonts/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a id="logo" href="/index.html" data-site-name>Emily Bei Cheng</a>
+        <nav>
+          <a href="/work.html">Photoblog</a> /
+          <a href="/art.html">Art</a> /
+          <a href="/shop.html">Shop</a> /
+          <a href="/about.html">About</a>
+          <span id="cart-nav-item" hidden> / <a href="/cart.html" id="cart-badge">Cart</a></span>
+        </nav>
+      </header>
+
+      <main class="cart-page">
+        <h2 class="page-title"><span>Cart</span></h2>
+        <div id="cart-content"></div>
+      </main>
+    </div>
+
+    <script src="/common.js"></script>
+    <script src="/cart.js"></script>
+    <script src="/shop-config.js"></script>
+    <script>
+      function renderCart() {
+        const cart = getCart();
+        const content = document.getElementById("cart-content");
+
+        if (cart.length === 0) {
+          content.innerHTML = `<p class="empty-cart">Your cart is empty. <a href="/shop.html">Browse prints</a>.</p>`;
+          return;
+        }
+
+        const rows = cart
+          .map(
+            (item, i) => `
+          <tr>
+            <td><img src="/${item.sourceImage || item.image}" alt="${item.title}" /></td>
+            <td>${item.title}${item.sizeLabel ? ` — ${item.sizeLabel}` : ""}${item.sourceLabel ? `<br><span style="color:#666;font-size:0.85em">${item.sourceLabel}</span>` : ""}</td>
+            <td>$${item.price}</td>
+            <td>
+              <input
+                type="number"
+                min="1"
+                value="${item.qty}"
+                data-index="${i}"
+                class="qty-input"
+                style="width: 50px; font: inherit; padding: 4px"
+              />
+            </td>
+            <td>$${item.price * item.qty}</td>
+            <td><button type="button" class="remove-btn" data-index="${i}">Remove</button></td>
+          </tr>
+        `,
+          )
+          .join("");
+
+        content.innerHTML = `
+          <table class="cart-table">
+            <thead>
+              <tr><th></th><th>Print</th><th>Price</th><th>Qty</th><th>Total</th><th></th></tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+          <p class="cart-total">Total: $${cartTotal()}</p>
+
+          <form id="checkout-form" class="checkout-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+            <label for="address">Shipping address</label>
+            <textarea id="address" name="address" required></textarea>
+            <label for="notes">Notes (optional)</label>
+            <textarea id="notes" name="notes"></textarea>
+            <input type="hidden" name="order" id="order-field" />
+            <input type="hidden" name="subject" value="New print order" />
+            <input type="checkbox" name="botcheck" hidden style="display: none" tabindex="-1" autocomplete="off" />
+            <button type="submit">Place order</button>
+          </form>
+          <p class="cart-status" id="checkout-status"></p>
+        `;
+
+        content.querySelectorAll(".qty-input").forEach((input) => {
+          input.addEventListener("change", (e) => {
+            updateCartQty(Number(e.target.dataset.index), parseInt(e.target.value, 10) || 0);
+            renderCart();
+          });
+        });
+
+        content.querySelectorAll(".remove-btn").forEach((btn) => {
+          btn.addEventListener("click", (e) => {
+            removeFromCart(Number(e.target.dataset.index));
+            renderCart();
+          });
+        });
+
+        document.getElementById("checkout-form").addEventListener("submit", handleCheckout);
+      }
+
+      function orderSummary() {
+        const cart = getCart();
+        const lines = cart.map(
+          (item) =>
+            `${item.qty} x ${item.title}${item.sizeLabel ? ` (${item.sizeLabel})` : ""}${item.sourceLabel ? ` [photo: ${item.sourceLabel}]` : ""} — $${item.price} each = $${item.price * item.qty}`,
+        );
+        lines.push(`\nTotal: $${cartTotal()}`);
+        return lines.join("\n");
+      }
+
+      async function handleCheckout(e) {
+        e.preventDefault();
+        const form = e.target;
+        const statusEl = document.getElementById("checkout-status");
+        document.getElementById("order-field").value = orderSummary();
+
+        if (!WEB3FORMS_ACCESS_KEY || WEB3FORMS_ACCESS_KEY === "YOUR_ACCESS_KEY") {
+          statusEl.textContent =
+            "Checkout isn't fully set up yet — the site owner needs to add a Web3Forms access key in shop-config.js.";
+          statusEl.style.color = "red";
+          return;
+        }
+
+        statusEl.textContent = "Placing order…";
+        statusEl.style.color = "#666";
+
+        const formData = new FormData(form);
+        formData.append("access_key", WEB3FORMS_ACCESS_KEY);
+        const payload = Object.fromEntries(formData);
+
+        try {
+          const res = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: { "Content-Type": "application/json", Accept: "application/json" },
+            body: JSON.stringify(payload),
+          });
+          const result = await res.json();
+          if (result.success) {
+            clearCart();
+            document.getElementById("cart-content").innerHTML = `
+              <p class="empty-cart">Thanks! Your order has been sent — you'll hear back by email to arrange payment and confirm shipping.</p>
+            `;
+          } else {
+            statusEl.textContent = result.message || "Something went wrong sending your order. Please try again.";
+            statusEl.style.color = "red";
+          }
+        } catch {
+          statusEl.textContent = "Something went wrong sending your order. Please try again.";
+          statusEl.style.color = "red";
+        }
+      }
+
+      renderCart();
+    </script>
+  </body>
+</html>

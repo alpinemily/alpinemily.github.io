@@ -207,6 +207,10 @@ figure img {
   text-align: center;
 }
 
+.project-list.no-filters-gap {
+  margin-top: 30px;
+}
+
 .project-list li {
   list-style: none;
   width: 25%;

@@ -76,9 +76,9 @@
   },
   {
     "id": "0ba3ab0bbf21",
-    "title": "Zine",
+    "title": "Zine (WIP)",
     "slug": "zine",
-    "description": "A self-published zine of photos and writing.",
+    "description": "Placeholder",
     "image": "images/1789499662859-07f31f37.svg",
     "imageAlt": "A zine cover",
     "sizes": [
@@ -88,6 +88,10 @@
         "price": 15
       }
     ],
-    "hidden": false
+    "hidden": false,
+    "photoSelector": false,
+    "artSelector": false,
+    "defaultPhotoblogId": "",
+    "defaultArtSrc": ""
   }
 ]

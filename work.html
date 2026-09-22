@@ -73,7 +73,11 @@
       const CATEGORIES = [
         { slug: "art", label: "Art" },
         { slug: "photoblog", label: "Photoblog" },
+        { slug: "mountaineering", label: "Mountaineering" },
         { slug: "cycling", label: "Cycling" },
+        { slug: "bikepacking", label: "Bikepacking" },
+        { slug: "ultra", label: "Ultra" },
+        { slug: "portrait", label: "Portrait" },
         { slug: "writing", label: "Writing" },
         { slug: "data-viz", label: "Data Viz" },
       ];
@@ -150,8 +154,11 @@
       });
 
       async function loadProjects() {
-        const res = await fetch("/data/projects.json");
+        const [site, res] = await Promise.all([loadSite(), fetch("/data/projects.json")]);
         allProjects = await res.json();
+        const filtersHidden = site.showTagFilters === false;
+        document.getElementById("tag-filters").hidden = filtersHidden;
+        document.getElementById("project-list").classList.toggle("no-filters-gap", filtersHidden);
         renderFilters();
         renderProjects();
       }

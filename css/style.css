@@ -310,7 +310,7 @@ figure img {
 .project-body {
   display: flex;
   gap: 40px;
-  align-items: flex-start;
+  align-items: flex-end;
   margin-top: 20px;
 }
 

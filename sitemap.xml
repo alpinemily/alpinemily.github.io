@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://emilybei.com/</loc></url>
-  <url><loc>https://emilybei.com/work.html</loc></url>
-  <url><loc>https://emilybei.com/art.html</loc></url>
-  <url><loc>https://emilybei.com/about.html</loc></url>
-  <url><loc>https://emilybei.com/shop.html</loc></url>
+  <url><loc>https://emilybei.com/work</loc></url>
+  <url><loc>https://emilybei.com/art</loc></url>
+  <url><loc>https://emilybei.com/about</loc></url>
+  <url><loc>https://emilybei.com/shop</loc></url>
   <url><loc>https://emilybei.com/projects/yosemite/</loc></url>
   <url><loc>https://emilybei.com/projects/death-valley/</loc></url>
   <url><loc>https://emilybei.com/projects/sierra/</loc></url>
   <url><loc>https://emilybei.com/projects/ptarmigan/</loc></url>
+  <url><loc>https://emilybei.com/projects/dark-divide-300/</loc></url>
+  <url><loc>https://emilybei.com/projects/tjo-japanese-odyssey/</loc></url>
   <url><loc>https://emilybei.com/projects/white-rim/</loc></url>
+  <url><loc>https://emilybei.com/projects/portraits-misc/</loc></url>
   <url><loc>https://emilybei.com/projects/portraits/</loc></url>
   <url><loc>https://emilybei.com/projects/bathhaus/</loc></url>
   <url><loc>https://emilybei.com/projects/panoche-hills-cycling/</loc></url>

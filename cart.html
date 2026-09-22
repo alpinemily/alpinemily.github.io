@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart — Emily Bei Cheng</title>
     <meta name="description" content="Your cart." />
-    <link rel="canonical" href="https://emilybei.com/cart.html" />
+    <link rel="canonical" href="https://emilybei.com/cart" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Cart — Emily Bei Cheng" />
     <meta property="og:description" content="Your cart." />
-    <meta property="og:url" content="https://emilybei.com/cart.html" />
+    <meta property="og:url" content="https://emilybei.com/cart" />
     <meta property="og:site_name" content="Emily Bei Cheng" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Cart — Emily Bei Cheng" />
@@ -23,11 +23,11 @@
       <header>
         <a id="logo" href="/" data-site-name>Emily Bei Cheng</a>
         <nav>
-          <a href="/work.html">Photoblog</a> /
-          <a href="/art.html">Art</a> /
-          <a href="/shop.html">Shop</a> /
-          <a href="/about.html">About</a>
-          <span id="cart-nav-item" hidden> / <a href="/cart.html" id="cart-badge">Cart</a></span>
+          <a href="/work">Photoblog</a> /
+          <a href="/art">Art</a> /
+          <a href="/shop">Shop</a> /
+          <a href="/about">About</a>
+          <span id="cart-nav-item" hidden> / <a href="/cart" id="cart-badge">Cart</a></span>
         </nav>
       </header>
 
@@ -46,7 +46,7 @@
         const content = document.getElementById("cart-content");
 
         if (cart.length === 0) {
-          content.innerHTML = `<p class="empty-cart">Your cart is empty. <a href="/shop.html">Browse prints</a>.</p>`;
+          content.innerHTML = `<p class="empty-cart">Your cart is empty. <a href="/shop">Browse prints</a>.</p>`;
           return;
         }
 

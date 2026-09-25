@@ -983,7 +983,7 @@
     "id": "8be2505d6c89",
     "title": "BathHaus",
     "year": 2021,
-    "description": "",
+    "description": "I was lucky to get to shelter-in-place in a community house during the COVID pandemic. BathHaus was one of many pandemic projects my housemates and I did on a whim.",
     "tags": [
       "photoblog"
     ],
@@ -1904,7 +1904,7 @@
     "id": "3ca49a900adc",
     "title": "Waltzing in Iceland",
     "year": 2019,
-    "description": "Poppy red tucked into soft Icelandic moss.\n\n<em>* Some photos were taken with a tripod and self-timer.</em>\n\n** More write-up TBA",
+    "description": "I wince at myself now, but once upon a time in a fairytale land far far away (in other words, my 20s), I saw some photos of a woman posing in a ballgown in the mountains and I was inspired to try making my own in Iceland.\r\n\r\n<em>* Some photos were taken with a tripod and self-timer.</em>\r\n",
     "tags": [
       "photoblog"
     ],
@@ -1939,11 +1939,6 @@
         "caption": ""
       },
       {
-        "id": "deb81b5c7b63",
-        "src": "images/projects/waltzing-in-iceland/img06.jpg",
-        "caption": ""
-      },
-      {
         "id": "25761c454870",
         "src": "images/projects/waltzing-in-iceland/img07.jpg",
         "caption": ""
@@ -1961,11 +1956,17 @@
       {
         "id": "298e265b81a8",
         "src": "images/projects/waltzing-in-iceland/img10.jpg",
-        "caption": ""
+        "caption": "",
+        "hidden": true
       },
       {
         "id": "313a0415faf2",
         "src": "images/projects/waltzing-in-iceland/img11.jpg",
+        "caption": ""
+      },
+      {
+        "id": "deb81b5c7b63",
+        "src": "images/projects/waltzing-in-iceland/img06.jpg",
         "caption": ""
       },
       {
@@ -1975,19 +1976,6 @@
         "hidden": true
       }
     ]
-  },
-  {
-    "id": "p7",
-    "title": "Perpetual Beta",
-    "year": 2022,
-    "image": "images/project10.svg",
-    "description": "",
-    "tags": [
-      "data-viz"
-    ],
-    "slug": "perpetual-beta",
-    "imageAlt": "",
-    "hidden": true
   },
   {
     "id": "p4",

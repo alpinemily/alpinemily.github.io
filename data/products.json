@@ -94,10 +94,6 @@
     "priceLabel": "$150 / hour",
     "gallery": [
       {
-        "src": "images/shop/guided-ride/01.jpg",
-        "alt": "Cyclist in pink riding a road at sunset above the city"
-      },
-      {
         "src": "images/shop/guided-ride/02.jpg",
         "alt": "Three cyclists silhouetted on a bluff above the bay"
       },
@@ -182,10 +178,6 @@
         "alt": "Two cyclists on the waterfront below the Bay Bridge"
       },
       {
-        "src": "images/shop/guided-ride/23.jpg",
-        "alt": "Rider among white calla lilies in a forest"
-      },
-      {
         "src": "images/shop/guided-ride/24.jpg",
         "alt": "Cyclist riding through a patch of calla lilies"
       },
@@ -216,6 +208,10 @@
     ],
     "hideQty": true,
     "notesLabel": "What kind of riding would you like?",
-    "notesPlaceholder": "e.g. road or gravel, distance, pace, places you'd love to ride"
+    "notesPlaceholder": "e.g. road or gravel, riding experience, group size",
+    "heroImage": "images/shop/guided-ride/01.jpg",
+    "heroImageAlt": "Cyclist in pink riding a road at sunset above the city",
+    "heroAspect": "4 / 5",
+    "heroPosition": "59% 50%"
   }
 ]

@@ -19,7 +19,7 @@
     <meta name="twitter:image" content="https://emilybei.com/images/1793735685677-d3aa59f8-opt.jpg" />
     <meta property="og:image:alt" content="Cyclist riding a coastal ridge above the ocean in the Marin Headlands" />
     <meta name="twitter:image:alt" content="Cyclist riding a coastal ridge above the ocean in the Marin Headlands" />
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Product","name":"Guided Ride and Photoshoot","description":"A private guided road or gravel ride through the Marin Headlands, with photography along the way. I'll pick a route to match your pace, then photograph you riding the coastal climbs and Golden Gate views. You'll get a gallery of edited photos after the ride. Priced per hour. Tell me below what kind of riding you'd like, and after checkout I'll reach out to plan the route, length and date.","image":["https://emilybei.com/images/1793735685677-d3aa59f8-opt.jpg","https://emilybei.com/images/shop/guided-ride/01.jpg","https://emilybei.com/images/shop/guided-ride/02.jpg","https://emilybei.com/images/shop/guided-ride/03.jpg","https://emilybei.com/images/shop/guided-ride/04.jpg","https://emilybei.com/images/shop/guided-ride/05.jpg","https://emilybei.com/images/shop/guided-ride/06.jpg","https://emilybei.com/images/shop/guided-ride/07.jpg","https://emilybei.com/images/shop/guided-ride/08.jpg","https://emilybei.com/images/shop/guided-ride/09.jpg"],"url":"https://emilybei.com/shop/marin-headlands-photo-ride/","brand":{"@type":"Brand","name":"Emily Bei Cheng"},"offers":{"@type":"Offer","price":"150","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://emilybei.com/shop/marin-headlands-photo-ride/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://emilybei.com/"},{"@type":"ListItem","position":2,"name":"Shop","item":"https://emilybei.com/shop"},{"@type":"ListItem","position":3,"name":"Guided Ride and Photoshoot","item":"https://emilybei.com/shop/marin-headlands-photo-ride/"}]}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Product","name":"Guided Ride and Photoshoot","description":"A private guided road or gravel ride through the Marin Headlands, with photography along the way. I'll pick a route to match your pace, then photograph you riding the coastal climbs and Golden Gate views. You'll get a gallery of edited photos after the ride. Priced per hour. Tell me below what kind of riding you'd like, and after checkout I'll reach out to plan the route, length and date.","image":["https://emilybei.com/images/1793735685677-d3aa59f8-opt.jpg","https://emilybei.com/images/shop/guided-ride/02.jpg","https://emilybei.com/images/shop/guided-ride/03.jpg","https://emilybei.com/images/shop/guided-ride/04.jpg","https://emilybei.com/images/shop/guided-ride/05.jpg","https://emilybei.com/images/shop/guided-ride/06.jpg","https://emilybei.com/images/shop/guided-ride/07.jpg","https://emilybei.com/images/shop/guided-ride/08.jpg","https://emilybei.com/images/shop/guided-ride/09.jpg","https://emilybei.com/images/shop/guided-ride/10.jpg"],"url":"https://emilybei.com/shop/marin-headlands-photo-ride/","brand":{"@type":"Brand","name":"Emily Bei Cheng"},"offers":{"@type":"Offer","price":"150","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://emilybei.com/shop/marin-headlands-photo-ride/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://emilybei.com/"},{"@type":"ListItem","position":2,"name":"Shop","item":"https://emilybei.com/shop"},{"@type":"ListItem","position":3,"name":"Guided Ride and Photoshoot","item":"https://emilybei.com/shop/marin-headlands-photo-ride/"}]}]}</script>
     <link rel="preload" href="/fonts/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
@@ -101,6 +101,10 @@
           });
         }
 
+        // The product page can show a different main photo (and crop) than the
+        // shop grid's cover image.
+        const heroSrc = product.heroImage || product.image;
+
         document.title = `${product.title} — ${site.name}`;
         el.innerHTML = `
           <div class="article-head">
@@ -112,7 +116,11 @@
           </div>
           <div class="product-body">
             <figure class="product-image">
-              <img id="product-hero-image" src="/${product.image}" alt="${product.imageAlt || product.title}" />
+              <img id="product-hero-image" src="/${heroSrc}" alt="${product.heroImageAlt || product.imageAlt || product.title}"${
+                product.heroAspect
+                  ? ` style="aspect-ratio: ${product.heroAspect}; max-width: 385px; margin-left: auto; object-fit: cover; object-position: ${product.heroPosition || "50% 50%"}"`
+                  : ""
+              } />
             </figure>
             <div class="product-text">
               <p>${(product.description || "").replace(/\n/g, "<br>")}</p>
@@ -287,7 +295,7 @@
             .join("");
 
           selectedPhoto = null;
-          document.getElementById("product-hero-image").src = `/${product.image}`;
+          document.getElementById("product-hero-image").src = `/${heroSrc}`;
           updateAddToCartState();
 
           thumbs.querySelectorAll(".photo-thumb").forEach((btn) => {
@@ -361,7 +369,7 @@
             select.addEventListener("change", () => {
               if (select.value === "") {
                 selectedArt = null;
-                document.getElementById("product-hero-image").src = `/${product.image}`;
+                document.getElementById("product-hero-image").src = `/${heroSrc}`;
               } else {
                 selectedArt = artPieces[Number(select.value)];
                 document.getElementById("product-hero-image").src = `/${selectedArt.src}`;

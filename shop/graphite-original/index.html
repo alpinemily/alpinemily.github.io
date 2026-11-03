@@ -101,6 +101,10 @@
           });
         }
 
+        // The product page can show a different main photo (and crop) than the
+        // shop grid's cover image.
+        const heroSrc = product.heroImage || product.image;
+
         document.title = `${product.title} — ${site.name}`;
         el.innerHTML = `
           <div class="article-head">
@@ -112,7 +116,11 @@
           </div>
           <div class="product-body">
             <figure class="product-image">
-              <img id="product-hero-image" src="/${product.image}" alt="${product.imageAlt || product.title}" />
+              <img id="product-hero-image" src="/${heroSrc}" alt="${product.heroImageAlt || product.imageAlt || product.title}"${
+                product.heroAspect
+                  ? ` style="aspect-ratio: ${product.heroAspect}; max-width: 385px; margin-left: auto; object-fit: cover; object-position: ${product.heroPosition || "50% 50%"}"`
+                  : ""
+              } />
             </figure>
             <div class="product-text">
               <p>${(product.description || "").replace(/\n/g, "<br>")}</p>
@@ -287,7 +295,7 @@
             .join("");
 
           selectedPhoto = null;
-          document.getElementById("product-hero-image").src = `/${product.image}`;
+          document.getElementById("product-hero-image").src = `/${heroSrc}`;
           updateAddToCartState();
 
           thumbs.querySelectorAll(".photo-thumb").forEach((btn) => {
@@ -361,7 +369,7 @@
             select.addEventListener("change", () => {
               if (select.value === "") {
                 selectedArt = null;
-                document.getElementById("product-hero-image").src = `/${product.image}`;
+                document.getElementById("product-hero-image").src = `/${heroSrc}`;
               } else {
                 selectedArt = artPieces[Number(select.value)];
                 document.getElementById("product-hero-image").src = `/${selectedArt.src}`;

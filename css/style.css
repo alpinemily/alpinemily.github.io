@@ -96,6 +96,7 @@ time {
 }
 
 header {
+  position: relative;
   padding: 5px 0px;
   text-align: center;
 }
@@ -108,6 +109,104 @@ nav {
 nav a {
   margin: 0px 5px;
   padding: 5px;
+}
+
+/* Search pill in the header's right corner (added by common.js). */
+.site-search {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  text-align: left;
+}
+
+/* Between phone and wide desktop the centered menu would run into the pill,
+   so line the menu up on the left instead. */
+@media (min-width: 769px) and (max-width: 1000px) {
+  header {
+    text-align: left;
+  }
+}
+
+.site-search-icon {
+  position: absolute;
+  left: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  pointer-events: none;
+}
+
+.site-search input {
+  box-sizing: border-box;
+  font: inherit;
+  font-size: 14px;
+  width: 150px;
+  padding: 5px 12px 5px 30px;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  background: #fff;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.site-search input:focus {
+  border-color: #000;
+}
+
+.site-search:focus-within .site-search-icon {
+  color: #000;
+}
+
+.site-search-results {
+  box-sizing: border-box;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 50;
+  width: 300px;
+  max-width: calc(100vw - 40px);
+  margin: 6px 0 0;
+  padding: 4px 0;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.site-search-results a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+
+.site-search-results li.active a,
+.site-search-results a:hover {
+  background: #f4f4f4;
+}
+
+.site-search-results img {
+  width: 44px;
+  height: 30px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.site-search-title {
+  flex: 1;
+  min-width: 0;
+}
+
+.site-search-kind {
+  color: #999;
+  font-size: 12px;
+}
+
+.site-search-empty {
+  padding: 6px 10px;
+  color: #999;
 }
 
 figure {
@@ -961,5 +1060,24 @@ figure img {
   header nav a {
     margin: 0;
     padding: 0;
+  }
+
+  .site-search {
+    position: relative;
+    top: auto;
+    right: auto;
+    transform: none;
+    display: block;
+    margin: 10px 0 0;
+  }
+
+  .site-search input {
+    width: 100%;
+  }
+
+  .site-search-results {
+    left: 0;
+    right: auto;
+    width: 100%;
   }
 }

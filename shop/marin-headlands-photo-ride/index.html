@@ -3,19 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zine (WIP) — Emily Bei Cheng</title>
-    <meta name="description" content="Placeholder $15." />
-    <link rel="canonical" href="https://emilybei.com/shop/zine/" />
+    <title>Guided Ride and Photoshoot — Emily Bei Cheng</title>
+    <meta name="description" content="A private guided road or gravel ride through the Marin Headlands, with photography along the way. I'll pick a route to match your pace, then photograph you rid…" />
+    <link rel="canonical" href="https://emilybei.com/shop/marin-headlands-photo-ride/" />
     <meta property="og:type" content="product" />
-    <meta property="og:title" content="Zine (WIP) — Emily Bei Cheng" />
-    <meta property="og:description" content="Placeholder $15." />
-    <meta property="og:url" content="https://emilybei.com/shop/zine/" />
+    <meta property="og:title" content="Guided Ride and Photoshoot — Emily Bei Cheng" />
+    <meta property="og:description" content="A private guided road or gravel ride through the Marin Headlands, with photography along the way. I'll pick a route to match your pace, then photograph you rid…" />
+    <meta property="og:url" content="https://emilybei.com/shop/marin-headlands-photo-ride/" />
     <meta property="og:site_name" content="Emily Bei Cheng" />
+    <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Zine (WIP) — Emily Bei Cheng" />
-    <meta name="twitter:description" content="Placeholder $15." />
-    <meta property="og:image" content="https://emilybei.com/images/1789499662859-07f31f37.svg" />
-    <meta name="twitter:image" content="https://emilybei.com/images/1789499662859-07f31f37.svg" />
+    <meta name="twitter:title" content="Guided Ride and Photoshoot — Emily Bei Cheng" />
+    <meta name="twitter:description" content="A private guided road or gravel ride through the Marin Headlands, with photography along the way. I'll pick a route to match your pace, then photograph you rid…" />
+    <meta property="og:image" content="https://emilybei.com/images/1793735685677-d3aa59f8-opt.jpg" />
+    <meta name="twitter:image" content="https://emilybei.com/images/1793735685677-d3aa59f8-opt.jpg" />
+    <meta property="og:image:alt" content="Cyclist riding a coastal ridge above the ocean in the Marin Headlands" />
+    <meta name="twitter:image:alt" content="Cyclist riding a coastal ridge above the ocean in the Marin Headlands" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Product","name":"Guided Ride and Photoshoot","description":"A private guided road or gravel ride through the Marin Headlands, with photography along the way. I'll pick a route to match your pace, then photograph you riding the coastal climbs and Golden Gate views. You'll get a gallery of edited photos after the ride. Priced per hour. Tell me below what kind of riding you'd like, and after checkout I'll reach out to plan the route, length and date.","image":["https://emilybei.com/images/1793735685677-d3aa59f8-opt.jpg","https://emilybei.com/images/shop/guided-ride/01.jpg","https://emilybei.com/images/shop/guided-ride/02.jpg","https://emilybei.com/images/shop/guided-ride/03.jpg","https://emilybei.com/images/shop/guided-ride/04.jpg","https://emilybei.com/images/shop/guided-ride/05.jpg","https://emilybei.com/images/shop/guided-ride/06.jpg","https://emilybei.com/images/shop/guided-ride/07.jpg","https://emilybei.com/images/shop/guided-ride/08.jpg","https://emilybei.com/images/shop/guided-ride/09.jpg"],"url":"https://emilybei.com/shop/marin-headlands-photo-ride/","brand":{"@type":"Brand","name":"Emily Bei Cheng"},"offers":{"@type":"Offer","price":"150","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://emilybei.com/shop/marin-headlands-photo-ride/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://emilybei.com/"},{"@type":"ListItem","position":2,"name":"Shop","item":"https://emilybei.com/shop"},{"@type":"ListItem","position":3,"name":"Guided Ride and Photoshoot","item":"https://emilybei.com/shop/marin-headlands-photo-ride/"}]}]}</script>
     <link rel="preload" href="/fonts/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
@@ -27,6 +31,7 @@
         <nav>
           <a href="/work">Photoblog</a> /
           <a href="/art">Art</a> /
+          <a href="/misc">Misc</a> /
           <a href="/shop">Shop</a> /
           <a href="/about">About</a>
           <span id="cart-nav-item" hidden> / <a href="/cart" id="cart-badge">Cart</a></span>
@@ -34,7 +39,15 @@
       </header>
 
       <main class="product-page" id="product-content">
-        <p style="text-align: center">Loading&hellip;</p>
+        
+          <div class="article-head">
+            <div class="next-prev"></div>
+            <div class="article-head-main">
+              <h1><span>Guided Ride and Photoshoot</span></h1>
+              
+            </div>
+            <div class="next-prev"></div>
+          </div><p class="project-intro">A private guided road or gravel ride through the Marin Headlands, with photography along the way. I'll pick a route to match your pace, then photograph you riding the coastal climbs and Golden Gate views. You'll get a gallery of edited photos after the ride.<br><br>Priced per hour. Tell me below what kind of riding you'd like, and after checkout I'll reach out to plan the route, length and date.</p>
       </main>
     </div>
 
@@ -132,7 +145,7 @@
                         <li>
                           <label>
                             <input type="radio" name="size" value="${s.id}" data-price="${s.price}" ${i === 0 ? "checked" : ""} />
-                            ${s.label} — $${s.price}
+                            ${s.label}
                           </label>
                         </li>
                       `,
@@ -141,17 +154,83 @@
                     </ul>`
                   : ""
               }
-              <div class="qty-row">
+              ${
+                product.notesLabel
+                  ? `<div class="notes-row">
+                      <label for="order-notes">${product.notesLabel}</label>
+                      <textarea id="order-notes" rows="4" placeholder="${(product.notesPlaceholder || "").replace(/"/g, "&quot;")}"></textarea>
+                    </div>`
+                  : ""
+              }
+              <div class="qty-row" ${product.unavailable || product.hideQty ? "hidden" : ""}>
                 <label for="qty">Qty</label>
                 <input type="number" id="qty" value="1" min="1" />
               </div>
-              <button type="button" class="add-to-cart" id="add-to-cart" ${hasSizes ? "" : "disabled"}>
-                ${hasSizes ? "Add to cart" : "Not yet available"}
+              <button type="button" class="add-to-cart" id="add-to-cart" ${hasSizes && !product.unavailable ? "" : "disabled"}>
+                ${product.unavailable ? "Currently unavailable" : hasSizes ? "Add to cart" : "Not yet available"}
               </button>
               <p class="cart-status" id="cart-status"></p>
             </div>
           </div>
+          ${
+            product.gallery && product.gallery.length
+              ? `<section class="product-gallery">
+                  <h2 class="page-title"><span>Past ride photos</span></h2>
+                  <div class="product-gallery-grid">
+                    ${product.gallery
+                      .map(
+                        (img, i) => `
+                      <button type="button" class="product-gallery-item" data-index="${i}" aria-label="View larger: ${img.alt || ""}">
+                        <img src="/${img.src}" alt="${img.alt || ""}" loading="lazy" />
+                      </button>
+                    `,
+                      )
+                      .join("")}
+                  </div>
+                </section>
+                <div class="lightbox" id="lightbox" hidden>
+                  <button type="button" class="lightbox-close" aria-label="Close">×</button>
+                  <button type="button" class="lightbox-prev" aria-label="Previous photo">❬</button>
+                  <img class="lightbox-image" id="lightbox-image" alt="" />
+                  <button type="button" class="lightbox-next" aria-label="Next photo">❭</button>
+                </div>`
+              : ""
+          }
         `;
+
+        // --- Example photo grid: click a thumbnail to view it full size ---
+        if (product.gallery && product.gallery.length) {
+          const lightbox = document.getElementById("lightbox");
+          const lightboxImage = document.getElementById("lightbox-image");
+          let current = 0;
+
+          const show = (i) => {
+            current = (i + product.gallery.length) % product.gallery.length;
+            const img = product.gallery[current];
+            lightboxImage.src = `/${img.src}`;
+            lightboxImage.alt = img.alt || "";
+            lightbox.hidden = false;
+          };
+          const close = () => {
+            lightbox.hidden = true;
+          };
+
+          el.querySelector(".product-gallery-grid").addEventListener("click", (e) => {
+            const item = e.target.closest(".product-gallery-item");
+            if (item) show(Number(item.dataset.index));
+          });
+          lightbox.addEventListener("click", (e) => {
+            if (e.target.closest(".lightbox-prev")) show(current - 1);
+            else if (e.target.closest(".lightbox-next")) show(current + 1);
+            else if (e.target !== lightboxImage) close();
+          });
+          document.addEventListener("keydown", (e) => {
+            if (lightbox.hidden) return;
+            if (e.key === "Escape") close();
+            if (e.key === "ArrowLeft") show(current - 1);
+            if (e.key === "ArrowRight") show(current + 1);
+          });
+        }
 
         function selectedSize() {
           if (sizes.length > 1) {
@@ -162,7 +241,7 @@
         }
 
         function updatePrice() {
-          document.getElementById("product-price").textContent = `$${selectedSize().price}`;
+          document.getElementById("product-price").textContent = product.priceLabel || `$${selectedSize().price}`;
         }
         updatePrice();
 
@@ -176,12 +255,22 @@
         const addToCartBtn = document.getElementById("add-to-cart");
 
         function photosFor(project) {
-          const cover = { src: project.image, label: project.title };
-          const gallery = (project.images || []).map((img) => ({
-            src: img.src,
-            label: img.caption ? `${project.title} — ${img.caption}` : project.title,
-          }));
-          return [cover, ...gallery];
+          // The label is the photo's description in the cart and order email,
+          // so prefer its alt text over the (often empty or long) caption.
+          const gallery = (project.images || []).map((img) => {
+            const description = img.alt || img.caption;
+            return {
+              src: img.src,
+              label: description ? `${project.title} — ${description}` : project.title,
+            };
+          });
+          // The cover is usually also one of the gallery images — list it
+          // first, but only once.
+          const cover = gallery.find((photo) => photo.src === project.image) || {
+            src: project.image,
+            label: project.title,
+          };
+          return [cover, ...gallery.filter((photo) => photo.src !== project.image)];
         }
 
         function renderPhotoThumbs(project) {
@@ -216,10 +305,10 @@
         function updateAddToCartState() {
           if (product.photoSelector) {
             const ready = Boolean(selectedPhoto) && photoblogProjects.length > 0;
-            addToCartBtn.disabled = !hasSizes || !ready;
+            addToCartBtn.disabled = !hasSizes || product.unavailable || !ready;
           } else if (product.artSelector) {
             const ready = Boolean(selectedArt) && artPieces.length > 0;
-            addToCartBtn.disabled = !hasSizes || !ready;
+            addToCartBtn.disabled = !hasSizes || product.unavailable || !ready;
           }
         }
 
@@ -306,7 +395,9 @@
           }
 
           const size = selectedSize();
-          const qty = Math.max(1, parseInt(document.getElementById("qty").value, 10) || 1);
+          const qty = product.hideQty ? 1 : Math.max(1, parseInt(document.getElementById("qty").value, 10) || 1);
+          const notesInput = document.getElementById("order-notes");
+          const notes = notesInput ? notesInput.value.trim() : "";
           addToCart({
             productId: product.id,
             slug: product.slug,
@@ -318,9 +409,21 @@
             qty,
             ...(selectedPhoto ? { sourceImage: selectedPhoto.src, sourceLabel: selectedPhoto.label } : {}),
             ...(selectedArt ? { sourceImage: selectedArt.src, sourceLabel: selectedArt.caption } : {}),
+            ...(notes ? { notes } : {}),
           });
           document.getElementById("cart-status").textContent = `Added to cart.`;
         });
+
+        // "Added to cart." only describes the click that produced it — clear it
+        // as soon as the customer clicks anywhere else or changes a selection.
+        const clearCartStatus = () => {
+          document.getElementById("cart-status").textContent = "";
+        };
+        document.addEventListener("click", (e) => {
+          if (!addToCartBtn.contains(e.target)) clearCartStatus();
+        });
+        el.addEventListener("change", clearCartStatus);
+        el.addEventListener("input", clearCartStatus);
       }
 
       loadProduct();

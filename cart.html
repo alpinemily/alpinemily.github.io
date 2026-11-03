@@ -6,11 +6,13 @@
     <title>Cart — Emily Bei Cheng</title>
     <meta name="description" content="Your cart." />
     <link rel="canonical" href="https://emilybei.com/cart" />
+    <meta name="robots" content="noindex" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Cart — Emily Bei Cheng" />
     <meta property="og:description" content="Your cart." />
     <meta property="og:url" content="https://emilybei.com/cart" />
     <meta property="og:site_name" content="Emily Bei Cheng" />
+    <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Cart — Emily Bei Cheng" />
     <meta name="twitter:description" content="Your cart." />
@@ -25,6 +27,7 @@
         <nav>
           <a href="/work">Photoblog</a> /
           <a href="/art">Art</a> /
+          <a href="/misc">Misc</a> /
           <a href="/shop">Shop</a> /
           <a href="/about">About</a>
           <span id="cart-nav-item" hidden> / <a href="/cart" id="cart-badge">Cart</a></span>
@@ -55,7 +58,7 @@
             (item, i) => `
           <tr>
             <td><img src="/${item.sourceImage || item.image}" alt="${item.title}" /></td>
-            <td>${item.title}${item.sizeLabel ? ` — ${item.sizeLabel}` : ""}${item.sourceLabel ? `<br><span style="color:#666;font-size:0.85em">${item.sourceLabel}</span>` : ""}</td>
+            <td>${item.title}${item.sizeLabel ? ` — ${item.sizeLabel}` : ""}${item.sourceLabel ? `<br><span style="color:#666;font-size:0.85em">${item.sourceLabel}</span>` : ""}${item.notes ? `<br><span style="color:#666;font-size:0.85em">Notes: ${item.notes.replace(/</g, "&lt;").replace(/\n/g, "<br>")}</span>` : ""}</td>
             <td>$${item.price}</td>
             <td>
               <input
@@ -121,7 +124,7 @@
         const cart = getCart();
         const lines = cart.map(
           (item) =>
-            `${item.qty} x ${item.title}${item.sizeLabel ? ` (${item.sizeLabel})` : ""}${item.sourceLabel ? ` [photo: ${item.sourceLabel}]` : ""} — $${item.price} each = $${item.price * item.qty}`,
+            `${item.qty} x ${item.title}${item.sizeLabel ? ` (${item.sizeLabel})` : ""}${item.sourceLabel ? ` [photo: ${item.sourceLabel}]` : ""}${item.notes ? ` [notes: ${item.notes}]` : ""} — $${item.price} each = $${item.price * item.qty}`,
         );
         lines.push(`\nTotal: $${cartTotal()}`);
         return lines.join("\n");

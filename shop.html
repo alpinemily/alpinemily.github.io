@@ -4,16 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shop — Emily Bei Cheng</title>
-    <meta name="description" content="Art prints for sale by Emily Bei Cheng." />
+    <meta name="description" content="Shop Emily Bei Cheng: Graphite Art Print, Original Graphite Drawing, Photo Print, Guided Ride and Photoshoot." />
     <link rel="canonical" href="https://emilybei.com/shop" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Shop — Emily Bei Cheng" />
-    <meta property="og:description" content="Art prints for sale by Emily Bei Cheng." />
+    <meta property="og:description" content="Shop Emily Bei Cheng: Graphite Art Print, Original Graphite Drawing, Photo Print, Guided Ride and Photoshoot." />
     <meta property="og:url" content="https://emilybei.com/shop" />
     <meta property="og:site_name" content="Emily Bei Cheng" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Shop — Emily Bei Cheng" />
-    <meta name="twitter:description" content="Art prints for sale by Emily Bei Cheng." />
+    <meta name="twitter:description" content="Shop Emily Bei Cheng: Graphite Art Print, Original Graphite Drawing, Photo Print, Guided Ride and Photoshoot." />
+    <meta property="og:image" content="https://emilybei.com/images/1793729216285-9a0d12fd.jpg" />
+    <meta name="twitter:image" content="https://emilybei.com/images/1793729216285-9a0d12fd.jpg" />
+    <meta property="og:image:alt" content="Framed graphite art print on a wooden dresser" />
+    <meta name="twitter:image:alt" content="Framed graphite art print on a wooden dresser" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","name":"Shop — Emily Bei Cheng","url":"https://emilybei.com/shop","description":"Shop Emily Bei Cheng: Graphite Art Print, Original Graphite Drawing, Photo Print, Guided Ride and Photoshoot.","isPartOf":{"@id":"https://emilybei.com/#website"},"about":{"@id":"https://emilybei.com/#person"},"mainEntity":{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Graphite Art Print","url":"https://emilybei.com/shop/graphite-art-print/"},{"@type":"ListItem","position":2,"name":"Original Graphite Drawing","url":"https://emilybei.com/shop/graphite-original/"},{"@type":"ListItem","position":3,"name":"Photo Print","url":"https://emilybei.com/shop/photo-print/"},{"@type":"ListItem","position":4,"name":"Guided Ride and Photoshoot","url":"https://emilybei.com/shop/marin-headlands-photo-ride/"}]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://emilybei.com/"},{"@type":"ListItem","position":2,"name":"Shop","item":"https://emilybei.com/shop"}]}]}</script>
     <link rel="preload" href="/fonts/inconsolata-latin.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/css/style.css" />
     <style>
@@ -44,6 +50,7 @@
         <nav>
           <a href="/work">Photoblog</a> /
           <a href="/art">Art</a> /
+          <a href="/misc">Misc</a> /
           <a href="/shop">Shop</a> /
           <a href="/about">About</a>
           <span id="cart-nav-item" hidden> / <a href="/cart" id="cart-badge">Cart</a></span>
@@ -51,7 +58,45 @@
       </header>
 
       <main>
-        <ul class="shop-list" id="shop-list"></ul>
+        <h1 class="sr-only">Shop</h1>
+        <ul class="shop-list" id="shop-list">
+          <li>
+            <a href="/shop/graphite-art-print/">
+              <img src="/images/1793729216285-9a0d12fd.jpg" alt="Framed graphite art print on a wooden dresser" />
+              <div class="product-meta">
+                <span class="title">Graphite Art Print</span>
+                <div class="price">from $150</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/shop/graphite-original/">
+              <img src="/images/1793729216346-00fce5a0.jpg" alt="Framed original graphite drawing hanging on a wall" style="object-position: 50% 0%" />
+              <div class="product-meta">
+                <span class="title">Original Graphite Drawing</span>
+                <div class="price">from $640</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/shop/photo-print/">
+              <img src="/images/1793731216283-8c8701c8-opt.jpg" alt="Sunbeams through fog below a line of pine trees on Hawk Hill" />
+              <div class="product-meta">
+                <span class="title">Photo Print</span>
+                <div class="price">from $45</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/shop/marin-headlands-photo-ride/">
+              <img src="/images/1793735685677-d3aa59f8-opt.jpg" alt="Cyclist riding a coastal ridge above the ocean in the Marin Headlands" style="object-position: 30% 50%" />
+              <div class="product-meta">
+                <span class="title">Guided Ride and Photoshoot</span>
+                <div class="price">$150 / hour</div>
+              </div>
+            </a>
+          </li>
+        </ul>
       </main>
     </div>
 
@@ -61,6 +106,7 @@
     <script src="/cart.js"></script>
     <script>
       function priceRange(product) {
+        if (product.priceLabel) return product.priceLabel;
         const prices = (product.sizes || []).map((s) => s.price);
         if (!prices.length) return "";
         const min = Math.min(...prices);
@@ -74,10 +120,10 @@
         const list = document.getElementById("shop-list");
         list.innerHTML = products
           .map(
-            (p) => `
+            (p, i) => `
           <li>
             <a href="/shop/${encodeURIComponent(p.slug || p.id)}/">
-              <img src="/${p.image}" alt="${p.imageAlt || p.title}" />
+              <img src="/${p.image}" alt="${p.imageAlt || p.title}"${p.imagePosition ? ` style="object-position: ${p.imagePosition}"` : ""}${i >= 8 ? ' loading="lazy"' : ""} />
               <div class="product-meta">
                 <span class="title">${p.title}</span>
                 <div class="price">${priceRange(p)}</div>

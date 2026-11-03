@@ -21,7 +21,11 @@ function saveCart(cart) {
 function addToCart(item) {
   const cart = getCart();
   const existing = cart.find(
-    (i) => i.productId === item.productId && i.sizeId === item.sizeId && i.sourceImage === item.sourceImage,
+    (i) =>
+      i.productId === item.productId &&
+      i.sizeId === item.sizeId &&
+      i.sourceImage === item.sourceImage &&
+      (i.notes || "") === (item.notes || ""),
   );
   if (existing) {
     existing.qty += item.qty;

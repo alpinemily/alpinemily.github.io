@@ -1,5 +1,434 @@
 [
   {
+    "id": "d62a53e53380",
+    "title": "Mood Atlas",
+    "slug": "mood-atlas",
+    "year": 2026,
+    "description": "Mood Atlas is an <a href=\"https://obsidian.md\" target=\"_blank\">Obsidian</a> plugin that expands your emotional vocabulary as you journal. Type any emotion word followed by a trigger key to pull up all the feeling words in the same emotional region - helping you find the most precise word for what you're experiencing.\n\nType an emotion word, then press ^ (configurable). A dropdown appears showing all emotions in the same region, so you can choose the one that fits best.\n\nThree emotion word lists are available, and each can be customized in the plugin settings: Hoffman/NVC Combined (the default), the Hoffman Institute feelings list, and the feelings list from Marshall Rosenberg's <i>Nonviolent Communication</i>.\n\n<a href=\"https://community.obsidian.md/plugins/mood-atlas\" target=\"_blank\">Get Mood Atlas in the Obsidian community plugins</a> · <a href=\"https://github.com/alpinemily/obsidian-mood-atlas\" target=\"_blank\">Source on GitHub</a>",
+    "tags": [],
+    "template": "photo-column",
+    "page": "misc",
+    "link": "",
+    "hideYear": true,
+    "gridTitle": "",
+    "gridText": "",
+    "image": "images/1793739212375-d07a77e4.jpg",
+    "imageAlt": "Mood Atlas plugin card: expand your emotional vocabulary beyond happy and sad",
+    "images": [
+      {
+        "id": "d12c35b12268",
+        "src": "images/projects/mood-atlas/demo.gif",
+        "caption": "",
+        "alt": "Demo: typing \"happy\" and pressing ^ opens a dropdown of related emotion words in Obsidian"
+      }
+    ]
+  },
+  {
+    "id": "1c74f89b7508",
+    "title": "Paris Rooftops: Saint-Germain-l'Auxerrois & the BHV",
+    "slug": "paris-rooftops",
+    "year": 2013,
+    "description": "<b>Climbing Saint-Germain-l'Auxerrois</b>",
+    "tags": [
+      "photoblog"
+    ],
+    "template": "blog",
+    "page": "photoblog",
+    "link": "",
+    "gridTitle": "",
+    "gridText": "",
+    "image": "images/1793737883873-3deac9fd-opt.jpg",
+    "imageAlt": "Silhouette standing on a chimney beside the church's bell tower",
+    "images": [
+      {
+        "id": "c04c96cbe77b",
+        "src": "images/1793737883863-fc520620-opt.jpg",
+        "caption": "I studied abroad spring quarter of my junior year at Stanford during which I met up with several cataphiles through Couchsurfing. Together we crawled beneath the streets of Paris, crawling into manholes after lifting 200 pound plaques, following winding chatières of the 200 mile catacomb network, climbing into chantières and up échafaudage to rooftops. Les plaques (manhole covers), les chatières (narrow passages of the catacombs, literally cat-holes), les chantières (construction areas), l'échafaudage (scaffolding), les toits (roofs), les cataflics (police in the catacombs) -- I've learned French since middle school, but it's amusing to reflect on how much my now peculiar vocabulary set has been shaped by my experiences in Paris. \r\n\r\nThe church L'église Saint-Germain-l'Auxerrois and the 1st district city call, la mairie du 1er arrondissement de Paris, stand side by side right across from the world-famous Louvre. The church, founded in the 7th century and rebuilt many times over several centuries, was the church for the royalty of the Louvre palace. Saint-Germain-l'Auxerrois was the very first building I ever climbed in Paris, May 2013. \r\n\r\nI met a lot of UE friends in Paris, but this first climb was done solo, on a complete whim...",
+        "alt": "Panorama of Paris rooftops at night around a church tower"
+      },
+      {
+        "id": "67240220d975",
+        "src": "images/1793737883873-3deac9fd-opt.jpg",
+        "caption": "",
+        "alt": "Silhouette standing on a chimney beside the church's bell tower"
+      },
+      {
+        "id": "9403e03f2a8d",
+        "src": "images/1793737883881-748854ee-opt.jpg",
+        "caption": "",
+        "alt": "Bell tower above an empty, lit street across from the Louvre"
+      },
+      {
+        "id": "ca9e9435fbe3",
+        "src": "images/1793737883890-d7e0d2f0-opt.jpg",
+        "caption": "",
+        "alt": "Gothic church roof and tower from a neighboring rooftop"
+      },
+      {
+        "id": "fcb52d7e0d3c",
+        "src": "images/1793737883898-e05e6493-opt.jpg",
+        "caption": "",
+        "alt": "Spires of the church roof against lit Paris windows"
+      },
+      {
+        "id": "2f9a36bd4382",
+        "src": "images/1793737883907-5087bf73-opt.jpg",
+        "caption": "",
+        "alt": "Louvre facade seen between the church tower and spires"
+      },
+      {
+        "id": "6aaba937110a",
+        "src": "images/1793737883916-0fc27043-opt.jpg",
+        "caption": "",
+        "alt": "Flying buttresses along the church with the Louvre beyond"
+      },
+      {
+        "id": "1392cd2fe385",
+        "src": "images/1793737883923-0b9ad696-opt.jpg",
+        "caption": "",
+        "alt": "Bell tower beside the mairie's rose window at night"
+      },
+      {
+        "id": "708675a1b613",
+        "src": "images/1793737883933-41885156-opt.jpg",
+        "caption": "",
+        "alt": "Stone gargoyle jutting from the church wall at night"
+      },
+      {
+        "id": "489e4c1e6172",
+        "src": "images/1793737883940-0bae5065-opt.jpg",
+        "caption": "I had just popped out of a manhole like a dusty stray cat an hour ago at 2AM, after having spent a wonderful evening painting a small mural in an auxiliary network of the catacombs. The night lights were a beautiful gold that mixed purple with the soft blue skies. The air was so invitingly warm that instead of taking the Noctilien night bus I decided to walk home from Châtelet to the Champs-Élysées where I lived with my host family. As I walked briskly I happened to pass by this church that a Parisian Couchsurfer had informed me was climbable. I paused ... just long enough to convince myself this was a good idea, but not long enough to faze myself with all the possible risks.\r\n\r\nWhat was the primary risk? (Stupidity, actually.) I was alone and didn't want to lug my huge backpack full of paints and paintbrushes that I had used in the catacombs up to a rooftop. So, I casually tucked my pack with > $3000 worth of stuff (iPhone, laptop, DSLR, canera lens) in the streets below behind some scaffolding, but still <i>very</i> visible. From an outsider's perspective it probably looked like a homeless person's sack of stuff. Stupid, but I was lucky.  \r\n\r\nI ended up climbing scaffolding until I reached the stone angel statue at the very top of the roof of la mairie. I stared across to the Louvre on the other side. It was surprisingly quiet for the City of Lights. Wide streets, no people, the Seine to the left, calm, only unidentifiable susurrus in the streets below.  \r\n\r\nOn the other side of the church I could see La Samaritaine, once the largest department store in Paris, since abandoned. Yet the lights were on on all floors, a waste of electricity and slightly eerie.",
+        "alt": "Mairie du 1er facade and the bell tower from below"
+      },
+      {
+        "id": "351f8bfcfb0d",
+        "src": "images/1793737883948-2f5f5acc-opt.jpg",
+        "caption": "The second time I went rooftoping at this church I brought a friend, Maxime, who was the person who first introduced me to the illicit network of the Paris catacombs. We became good friends during that spring and shared many adventures -- a few misadventures -- together. We got up close and personal with the gargoyle statues protruding from the walls, and the intricate rose window. Up a staircase, we even found a window that opened into the body of the church itself. We stared down at the pews below, swallowed in darkness.\r\n\r\nWe maneuvered our way up walls and around buttresses, avoiding pigeon poop, pigeon feathers, and dead pigeons in nooks and crannies---it wasn't all glamorous!",
+        "alt": "Paris rooftops and chimneys under a cloudy night sky"
+      },
+      {
+        "id": "a4389aa7ae32",
+        "src": "images/1793737883955-c70f663e-opt.jpg",
+        "caption": "Satisfied with our exploration, we took a break and lay on the roof. Maxime and I stared at the cloudy sky and shared a conversation as Daft Punk's \"Get Lucky\" and Lou Reed's \"Walk on the Wild Side\" murmured from his music player. Magic wasn't Disneyland -- it was 70 ft underground in the catacombs and 50 ft above ground on the roofs of Paris. The world felt huge. \r\n\r\nThis was my very first time engaging with UE outside of roof hacking my college campus and I suddenly felt very empowered to explore anything I wanted. Paris was freeing; I slept very little and life was brilliant.",
+        "alt": "Mairie roof with a stone angel statue and the bell tower"
+      },
+      {
+        "id": "c95c18a44afa",
+        "src": "images/1793737883963-69047374-opt.jpg",
+        "caption": "",
+        "alt": "Legs stretched out on a roof ridge above Paris"
+      },
+      {
+        "id": "780068af6f44",
+        "src": "images/1793737883970-7b11daec-opt.jpg",
+        "caption": "",
+        "alt": "Church bell tower and rooftops glowing in city light"
+      },
+      {
+        "id": "9731035b89eb",
+        "src": "images/1793737883978-095108f9-opt.jpg",
+        "caption": "",
+        "alt": "Climber edging along a narrow ledge between walls"
+      },
+      {
+        "id": "906c5fa899fc",
+        "src": "images/1793737883986-a9ea3421-opt.jpg",
+        "caption": "",
+        "alt": "Gargoyle seen from below against a glowing sky"
+      },
+      {
+        "id": "6f8b9448c26a",
+        "src": "images/1793737883994-5dc8a49a-opt.jpg",
+        "caption": "<b>Roof of Bazar Hôtel de Ville</b>\r\n\r\nThe clock was ticking: these were my final hours in Paris before I flying back to SFO. I already had a picture of what the the perfect conclusion to my study abroad experience in Paris would be: a night or rooftopping, a last hurrah with strangers-become-close-friends. We climbed to the roof of Bazar Hôtel de Ville and stayed there until the sky began its transformation into a more gentle blue. It was 5AM. My flight from Paris back to California was in a few hours, yet I was on a roof top with Avrell, Maxime, and Éric. I was so reluctant to ride a vélib bike back home and say goodbye to everyone and to Paris.\r\n\r\nMaybe there was something in the back of my mind ... a fear of saying goodbye. Paris will stay, but buildings change, people change, expectations change. The next time I'm back, the <i>context</i> will change. I will change quite a bit, too.",
+        "alt": "Blurred figure on the mairie roof at night"
+      },
+      {
+        "id": "4eeaefc81db2",
+        "src": "images/1793737884002-3d39dc3f-opt.jpg",
+        "caption": "",
+        "alt": "Colorful flags flying above the BHV dome at night"
+      },
+      {
+        "id": "2bf5685175a9",
+        "src": "images/1793737884010-52218ff8-opt.jpg",
+        "caption": "",
+        "alt": "Flags on the BHV dome with Tour Saint-Jacques behind"
+      },
+      {
+        "id": "162958a16bfd",
+        "src": "images/1793737884022-bcecd782-opt.jpg",
+        "caption": "",
+        "alt": "Place de l'Hôtel de Ville from above at night"
+      },
+      {
+        "id": "2c8742a823e5",
+        "src": "images/1793737884032-22da2839-opt.jpg",
+        "caption": "",
+        "alt": "Hôtel de Ville square and Tour Saint-Jacques at night"
+      },
+      {
+        "id": "be2e6f7e0c23",
+        "src": "images/1793737884041-63475adf-opt.jpg",
+        "caption": "",
+        "alt": "Ornate roof of the Hôtel de Ville at dusk"
+      },
+      {
+        "id": "8444d33322b8",
+        "src": "images/1793737884049-086ca313-opt.jpg",
+        "caption": "",
+        "alt": "Hôtel de Ville tower and square from the BHV roof"
+      },
+      {
+        "id": "20fe112f7d84",
+        "src": "images/1793737884057-a2f4285d-opt.jpg",
+        "caption": "",
+        "alt": "Hôtel de Ville beyond the BHV rooftop at dusk"
+      },
+      {
+        "id": "83eae44c8ca4",
+        "src": "images/1793737884066-627dde1a-opt.jpg",
+        "caption": "",
+        "alt": "Centre Pompidou lit up across the rooftops"
+      },
+      {
+        "id": "f03618e94a46",
+        "src": "images/1793737884073-5f3f053e-opt.jpg",
+        "caption": "",
+        "alt": "Haussmann buildings and a lit street from the BHV roof"
+      },
+      {
+        "id": "05131d9f434c",
+        "src": "images/1793737884082-c4910478-opt.jpg",
+        "caption": "",
+        "alt": "Photographer by a tripod beside the flag-topped dome"
+      },
+      {
+        "id": "d6db39e35a62",
+        "src": "images/1793737884089-80b45f21-opt.jpg",
+        "caption": "",
+        "alt": "BHV dome and lantern against the evening sky"
+      },
+      {
+        "id": "db18c676b683",
+        "src": "images/1793737884096-3aab3b56-opt.jpg",
+        "caption": "Rewinding the night a bit, it was 3AM and we climbed our way to the 7e story: the BHV dome. Inside we found a surprising collection of flags, BHV corporate actions, old newspapers, stamps, a typewriter, files of \"dubious BHV customers\" that made us chuckle. \r\n\r\nMaxime even found a tiny diver figurine, now dubbed \"François.\" I brought him home to the US and he's currently in a folder with my passport and old plane tickets. Does this mean I value François as much as my passport? More importantly, can the poor guy breathe in that stuffy folder I'm trapping him in? (The answer is yes, because he's a diver...)\r\n\r\nLes bêtises: Averell and Éric busied themselves with a flag switch-a-roo. They wanted to lower the iconic BHV flag and replace it with a few that were more colorful. \"Which flags should we choose?\"\r\n\r\nThey pondered over their choices, skipping over France and the USA. \"Hm, let's choose Mexico because Mexico is a nice country.\" Then they chained together a few more flags for a greater effect.\r\n\r\nThey gave me the old BHV flags to keep. \"You know the funny thing is, now that you have both flags, they won't have a replacement anymore to put up.\"\r\n\r\nFrom the roof we could see le Tour Saint-Jacques, the beautiful Place de L'hôtel de Ville almost dead center of Paris, la tour Montparnasse (which you really can't <i>not</i> see if you're in Paris), le Centre Pompidou, la tour Eiffel, and the usual smattering of ornate churches. Another lovely view.\r\n\r\nWhen it came time I biked back home with Maxime -- whizzing past early construction workers, past a city that was waging war between two clashing colors of 5AM city-light-yellow and 5AM light-sky-blue, past the half-constructed annual ferris wheel in the Jardin des Tuileries -- to arrive home to pack my luggage completely, utterly à l'arrache ... (comme toujours.)\r\n\r\n<b>From Somewhere Within the BHV</b>\r\n\r\nMore snapshots from within the \"secret\" dome of Bazar Hôtel de Ville where we found old flags, corporate actions and paper stocks, old newspapers, stamps, a typewriter, files of \"dubious BHV customers,\" and more. The discovery of all these historical-cultural items came as a complete surprise to the four of us, who had originally climbed to the roof for the views, but it turns out Le Parisien had conveniently published article 8 years ago, which explained all of this \"trésor caché\" as they called it. Kudos to Averell for finding the article and emailing to me after I had returned to California.",
+        "alt": "Pink clouds over Paris rooftops at dawn"
+      },
+      {
+        "id": "7ad2279b66dd",
+        "src": "images/1793737884104-8f63d574-opt.jpg",
+        "caption": "",
+        "alt": "Hôtel de Ville square through a round dome window, black and white"
+      },
+      {
+        "id": "49a009b24c7c",
+        "src": "images/1793737884112-27b25bad-opt.jpg",
+        "caption": "",
+        "alt": "Round window inside the dome looking over the square, black and white"
+      },
+      {
+        "id": "48bf1d9a613a",
+        "src": "images/1793737884119-0d5a38a4-opt.jpg",
+        "caption": "",
+        "alt": "Wooden storage room in the dome with a light trail, black and white"
+      },
+      {
+        "id": "ad5ba8e4fe70",
+        "src": "images/1793737884125-44de31db-opt.jpg",
+        "caption": "",
+        "alt": "Rolled flags stored inside the BHV dome, black and white"
+      },
+      {
+        "id": "da2fe977b86d",
+        "src": "images/1793737884132-141bc508-opt.jpg",
+        "caption": "\"Si l'on s'aventure jusqu'au septième étage, on découvre dans trois armoires géantes une réserve de drapeaux anciens à faire pâlir les collectionneurs. Près de 700 étendards de 28 nationalités différentes y sont soigneusement roulés et entassés depuis plus de cinquante ans. Lors des visites officielles de chefs d'Etat étrangers, ils flottaient autrefois au sommet de la rotonde du grand magasin, au croisement des rues du Temple et de Rivoli.\"",
+        "alt": "Old flag poles stacked in the dome's wooden room, black and white"
+      }
+    ],
+    "hidden": true
+  },
+  {
+    "id": "41437aa26841",
+    "title": "Paris Catacombs (GRS)",
+    "slug": "paris-catacombs",
+    "year": 2013,
+    "description": "\"Je ne savais pas, je ne savais pas, je ne savais pas ... TOUT ÇA!!\" A man's singing and an accordion emanated from Maxime's speakers and filled <i>Salle Soleil</i> (The Sun Room.) The music bounced off the limestone walls that were covered in paintings, reverberating down the small, pitch-black hole that we crawled through get here.\r\n\r\nI lay on a hammock, headlamp around my neck, wet boots concealing sopping socks, wet from the rainwater that floods certain passages of the catacomb network. It was 3AM, and my soaked socks added another dimension to the inherent chill of being so many stories underground Paris. In my hands I cupped a mug of warm, sugary tea that Maxime had brought in a thermos. Nearby was a stone table that a cataphile had carved years ago, now adorned with Maxime's candles, cherry tomatoes, a can of cheap corner store beer, and portable music speakers.\r\n\r\nThere is an extensive map of the Grand Réseau Sud, the major catacomb network in Paris. The room names stirred imagination: Salle de Human Bomb. Petite Salle Rouge. Le Cellier. La Plage. Salle Soleil.\r\n\r\nTo be written (notes for now):\r\n\r\n- Hours just sitting there chatting and listening to music.\r\n\r\n- Candles, candles, candles. A culture of candles. Apparently it's also popular for cataphiles to use carbide lamps as the miners once did in these very same networks.\r\n\r\n- A few more trips underground confirmed the tradition of wine, snacks, hammock, music, and candles\r\n\r\n- Things that surprised me: wetness, scuba diving, paintings, carvings, history, scavenger hunts (people leave \"les tracts\"), cataflics\r\n\r\n- There is art, but there is also destruction. \r\n\r\n- Plenty of people write about their experiences in the catacombs, from National Geographic articles to urbex blogs to youtube videos (link)",
+    "tags": [
+      "photoblog"
+    ],
+    "template": "photo-column",
+    "page": "photoblog",
+    "link": "",
+    "gridTitle": "",
+    "gridText": "",
+    "image": "images/1793737791290-88d07126-opt.jpg",
+    "imageAlt": "Candles on an iron chandelier in a painted room",
+    "images": [
+      {
+        "id": "df91bf9491f4",
+        "src": "images/1793737791261-3a9a6533-opt.jpg",
+        "caption": "",
+        "alt": "Headlamp lighting a long flooded catacomb tunnel",
+        "size": "small"
+      },
+      {
+        "id": "88738724208b",
+        "src": "images/1793737791271-98f08273-opt.jpg",
+        "caption": "",
+        "alt": "Explorers with headlamps in a narrow stone passage",
+        "size": "small"
+      },
+      {
+        "id": "57fc7adceb4d",
+        "src": "images/1793737791282-e3ab2d85-opt.jpg",
+        "caption": "",
+        "alt": "Smiling explorer below a candle chandelier",
+        "size": "small"
+      },
+      {
+        "id": "82027f3a39c4",
+        "src": "images/1793737791290-88d07126-opt.jpg",
+        "caption": "",
+        "alt": "Candles on an iron chandelier in a painted room",
+        "size": "small"
+      },
+      {
+        "id": "9f1e863e0767",
+        "src": "images/1793737791303-6b6c922c-opt.jpg",
+        "caption": "",
+        "alt": "Carved stone table in an underground room",
+        "size": "small"
+      },
+      {
+        "id": "e3900a5dbdff",
+        "src": "images/1793737791312-7539586d-opt.jpg",
+        "caption": "",
+        "alt": "Painted mural of a figure on a catacomb wall",
+        "size": "small"
+      },
+      {
+        "id": "8820bd8261f7",
+        "src": "images/1793737791327-0b042fbb-opt.jpg",
+        "caption": "",
+        "alt": "Graffiti faces on limestone walls",
+        "size": "small"
+      },
+      {
+        "id": "f62ab842ac80",
+        "src": "images/1793737791343-b6ef99df-opt.jpg",
+        "caption": "",
+        "alt": "Dim room covered in graffiti",
+        "size": "small"
+      },
+      {
+        "id": "87bd598a10c7",
+        "src": "images/1793737791354-17ef18ce-opt.jpg",
+        "caption": "",
+        "alt": "SpongeBob mural painted on a catacomb wall",
+        "size": "small"
+      },
+      {
+        "id": "c633f0325c41",
+        "src": "images/1793737791373-25c953f9-opt.jpg",
+        "caption": "",
+        "alt": "Explorer resting by candlelight",
+        "size": "small"
+      },
+      {
+        "id": "230cc8ddeb64",
+        "src": "images/1793737791410-07292f76-opt.jpg",
+        "caption": "",
+        "alt": "Explorer crouching by a candlelit wall",
+        "size": "small"
+      },
+      {
+        "id": "e98e6135a875",
+        "src": "images/1793737791433-1bfdf43e-opt.jpg",
+        "caption": "",
+        "alt": "Explorer walking a long straight tunnel",
+        "size": "small"
+      },
+      {
+        "id": "eee042a91b3f",
+        "src": "images/1793737791454-49252a23-opt.jpg",
+        "caption": "",
+        "alt": "Explorer with a blue dry bag by a graffiti wall",
+        "size": "small"
+      },
+      {
+        "id": "f692ba8ffe09",
+        "src": "images/1793737791468-be5194b0-opt.jpg",
+        "caption": "",
+        "alt": "Explorer wading down a graffiti-covered tunnel",
+        "size": "small"
+      },
+      {
+        "id": "8523817d6559",
+        "src": "images/1793737791482-9adb19c2-opt.jpg",
+        "caption": "",
+        "alt": "Explorers beside a painted human figure",
+        "size": "small"
+      },
+      {
+        "id": "87605a18ad1d",
+        "src": "images/1793737791496-9c319ecd-opt.jpg",
+        "caption": "",
+        "alt": "Skull mural and painted room name",
+        "size": "small"
+      },
+      {
+        "id": "a0deeeddb25f",
+        "src": "images/1793737791508-df23f17f-opt.jpg",
+        "caption": "",
+        "alt": "Wall niche with a hanging glass lamp",
+        "size": "small"
+      },
+      {
+        "id": "1159e8e3f432",
+        "src": "images/1793737791518-bb4680cc-opt.jpg",
+        "caption": "",
+        "alt": "Mona Lisa painting on a catacomb wall",
+        "size": "small"
+      },
+      {
+        "id": "2f4cb7bfc603",
+        "src": "images/1793737791527-83d5f25e-opt.jpg",
+        "caption": "",
+        "alt": "Explorer squeezing through a low hole",
+        "size": "small"
+      },
+      {
+        "id": "7993526fd014",
+        "src": "images/1793737791535-47663fcc-opt.jpg",
+        "caption": "",
+        "alt": "Headlamp at the end of a flooded tunnel",
+        "size": "small"
+      },
+      {
+        "id": "030db817e3b3",
+        "src": "images/1793737791543-b9531576-opt.jpg",
+        "caption": "",
+        "alt": "Close-up of rough limestone ceiling",
+        "size": "small"
+      },
+      {
+        "id": "a05344143e3a",
+        "src": "images/1793737791565-b0aa750f-opt.jpg",
+        "caption": "",
+        "alt": "Stenciled sign and red heart graffiti",
+        "size": "small"
+      },
+      {
+        "id": "d38ef3c940c8",
+        "src": "images/1793737791575-e7d575ca-opt.jpg",
+        "caption": "",
+        "alt": "Mosaic tag set into the tunnel wall",
+        "size": "small"
+      }
+    ],
+    "hidden": true
+  },
+  {
     "id": "db22fcd10a10",
     "title": "Yosemite",
     "year": 2025,
@@ -15,93 +444,111 @@
       {
         "id": "b844c4fb9018",
         "src": "images/projects/yosemite/img01.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Golden sunrise over granite spires and alpine lakes"
       },
       {
         "id": "4ddcf1de9e01",
         "src": "images/projects/yosemite/img02.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Sunlit granite spire above a lake and forest"
       },
       {
         "id": "3d87c00b2020",
         "src": "images/projects/yosemite/img03.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "High granite basin with a small lake at sunset"
       },
       {
         "id": "8497287d296b",
         "src": "images/projects/yosemite/img04.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber on a granite slab above a blue lake"
       },
       {
         "id": "2fa50b323198",
         "src": "images/projects/yosemite/img05.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Granite ridgeline below snowy peaks"
       },
       {
         "id": "7986ff477708",
         "src": "images/projects/yosemite/img06.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climbers on a granite spire above a meadow lake"
       },
       {
         "id": "ae8a82cc858a",
         "src": "images/projects/yosemite/img07.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber scrambling up granite between pine trees"
       },
       {
         "id": "736bb4844a7c",
         "src": "images/projects/yosemite/img08.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Jagged granite spire framed by boulders"
       },
       {
         "id": "36c0293f3523",
         "src": "images/projects/yosemite/img09.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber dwarfed by fluted granite walls"
       },
       {
         "id": "a3645b73d001",
         "src": "images/projects/yosemite/img10.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber on a sharp granite ridge"
       },
       {
         "id": "0feb602dc358",
         "src": "images/projects/yosemite/img11.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Alpenglow on a rocky ridge at sunset"
       },
       {
         "id": "9a8996461fd7",
         "src": "images/projects/yosemite/img12.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Last light on snowy mountain ridges"
       },
       {
         "id": "389d30577594",
         "src": "images/projects/yosemite/img14.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Two climbers sorting gear on white granite"
       },
       {
         "id": "12b6900e4f54",
         "src": "images/projects/yosemite/img15.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber high on a steep rocky slope"
       },
       {
         "id": "c90d7e469006",
         "src": "images/projects/yosemite/img16.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber belaying on a granite slab"
       },
       {
         "id": "7aa116daa852",
         "src": "images/projects/yosemite/img17.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Hiker on a rocky ridge above a vast mountain valley"
       },
       {
         "id": "122862b4fc82",
         "src": "images/projects/yosemite/img13.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Lone climber below towering granite walls"
       },
       {
         "id": "d53560a9ad50",
         "src": "images/projects/yosemite/img18.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Climber with a red pack looking over rocky peaks"
       }
     ]
   },
@@ -121,64 +568,337 @@
       {
         "id": "99675d8279c4",
         "src": "images/projects/death-valley/img01.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Person with a headlamp by tents under a starry sky"
       },
       {
         "id": "251b5d1f15cb",
         "src": "images/projects/death-valley/img02.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Milky Way above a sand dune crest"
       },
       {
         "id": "fa8110be92cb",
         "src": "images/projects/death-valley/img03.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Golden light on badlands ridges"
       },
       {
         "id": "4b0ad8783723",
         "src": "images/projects/death-valley/img04.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber on pale badlands above a valley"
       },
       {
         "id": "c36a408eb865",
         "src": "images/projects/death-valley/img05.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Figure in a red cape walking across sand dunes"
       },
       {
         "id": "fde68bdb6c58",
         "src": "images/projects/death-valley/img06.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman with a red cape billowing on a dune crest"
       },
       {
         "id": "705016b504f5",
         "src": "images/projects/death-valley/img07.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rippled sand dune in warm light"
       },
       {
         "id": "0283f7ea1a46",
         "src": "images/projects/death-valley/img08.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman sitting in a tent on sand dunes"
       },
       {
         "id": "e995acff1187",
         "src": "images/projects/death-valley/img09.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman in red reflected on a flooded salt flat"
       },
       {
         "id": "c7674cd70614",
         "src": "images/projects/death-valley/img10.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Hiker silhouetted against the sun on salt flats"
       },
       {
         "id": "0ebae0657b67",
         "src": "images/projects/death-valley/img11.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Tiny figure below pale badlands peak"
       },
       {
         "id": "eb749b13bd36",
         "src": "images/projects/death-valley/img12.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman wrapped in a red blanket above dunes"
       }
     ]
+  },
+  {
+    "id": "c508df812bb6",
+    "title": "All 汉字 Hànzì On Deck",
+    "slug": "all-hands-on-deck",
+    "year": 2026,
+    "description": "Spaced Repetition Flashcards (And A Bad Pun).\n\nA spaced repetition Mandarin flashcard app. Cards and layout are driven by a Google Sheet, so updating the vocabulary needs no code changes. Cards you know come back later; cards you forget come back next session.\n\nFlip cards, star or remove words, use keyboard shortcuts, and browse the full vocabulary table with per-word stats. There's also a dark mode and a static JSON API, so any site can fetch the card data.\n\n<a href=\"https://emilybei.com/all-hands-on-deck/\" target=\"_blank\">Study with All 汉字 Hànzì On Deck</a> · <a href=\"https://github.com/alpinemily/all-hands-on-deck\" target=\"_blank\">Source on GitHub</a>",
+    "tags": [],
+    "template": "photo-column",
+    "page": "misc",
+    "link": "",
+    "gridTitle": "",
+    "gridText": "",
+    "image": "images/1793735358884-d8e21c1b.jpg",
+    "imageAlt": "Mandarin flashcard showing 你好 (nǐ hǎo)",
+    "images": [
+      {
+        "id": "6c25a2169c13",
+        "src": "images/1793739259668-48ab8e55.jpg",
+        "caption": "",
+        "alt": "All 汉字 Hànzì On Deck flashcard showing \"state university\" with a click-to-reveal prompt"
+      }
+    ],
+    "hideYear": true
+  },
+  {
+    "id": "e0c90995eab0",
+    "title": "Career Mind Map",
+    "slug": "career-mind-map",
+    "year": 2026,
+    "description": "Inspired by the book <i>Designing Your Life</i>, mind maps are a tool for expanding possibilities before narrowing them down. Instead of asking \"What job should I get?\", start with themes and branch into related ideas, applying lateral thinking to find new connections and alternate life directions.\n\nPick three starting points: an area of interest or an activity during which you were really engaged, something that really energizes you in your work and life, and an activity or experience where you get into a flow state. Career Mind Map branches each one out into related ideas and possible paths.\n\n<a href=\"https://emilybei.com/career-mind-map/\" target=\"_blank\">Try Career Mind Map</a> · <a href=\"https://github.com/alpinemily/career-mind-map\" target=\"_blank\">Source on GitHub</a>",
+    "tags": [],
+    "template": "photo-column",
+    "page": "misc",
+    "link": "",
+    "gridTitle": "",
+    "gridText": "",
+    "image": "images/1793735306913-031c299e.jpg",
+    "imageAlt": "Career Mind Map title beside a branching mind map diagram",
+    "images": [
+      {
+        "id": "0f5145480a13",
+        "src": "images/1793739259630-d5524ba0.jpg",
+        "caption": "",
+        "alt": "Career Mind Map page with three inputs for engagement, energy and flow"
+      }
+    ],
+    "hideYear": true
+  },
+  {
+    "id": "4806e65d20fa",
+    "title": "Design for Exploration: Harmonograph",
+    "slug": "harmonograph",
+    "year": 2016,
+    "description": "Hand-cranked Harmonograph.\n\nMy Design for Exploration class project that was exhibited at the Exploratorium Museum in San Francisco.\nProcess: laser cut acrylic",
+    "tags": [],
+    "template": "photo-column",
+    "page": "misc",
+    "gridTitle": "",
+    "gridText": "",
+    "image": "images/1793734575967-7a8d4588.jpg",
+    "imageAlt": "Acrylic harmonograph with orange gears on a display stand",
+    "images": [
+      {
+        "id": "eee35abbb7bf",
+        "src": "images/1793734575967-7a8d4588.jpg",
+        "caption": "",
+        "alt": "Acrylic harmonograph with orange gears on a display stand"
+      },
+      {
+        "id": "d37abd325f20",
+        "src": "images/1793734576034-96611bce.jpg",
+        "caption": "",
+        "alt": "Laser-cut acrylic harmonograph from above"
+      },
+      {
+        "id": "7ce587ace237",
+        "src": "images/1793734576087-7053701b.jpg",
+        "caption": "",
+        "alt": "Children drawing with the harmonograph at the Exploratorium"
+      },
+      {
+        "id": "e82afe0f7a3a",
+        "src": "images/1793734576144-cf1e721a.jpg",
+        "caption": "",
+        "alt": "Two kids cranking the harmonograph to draw a pattern"
+      },
+      {
+        "id": "5eaac2bc4dc8",
+        "src": "images/1793734576204-3ac82ef0.jpg",
+        "caption": "",
+        "alt": "Design for Exploration exhibit sign at the Exploratorium"
+      },
+      {
+        "id": "a3ac1fd88cd8",
+        "src": "images/1793734576247-ffe2d8c7.jpg",
+        "caption": "",
+        "alt": "Harmonograph pen tracing curved lines on paper"
+      },
+      {
+        "id": "adeaa9272e9d",
+        "src": "images/1793734576304-78493599.jpg",
+        "caption": "",
+        "alt": "Girl turning the harmonograph's crank"
+      }
+    ],
+    "hideYear": true
+  },
+  {
+    "id": "485f7c5d331a",
+    "title": "Magnifying Glass",
+    "slug": "magnifying-glass",
+    "year": 2016,
+    "description": "Processes: lathe, vertical mill, brazing\nMaterials used: delrin rod, brass, acrylic, silver (to join the brass lug to the ring)",
+    "tags": [],
+    "template": "photo-column",
+    "page": "misc",
+    "image": "images/1793734428849-fda663a1.jpg",
+    "imageAlt": "Brass magnifying glass with a black Delrin handle",
+    "images": [
+      {
+        "id": "cfde74ee826b",
+        "src": "images/1793734428849-fda663a1.jpg",
+        "caption": "",
+        "alt": "Brass magnifying glass with a black Delrin handle"
+      },
+      {
+        "id": "719073474576",
+        "src": "images/1793734428888-bc85d8b8.jpg",
+        "caption": "",
+        "alt": "Finished magnifying glass beside its raw materials"
+      },
+      {
+        "id": "611ebdea3d15",
+        "src": "images/1793734428918-bc566ffd.jpg",
+        "caption": "",
+        "alt": "Close-up of the lens beside machined Delrin handles"
+      },
+      {
+        "id": "74f031556ad3",
+        "src": "images/1793734428948-f1893c6f.jpg",
+        "caption": "",
+        "alt": "Threaded handle unscrewed from the brass lug"
+      },
+      {
+        "id": "3de2d9ed26e7",
+        "src": "images/1793734428982-db8f0125.jpg",
+        "caption": "",
+        "alt": "Magnifying glass with Delrin rod, brass tube and acrylic rod"
+      }
+    ],
+    "hideYear": true
+  },
+  {
+    "id": "47eaeb735da8",
+    "title": "Transforming Coffee Table",
+    "slug": "transforming-coffee-table",
+    "year": 2016,
+    "description": "Designed and built from scratch.\nA coffee table that lifts into a desk and lamp workstation.\nProcesses include: TIG welding, metal tube bending, vertical mill, woodworking, lots of drilling and grinding, sanding, cold saw, powder coat, prototyping, CAD modeling, circuitry, laser cutter.",
+    "tags": [],
+    "template": "photo-column",
+    "page": "misc",
+    "image": "images/1793733922809-fd1a958e.jpg",
+    "imageAlt": "Woman working at a coffee table raised into a desk with an arched lamp",
+    "images": [
+      {
+        "id": "0aaac27f207c",
+        "src": "images/1793733922809-fd1a958e.jpg",
+        "caption": "",
+        "alt": "Woman working at a coffee table raised into a desk with an arched lamp"
+      },
+      {
+        "id": "d3b370107612",
+        "src": "images/1793733922863-bbf2dcd7.jpg",
+        "caption": "",
+        "alt": "Walnut coffee table with a glass shelf and curved steel legs"
+      },
+      {
+        "id": "f63a9f24df74",
+        "src": "images/1793733922908-b6ef41bd.jpg",
+        "caption": "",
+        "alt": "Coffee table lifted into a desk on a scissor mechanism"
+      },
+      {
+        "id": "05934fabc071",
+        "src": "images/1793733922967-537b8631.jpg",
+        "caption": "",
+        "alt": "Close-up of the walnut top and glass shelf"
+      },
+      {
+        "id": "b7d74ec11ed5",
+        "src": "images/1793733923009-f0823bc2.jpg",
+        "caption": "",
+        "alt": "Low view of the table's crossed walnut and steel legs"
+      },
+      {
+        "id": "06408590ce70",
+        "src": "images/1793733923063-fe15bc02.jpg",
+        "caption": "",
+        "alt": "Woman lying under the coffee table, smiling"
+      },
+      {
+        "id": "b7af8c415f63",
+        "src": "images/1793734533461-5e157643.jpg",
+        "caption": "TIG welding",
+        "alt": "Welder in a helmet TIG welding a curved steel leg",
+        "size": "small"
+      },
+      {
+        "id": "03b2db1f6078",
+        "src": "images/1793734533531-f973ec80.jpg",
+        "caption": "TIG welding",
+        "alt": "Glow of a TIG weld through a red welding curtain",
+        "size": "small"
+      },
+      {
+        "id": "52cadc6e0d61",
+        "src": "images/1793734533584-845c2c53.jpg",
+        "caption": "Welding set up for table legs",
+        "alt": "Curved table legs clamped on a welding table",
+        "size": "small"
+      },
+      {
+        "id": "af3069fb0563",
+        "src": "images/1793734533633-0ac7ad8a.jpg",
+        "caption": "Using the vertical milling machine",
+        "alt": "Woman setting up a part on a vertical mill",
+        "size": "small"
+      },
+      {
+        "id": "23066fc7fb22",
+        "src": "images/1793734533737-5a077eae.jpg",
+        "caption": "Milling a slot for the lamp",
+        "alt": "End mill cutting a slot in a steel bar",
+        "size": "small"
+      },
+      {
+        "id": "ee3fd01fa9d7",
+        "src": "images/1793734533781-a594b55a.jpg",
+        "caption": "Riv-nuts for attaching wood components to the metal ones",
+        "alt": "Rivet nut setter tool on a steel bar",
+        "size": "small"
+      },
+      {
+        "id": "63cebe1d76cf",
+        "src": "images/1793734533822-6aeaba94.jpg",
+        "caption": "Soldering electronic components for the lamp (LED and LED driver)",
+        "alt": "LED and LED driver wired together",
+        "size": "small"
+      },
+      {
+        "id": "7aea610c282a",
+        "src": "images/1793734533871-718f81fe.jpg",
+        "caption": "Using a tap and 'T' wrench to tap threads for the glass lifts",
+        "alt": "Tap cutting threads into a metal block",
+        "size": "small"
+      }
+    ],
+    "gridTitle": "Making of",
+    "gridText": "Just a few photos of the many processes used to build the Transforming Coffee Table project. (Processes not pictured include: woodworking, lots of drilling and grinding, cold saw, powder coating, prototyping, CADding, etc.)",
+    "hideYear": true
   },
   {
     "id": "2537f1e55ccc",
@@ -196,57 +916,68 @@
       {
         "id": "8bfacfe90990",
         "src": "images/projects/sierra/img01.jpg",
-        "caption": "As a photographer I’ve always appreciated the beauty of the mountains. I wanted to get closer. I wanted to know a mountain by more than its triangle caricature. But how was I going to teach myself the skills to scale that granite when I didn’t have any climber friends?"
+        "caption": "As a photographer I’ve always appreciated the beauty of the mountains. I wanted to get closer. I wanted to know a mountain by more than its triangle caricature. But how was I going to teach myself the skills to scale that granite when I didn’t have any climber friends?",
+        "alt": "Sun rising behind jagged granite peaks"
       },
       {
         "id": "a68098b32cd4",
         "src": "images/projects/sierra/img02.jpg",
-        "caption": "In 2016 I moved to San Francisco. Riding a motivation wave from a relationship break-up and a renewal of energy as I started to overcome crippling imposter syndrome at my first software engineering job, I decided I wanted to climb. Without friends to mentor me, I scoured google and joined Sierra Mountaineering Club (SMC) where I built a solid foundation in mountaineering and rock climbing."
+        "caption": "In 2016 I moved to San Francisco. Riding a motivation wave from a relationship break-up and a renewal of energy as I started to overcome crippling imposter syndrome at my first software engineering job, I decided I wanted to climb. Without friends to mentor me, I scoured google and joined Sierra Mountaineering Club (SMC) where I built a solid foundation in mountaineering and rock climbing.",
+        "alt": "Mountaineer in a yellow jacket climbing a snowy couloir"
       },
       {
         "id": "ded126dc0652",
         "src": "images/projects/sierra/img03.jpg",
-        "caption": "From that year onward many summer weekends have been spent in the Eastern Sierra. I buckle up for 8 hour one-way sleep-deprived drives to and from the mountains. The mountains test my mental strength and patience. The mountains fill me with awe and a sense of smallness that help me let go of the unimportant things in life. Some  say the mountains are their church."
+        "caption": "From that year onward many summer weekends have been spent in the Eastern Sierra. I buckle up for 8 hour one-way sleep-deprived drives to and from the mountains. The mountains test my mental strength and patience. The mountains fill me with awe and a sense of smallness that help me let go of the unimportant things in life. Some  say the mountains are their church.",
+        "alt": "Climber on a weathered granite face"
       },
       {
         "id": "da5977c59df3",
         "src": "images/projects/sierra/img04.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber scrambling through a rocky chute"
       },
       {
         "id": "04fc1e1b4533",
         "src": "images/projects/sierra/img05.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climbers on a summit ridge above snowy peaks"
       },
       {
         "id": "e7055f92c988",
         "src": "images/projects/sierra/img06.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber in orange on a rope below a rock arch"
       },
       {
         "id": "bee9c9fa2c0b",
         "src": "images/projects/sierra/img07.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber on a snow slope beside a rock wall"
       },
       {
         "id": "9a92f6c0d9c4",
         "src": "images/projects/sierra/img08.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climbers kicking steps up a snowy gully"
       },
       {
         "id": "b4f239855715",
         "src": "images/projects/sierra/img09.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber above alpine lakes on rocky terrain"
       },
       {
         "id": "f9166adba678",
         "src": "images/projects/sierra/img10.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber in a white helmet pulling over red rock"
       },
       {
         "id": "84a73d1a09e8",
         "src": "images/projects/sierra/img11.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Snowy mountain range in soft evening light"
       }
     ]
   },
@@ -267,80 +998,95 @@
         "id": "5b6521d76c33",
         "src": "images/1790038723895-9fdfba46-opt.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Rock pinnacle on a snowy ridge at sunrise"
       },
       {
         "id": "09831a3fe3ba",
         "src": "images/1790038724234-e170a24b-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Sunrise lighting a rock tower on a glacier"
       },
       {
         "id": "463a746184d9",
         "src": "images/1790038723987-f110dc5b-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Roped climbers on a snowy ridge above clouds"
       },
       {
         "id": "95e09132b3a6",
         "src": "images/1790038723628-4bf7a536-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climbers ascending snow beside a dark cliff"
       },
       {
         "id": "7c8fba4ab193",
         "src": "images/1790038723807-8161ffc9-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Two climbers pointing up at a snowy spire"
       },
       {
         "id": "54cfb96d82e1",
         "src": "images/1790038724031-d3046522-opt.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Roped team climbing a snow ridge above peaks"
       },
       {
         "id": "62d6ef7d96c4",
         "src": "images/1790038723765-02262a50-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Roped climbers crossing a glacier"
       },
       {
         "id": "b216932a9f26",
         "src": "images/1790038723582-99f074b5-opt.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Climber traversing a snowy ledge in fog"
       },
       {
         "id": "3bbdacdd841d",
         "src": "images/1790038723674-afd0cb8a-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climbers hanging wet gear to dry among pines"
       },
       {
         "id": "875e967cc825",
         "src": "images/1790038723720-d9d34a79-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Gear drying on trees at a snowy alpine camp"
       },
       {
         "id": "a89e5fe197d7",
         "src": "images/1790038723941-9243dca1-opt.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Smiling climber on a glacier above the clouds"
       },
       {
         "id": "bba0831b9e76",
         "src": "images/1790038724077-938b3b87-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber pointing toward rocky peaks on a snowfield"
       },
       {
         "id": "b734eaa76e48",
         "src": "images/1790038724121-e7bb9555-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Roped climbers crossing a glacier below a peak"
       },
       {
         "id": "ff9c844682ff",
         "src": "images/1790038723492-86ea24a0-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber on a rope beside snow cornices and a cliff"
       },
       {
         "id": "2ed5c39d5cc8",
         "src": "images/1790038724198-8d8176e8-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Tents beside a glowing rock tower at sunset"
       }
     ]
   },
@@ -361,110 +1107,131 @@
       {
         "id": "d5340b21b592",
         "src": "images/1790055733029-21392c4f-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Bikepacker on a narrow trail through dense forest"
       },
       {
         "id": "1ccbafbee6a0",
         "src": "images/1790055733200-006822d7-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Hand touching a dew-covered maple leaf"
       },
       {
         "id": "2c3b15ef0dcc",
         "src": "images/1790055733342-b9a574aa-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Bikepacker on a ridge with a snowy volcano behind"
       },
       {
         "id": "c1885bd3fbfb",
         "src": "images/1790055733943-3b231635-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclist on a gravel road through the mountains"
       },
       {
         "id": "7d3e9fb634ef",
         "src": "images/1790055734257-e1ccc041-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Bikepackers fixing bikes at a forest camp"
       },
       {
         "id": "9f3189aedb81",
         "src": "images/1790055733493-826bcc73-opt.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Bikepacker walking a bike across a rocky creek"
       },
       {
         "id": "1e52fd681fea",
         "src": "images/1790055733641-86c3b437-opt.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Bikepacker carrying a bike through a stream"
       },
       {
         "id": "0d774c8d8617",
         "src": "images/1790055734992-09245b46-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclist riding a shaded forest singletrack"
       },
       {
         "id": "65bea00fc543",
         "src": "images/1790055733795-cadf0f79-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclist speeding down a forest trail"
       },
       {
         "id": "041107f3b04e",
         "src": "images/1790055734095-502c7efb-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Bikepackers lifting bikes over fallen logs"
       },
       {
         "id": "a7039479aa55",
         "src": "images/1790055734513-0d94801f-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Trail along a forested ridge toward a snowy volcano"
       },
       {
         "id": "25b9cdc874ed",
         "src": "images/1790055734667-e20f92db-opt.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Tired cyclist resting beside a loaded bike"
       },
       {
         "id": "9d520e948103",
         "src": "images/1790055734835-4639b2c6-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclists on a grassy mountainside trail"
       },
       {
         "id": "fcc2272601e1",
         "src": "images/1790055735153-c0f9c13c-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Sunlight through tall trees on a forest trail"
       },
       {
         "id": "45e9500c357d",
         "src": "images/1790055735309-b31210fc-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Sunbeams through dusty forest air"
       },
       {
         "id": "10669f6eaf3f",
         "src": "images/1790056142113-9f5f3930-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Bikepacker riding through ferns"
       },
       {
         "id": "c7f8fadfa360",
         "src": "images/1790055735461-60c042cb-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Dewy spiderweb on evergreen branches"
       },
       {
         "id": "b3f5f7fe23ca",
         "src": "images/1790055735765-3f3e868b-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Riders resting by bikes at night, black and white"
       },
       {
         "id": "1f75a71be1cf",
         "src": "images/1790055735919-f7e21ff1-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Dirty, grease-stained palms, black and white"
       },
       {
         "id": "9390528f14a9",
         "src": "images/1790055736073-8addecd4-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rider sleeping beside a bike wheel, black and white"
       },
       {
         "id": "e5ebef264006",
         "src": "images/1790055736225-dc0b246d-opt.jpg",
-        "caption": "Portrait of me at the starting line by Kae-Lin Wang"
+        "caption": "Portrait of me at the starting line by Kae-Lin Wang",
+        "alt": "Portrait of a cyclist with a loaded gravel bike"
       }
     ]
   },
@@ -484,157 +1251,188 @@
       {
         "id": "9f5e2d04f2fd",
         "src": "images/1790057182580-d711ab35-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Smiling cyclist at a ferry terminal in Japan"
       },
       {
         "id": "941304c62672",
         "src": "images/1790057182752-a5c99952-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Red bridge spanning a forested gorge"
       },
       {
         "id": "b33f82b26d78",
         "src": "images/1790057182908-ab2db5d4-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Riders at a stone torii gate and shrine guardian"
       },
       {
         "id": "16c000b00a4f",
         "src": "images/1790057183058-687a4720-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclist on a path through a cedar forest"
       },
       {
         "id": "73ad04a014bc",
         "src": "images/1790057183231-8f7aefe1-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Arched bridge over a calm teal river"
       },
       {
         "id": "2cddc62b314d",
         "src": "images/1790057183401-20537140-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Riders snacking outside a small Japanese shop"
       },
       {
         "id": "bcf50be79328",
         "src": "images/1790057183553-c2e2ed8c-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Silhouetted riders watching a volcano at sunset"
       },
       {
         "id": "e1a6f9d191eb",
         "src": "images/1790057183708-c6291a6b-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Two cyclists with headlights riding at night"
       },
       {
         "id": "8a1c55eb88e1",
         "src": "images/1790057183862-bea23a69-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Loaded bikes parked by vending machines"
       },
       {
         "id": "94041be110b1",
         "src": "images/1790057183965-f955aed2-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Riders napping in massage chairs"
       },
       {
         "id": "786b020e592a",
         "src": "images/1790057184111-c724bde0-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rider asleep on a floor beside a door"
       },
       {
         "id": "f4393afc55c5",
         "src": "images/1790057184272-39aaa7fb-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Mother and child on a bicycle passing signs"
       },
       {
         "id": "33adb74803f2",
         "src": "images/1790057184426-0ac740f5-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Riders resting outside a FamilyMart"
       },
       {
         "id": "712e88dbc195",
         "src": "images/1790057184581-561dc112-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Misty mountains above a river valley"
       },
       {
         "id": "ee96570af734",
         "src": "images/1790057184739-c12de7d0-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rider in a bivy bag beside a bike at night"
       },
       {
         "id": "08eda3dd362b",
         "src": "images/1790057184906-e3d551f2-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rider with a bike by a wooden welcome sign"
       },
       {
         "id": "9221f8b51ccf",
         "src": "images/1790057185039-a56aec4b-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rider buying a drink from a vending machine"
       },
       {
         "id": "8d4f9e0f7c9e",
         "src": "images/1790057185181-9ce10a5a-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Riders gathering with bikes under a shelter"
       },
       {
         "id": "18dbc0525f4b",
         "src": "images/1790057185337-72b0d7b2-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Riders resting against a supermarket wall"
       },
       {
         "id": "db3a2e562eeb",
         "src": "images/1790057185487-45e7ebef-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Two riders pushing bikes up a grassy dirt track"
       },
       {
         "id": "e3b41be9192e",
         "src": "images/1790057185663-396c95f0-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Terraced fields in a green mountain valley"
       },
       {
         "id": "149b09183b82",
         "src": "images/1790057185809-929c78c3-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rider on a bike in the rain at night"
       },
       {
         "id": "de9114ec6774",
         "src": "images/1790057185981-e93a1abd-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Exhausted rider sitting with a bike at night"
       },
       {
         "id": "f340185ce96d",
         "src": "images/1790057186132-00053396-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Old stone tunnel below a cedar forest"
       },
       {
         "id": "2487de9462ec",
         "src": "images/1790057186285-007311f6-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Winding road up a green mountain pass"
       },
       {
         "id": "4c47de9e110d",
         "src": "images/1790057186432-366bd4af-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclist crossing a white cable-stayed bridge"
       },
       {
         "id": "e2edbac9fc11",
         "src": "images/1790057186571-e4ddc869-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rider resting in a hotel room above a city"
       },
       {
         "id": "836711f4c732",
         "src": "images/1790057186736-312c9202-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Sunrise over misty forested hills"
       },
       {
         "id": "448ae05d6582",
         "src": "images/1790057186904-343ac1f8-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Wind turbine above dark treetops"
       },
       {
         "id": "7a5fc87cc2a1",
         "src": "images/1790057187050-cb64165a-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rider taking off shoes by a bike at night"
       },
       {
         "id": "9b4a0fa71307",
         "src": "images/1790057187201-bd38a319-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Hand holding a 2025 Japanese Odyssey patch"
       }
     ]
   },
@@ -655,97 +1453,116 @@
       {
         "id": "2d5bbbc0ee63",
         "src": "images/1790039094695-8058d1fc-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Switchback road down red canyon walls"
       },
       {
         "id": "03f15216f96a",
         "src": "images/1790039094968-11d373fb-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclist riding below red rock towers"
       },
       {
         "id": "7a9e9eaf1a9c",
         "src": "images/1790039094741-436ceb5d-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rider on a dirt road below a mesa"
       },
       {
         "id": "18098abca314",
         "src": "images/1790039094835-5310aecd-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Milky Way over a desert butte silhouette"
       },
       {
         "id": "e5c554e59000",
         "src": "images/1790039094883-ed9a205b-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Sunlit red butte against a stormy sky"
       },
       {
         "id": "8a02fa0e32df",
         "src": "images/1790039095060-5dbadc5c-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Vast canyon country from the rim"
       },
       {
         "id": "32ece4ea100b",
         "src": "images/1790039095016-e4e169af-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclist looking out over red rock spires"
       },
       {
         "id": "ee53100189e2",
         "src": "images/1790039094927-ea0705fd-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Praying mantis on a hand with a butte behind"
       },
       {
         "id": "a7e588fdebdf",
         "src": "images/1790039095198-d6d6c290-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Riders walking past potholes on slickrock"
       },
       {
         "id": "aa02bf4468fb",
         "src": "images/1790039095153-03607d3e-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rider hopping across sandstone above a canyon"
       },
       {
         "id": "667cca7af6f0",
         "src": "images/1790039095108-3007c3fd-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Two people on a sandstone ledge over a canyon"
       },
       {
         "id": "c48f9cd05d79",
         "src": "images/1790039095330-2bf9b76a-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Riders fixing a truck tire in the desert"
       },
       {
         "id": "19fe916d1ccc",
         "src": "images/1790039095286-3c6c5052-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "People working under a truck in the rain"
       },
       {
         "id": "2c93e0138819",
         "src": "images/1790039095242-9890e9fe-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclist in a puffy jacket beside a support truck"
       },
       {
         "id": "3d234de4dc9c",
         "src": "images/1790039095373-d67d0cee-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Person climbing through a sandstone hole"
       },
       {
         "id": "8f431e1f7e2f",
         "src": "images/1790039095419-b624f1d5-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Two people exploring a narrow sandstone slot"
       },
       {
         "id": "02c0e15295fc",
         "src": "images/1790039095464-68916f75-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Desert wash below distant red buttes"
       },
       {
         "id": "60f2e455e783",
         "src": "images/1790039095510-a8de2464-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Red cliffs above a rainy canyon"
       },
       {
         "id": "4e6c1b40767f",
         "src": "images/1790039094639-a19e0c53-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Canyon rim overlooking snowy mountains"
       }
     ]
   },
@@ -765,132 +1582,158 @@
       {
         "id": "2bffa2b208ac",
         "src": "images/1790053958462-1924c664-opt.jpg",
-        "caption": "Ivar Slik, winner of Unbound 2022. I had the opportunity to be on the media team to photograph Unbound that year."
+        "caption": "Ivar Slik, winner of Unbound 2022. I had the opportunity to be on the media team to photograph Unbound that year.",
+        "alt": "Mud-splattered cyclist splashing through a puddle"
       },
       {
         "id": "00ee3a200cbd",
         "src": "images/1790053958599-c8bc7103-opt.jpg",
-        "caption": "Portrait of Neil riding the trails of Laguna Honda."
+        "caption": "Portrait of Neil riding the trails of Laguna Honda.",
+        "alt": "Rider among white calla lilies in a forest"
       },
       {
         "id": "25590a170a79",
         "src": "images/1790053958677-9554634d-opt.jpg",
-        "caption": "A family portrait series for Kendra and Adam."
+        "caption": "A family portrait series for Kendra and Adam.",
+        "alt": "Parents playing with their child in a redwood grove"
       },
       {
         "id": "404ceff8d8cd",
         "src": "images/1790053958851-88ae0ec0-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Family riding e-bikes with a toddler seat"
       },
       {
         "id": "d2deb8e5b66e",
         "src": "images/1790053959003-8fd6f9b4-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Dancer arching back in a pink dress, framed by rock"
       },
       {
         "id": "a70362497dd3",
         "src": "images/1790053959109-97c941f8-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Dancer in a pink dress leaning back over water"
       },
       {
         "id": "479a7104b2bc",
         "src": "images/1790053959198-20c7f88b-opt.jpg",
-        "caption": "Portrait of Jenna riding in the Marin Headlands."
+        "caption": "Portrait of Jenna riding in the Marin Headlands.",
+        "alt": "Cyclist on a coastal ridge above the sea"
       },
       {
         "id": "9f8f638c1704",
         "src": "images/1790053959350-2881ee72-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclist riding at sunset above the city"
       },
       {
         "id": "5a04b7beb5fc",
         "src": "images/1790053959441-b9355cf7-opt.jpg",
-        "caption": "Photo Pace city slickers ride."
+        "caption": "Photo Pace city slickers ride.",
+        "alt": "Cyclist riding through a city alley"
       },
       {
         "id": "648318106f09",
         "src": "images/1790053959513-912a2a6d-opt.jpg",
-        "caption": "Photography for gravel team Easton Overland."
+        "caption": "Photography for gravel team Easton Overland.",
+        "alt": "Two gravel cyclists chatting on a dry hillside"
       },
       {
         "id": "3527e0cc1000",
         "src": "images/1790053959579-a2944bec-opt.jpg",
-        "caption": "Yelly and Leo in their sprinter van named Betty White."
+        "caption": "Yelly and Leo in their sprinter van named Betty White.",
+        "alt": "Couple sharing a meal inside a camper van"
       },
       {
         "id": "92de6f56fbdb",
         "src": "images/1790053959643-fa04b973-opt.jpg",
-        "caption": "In 2021 my friends Anthony and Megan did a DIY Ironman 140.6 after the COVID pandemic cancelled their race."
+        "caption": "In 2021 my friends Anthony and Megan did a DIY Ironman 140.6 after the COVID pandemic cancelled their race.",
+        "alt": "Triathlete standing on a road at night"
       },
       {
         "id": "5671cc030826",
         "src": "images/1790053959714-71d4c853-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Runners with headlamps on a dark road"
       },
       {
         "id": "9890811ca6e8",
         "src": "images/1790053959782-b486d80a-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Runners and cyclists with headlamps, black and white"
       },
       {
         "id": "38ba63df5625",
         "src": "images/1790053959855-576b2492-opt.jpg",
-        "caption": "I led and photographed an intro to bikepacking event for non-profit Trail Mixed Co."
+        "caption": "I led and photographed an intro to bikepacking event for non-profit Trail Mixed Co.",
+        "alt": "Group of bikepackers posing by the coast"
       },
       {
         "id": "046a0d6cedf4",
         "src": "images/1790053959934-7b240f65-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclists riding over a golden coastal hill"
       },
       {
         "id": "e940fe7dcb5b",
         "src": "images/1790053960013-91eb3634-opt.jpg",
-        "caption": "Album photography for the band Lunar Noon"
+        "caption": "Album photography for the band Lunar Noon",
+        "alt": "Band members on a grassy coastal bluff at sunset"
       },
       {
         "id": "9e1138a50f8c",
         "src": "images/1790053960080-1bab9856-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Musicians laughing on a coastal bluff at sunset"
       },
       {
         "id": "808f9fcedfe5",
         "src": "images/1790053960143-0899a039-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "String players performing on a bluff at sunset"
       },
       {
         "id": "cf6845288452",
         "src": "images/1790053960210-e7010dc9-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Four people walking along a grassy sea cliff"
       },
       {
         "id": "5280aa99af32",
         "src": "images/1790053960280-4224a045-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Smiling woman with windblown hair by the ocean"
       },
       {
         "id": "835b4d1a4404",
         "src": "images/1790053960342-d78a00cd-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Group of cyclists riding down a city street"
       },
       {
         "id": "72248049588f",
         "src": "images/1790053960485-d07f16a0-opt.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Bikepacker riding past blooming lilac bushes"
       },
       {
         "id": "d2494d57b992",
         "src": "images/1790053960647-58d640f1-opt.jpg",
-        "caption": "Photography for San Francisco Bicycle Coalition's Bike to Anywhere campgain"
+        "caption": "Photography for San Francisco Bicycle Coalition's Bike to Anywhere campgain",
+        "alt": "Cyclists riding along the waterfront by the Bay Bridge"
       },
       {
         "id": "21dda4049c43",
         "src": "images/1790053960711-e3deba8e-opt.jpg",
-        "caption": "Crevasse rescue practice on Mt Shasta's north side glaciers."
+        "caption": "Crevasse rescue practice on Mt Shasta's north side glaciers.",
+        "alt": "Climber in an ice crevasse on Mt Shasta"
       },
       {
         "id": "f35e832084c5",
         "src": "images/1790053960844-8321e436-opt.jpg",
-        "caption": "Danza de los Voladores in Mexico City."
+        "caption": "Danza de los Voladores in Mexico City.",
+        "alt": "Danza de los Voladores performer hanging from a rope"
       }
     ]
   },
@@ -910,72 +1753,85 @@
       {
         "id": "6acf0613b2aa",
         "src": "images/projects/forestwater/img01.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman reflected in a mirror on fallen leaves"
       },
       {
         "id": "cd4edb12e10e",
         "src": "images/projects/forestwater/img02.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman holding a mirror among ferns"
       },
       {
         "id": "4823dc0b3719",
         "src": "images/projects/forestwater/img03.jpg",
         "caption": "",
-        "hidden": false
+        "hidden": false,
+        "alt": "Woman touching her face in a mirror in the woods"
       },
       {
         "id": "17e8393e0a66",
         "src": "images/projects/forestwater/img04.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman holding a mirror framing an amphitheater"
       },
       {
         "id": "49e1be1c3054",
         "src": "images/projects/forestwater/img05.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Figure lying on a yellow blanket in an empty amphitheater"
       },
       {
         "id": "989065f50d69",
         "src": "images/projects/forestwater/img06.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Mirror standing in tall grass by a lagoon"
       },
       {
         "id": "33b241d42fe8",
         "src": "images/projects/forestwater/img07.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Dancer on a log reflected in a mirror"
       },
       {
         "id": "7340b0d39df1",
         "src": "images/projects/forestwater/img08.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Barefoot dancer reflected in still water"
       },
       {
         "id": "082257876e39",
         "src": "images/projects/forestwater/img09.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Dancer in a pink lace dress arching over water"
       },
       {
         "id": "c36ad409a499",
         "src": "images/projects/forestwater/img10.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Dancer in pink reflected in a mirror by the water"
       },
       {
         "id": "04fff09fcf4a",
         "src": "images/projects/forestwater/img11.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Dancer in pink lace posing beside water"
       },
       {
         "id": "c3998b74257e",
         "src": "images/projects/forestwater/img12.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Woman in a pink lace dress lying in grass"
       },
       {
         "id": "ff45515e08d4",
         "src": "images/projects/forestwater/img13.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Woman asleep on a pillow at the water's edge"
       }
     ]
   },
@@ -995,68 +1851,80 @@
       {
         "id": "ec7a3419df0d",
         "src": "images/projects/bathhaus/img01.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman floating in a milky bathtub"
       },
       {
         "id": "cdb757acfee6",
         "src": "images/projects/bathhaus/img02.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Man in a cloud-print suit in a bathtub"
       },
       {
         "id": "fe27ee77b994",
         "src": "images/projects/bathhaus/img03.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman in red light in a flower-strewn bathtub"
       },
       {
         "id": "1126110241ee",
         "src": "images/projects/bathhaus/img04.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Woman lying in a bathtub with flowers"
       },
       {
         "id": "9ad81f3deba7",
         "src": "images/projects/bathhaus/img05.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman in a turquoise bath holding a cigar"
       },
       {
         "id": "eac05f4e3d62",
         "src": "images/projects/bathhaus/img06.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman curled up in a milky white bath"
       },
       {
         "id": "b4ce73f9c648",
         "src": "images/projects/bathhaus/img07.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Woman with glitter makeup in a milky bath"
       },
       {
         "id": "c5d99612c20f",
         "src": "images/projects/bathhaus/img08.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Hand placing a red rose in a bathtub"
       },
       {
         "id": "b64f7deb2fd4",
         "src": "images/projects/bathhaus/img09.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Water poured over a man in a turquoise bath"
       },
       {
         "id": "16671c3fe83d",
         "src": "images/projects/bathhaus/img10.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Man resting in a bath with pink flowers"
       },
       {
         "id": "5994164aa751",
         "src": "images/projects/bathhaus/img11.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Man in a bath with flowers, holding a glass"
       },
       {
         "id": "89ff5b4ec913",
         "src": "images/projects/bathhaus/img12.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Photographer shooting a woman in a bathtub"
       }
     ]
   },
@@ -1076,163 +1944,192 @@
       {
         "id": "4de1254cd8a2",
         "src": "images/projects/panoche-hills-cycling/img03.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Dirt roads winding over dry rolling hills"
       },
       {
         "id": "8c0a5481aa4b",
         "src": "images/projects/panoche-hills-cycling/img04.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclists climbing a winding dirt road"
       },
       {
         "id": "52f7006b258f",
         "src": "images/projects/panoche-hills-cycling/img02.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclists on a grassy ridgetop dirt road"
       },
       {
         "id": "69f8196a11b2",
         "src": "images/projects/panoche-hills-cycling/img01.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Endless rolling badland hills"
       },
       {
         "id": "776aa6e68c91",
         "src": "images/projects/panoche-hills-cycling/img05.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Cyclists making coffee at a shaded campsite"
       },
       {
         "id": "0628a6d82817",
         "src": "images/projects/panoche-hills-cycling/img06.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Two cyclists riding side by side on a paved road"
       },
       {
         "id": "11d27c948b74",
         "src": "images/projects/panoche-hills-cycling/img07.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Riders on a road through green rangeland"
       },
       {
         "id": "bb01f3d64216",
         "src": "images/projects/panoche-hills-cycling/img08.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Two riders resting with bikes on a hillside"
       },
       {
         "id": "96c5381443e4",
         "src": "images/projects/panoche-hills-cycling/img09.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Lone cyclist below pale eroded hills"
       },
       {
         "id": "738fd0d21e2f",
         "src": "images/projects/panoche-hills-cycling/img10.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Cyclist riding up a winding dirt road"
       },
       {
         "id": "98a021e1153f",
         "src": "images/projects/panoche-hills-cycling/img11.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Group of cyclists on a dirt road toward hills"
       },
       {
         "id": "e804a4d4edba",
         "src": "images/projects/panoche-hills-cycling/img12.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Cyclists riding between orchard rows"
       },
       {
         "id": "3143a0574029",
         "src": "images/projects/panoche-hills-cycling/img13.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Rider overlooking hills dotted with wildflowers"
       },
       {
         "id": "ffd6ce044578",
         "src": "images/projects/panoche-hills-cycling/img14.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Grassy ridge above pale rolling hills"
       },
       {
         "id": "e031912580ae",
         "src": "images/projects/panoche-hills-cycling/img15.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Two cyclists descending a dirt ridge road"
       },
       {
         "id": "69bf22e64a14",
         "src": "images/projects/panoche-hills-cycling/img16.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclist passing a herd of cattle"
       },
       {
         "id": "f314ced10886",
         "src": "images/projects/panoche-hills-cycling/img17.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Riders pushing bikes up a steep dry hill"
       },
       {
         "id": "db6aade89f65",
         "src": "images/projects/panoche-hills-cycling/img18.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Rider cheering atop a steep dirt climb"
       },
       {
         "id": "3dbd2fb487a1",
         "src": "images/projects/panoche-hills-cycling/img19.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Riders on a dirt track across rolling hills"
       },
       {
         "id": "dec9e33b5f07",
         "src": "images/projects/panoche-hills-cycling/img20.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclists on a dirt road below eroded hills"
       },
       {
         "id": "900a8919887d",
         "src": "images/projects/panoche-hills-cycling/img21.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Smiling rider walking a bike through a creek"
       },
       {
         "id": "4756483f3ad5",
         "src": "images/projects/panoche-hills-cycling/img22.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Rider laughing while pushing a bike through water"
       },
       {
         "id": "27836e2ac187",
         "src": "images/projects/panoche-hills-cycling/img23.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Cyclists with lights on a road at dusk"
       },
       {
         "id": "68b1db96ef49",
         "src": "images/projects/panoche-hills-cycling/img24.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Two cyclists riding side by side at dusk"
       },
       {
         "id": "571f1a5ea92e",
         "src": "images/projects/panoche-hills-cycling/img25.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Cyclists riding a rural road at twilight"
       },
       {
         "id": "b4d695b76b08",
         "src": "images/projects/panoche-hills-cycling/img26.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Man tending a fire pit at night"
       },
       {
         "id": "8d75e69c007d",
         "src": "images/projects/panoche-hills-cycling/img27.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Hammock and bikes by a campfire at night"
       },
       {
         "id": "3b6feb999a6f",
         "src": "images/projects/panoche-hills-cycling/img28.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Roadside sign for Mercey Hot Springs"
       },
       {
         "id": "97c575abc12b",
         "src": "images/projects/panoche-hills-cycling/img29.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Pale hills beyond a plowed field"
       }
     ]
   },
@@ -1252,127 +2149,152 @@
       {
         "id": "d080d760b8a2",
         "src": "images/projects/agra-and-jaipur/img01.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rooftop view over busy Jaipur streets"
       },
       {
         "id": "57248096bf93",
         "src": "images/projects/agra-and-jaipur/img02.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Colorful rickshaws and a street market from above"
       },
       {
         "id": "7c890fe36b55",
         "src": "images/projects/agra-and-jaipur/img03.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Men sitting below carved sandstone arches"
       },
       {
         "id": "2c0b350a82c7",
         "src": "images/projects/agra-and-jaipur/img04.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Mother and child sitting by red stone pillars"
       },
       {
         "id": "40fd8f61e294",
         "src": "images/projects/agra-and-jaipur/img05.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Chandeliers under a draped wedding canopy"
       },
       {
         "id": "6de4174b4a85",
         "src": "images/projects/agra-and-jaipur/img06.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Workers hanging pink fabric in a palace courtyard"
       },
       {
         "id": "837304936901",
         "src": "images/projects/agra-and-jaipur/img07.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Workers building a pink and yellow wedding stage"
       },
       {
         "id": "e5d85ac7f4aa",
         "src": "images/projects/agra-and-jaipur/img08.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Older man in a crowd of women in saris"
       },
       {
         "id": "7625d0ea8ae7",
         "src": "images/projects/agra-and-jaipur/img09.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Crowd in colorful saris at a red stone gate"
       },
       {
         "id": "0a1fb0cf607e",
         "src": "images/projects/agra-and-jaipur/img10.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman in a pink sari riding a rickshaw"
       },
       {
         "id": "e79b209529d5",
         "src": "images/projects/agra-and-jaipur/img11.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Pink sandstone facade of the Hawa Mahal"
       },
       {
         "id": "9fa059ca21f2",
         "src": "images/projects/agra-and-jaipur/img12.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Close-up of the Hawa Mahal's latticed windows"
       },
       {
         "id": "b0c0fe598079",
         "src": "images/projects/agra-and-jaipur/img13.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Ornate mirrored wall inside a palace"
       },
       {
         "id": "74b5c849dea1",
         "src": "images/projects/agra-and-jaipur/img14.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Two young monkeys on a table"
       },
       {
         "id": "7070b7f0df1b",
         "src": "images/projects/agra-and-jaipur/img15.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Monkey rummaging through trash"
       },
       {
         "id": "ae43247c6d4c",
         "src": "images/projects/agra-and-jaipur/img16.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Sunlit scalloped sandstone arches"
       },
       {
         "id": "4c5a051da0d0",
         "src": "images/projects/agra-and-jaipur/img17.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Painted white archway in a red stone gate"
       },
       {
         "id": "3820bfc8f38e",
         "src": "images/projects/agra-and-jaipur/img18.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Man carrying a large sack on his head"
       },
       {
         "id": "ff669ddc1c77",
         "src": "images/projects/agra-and-jaipur/img19.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Decorated truck on a busy road"
       },
       {
         "id": "2b9c5964f5a1",
         "src": "images/projects/agra-and-jaipur/img20.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Crowd walking through a dark passage"
       },
       {
         "id": "a65972461c60",
         "src": "images/projects/agra-and-jaipur/img21.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Taj Mahal framed by a dark archway"
       },
       {
         "id": "2c78929afa07",
         "src": "images/projects/agra-and-jaipur/img22.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Inlaid marble detail of the Taj Mahal"
       },
       {
         "id": "fd5372a4de2d",
         "src": "images/projects/agra-and-jaipur/img23.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Crowds walking toward the Taj Mahal"
       },
       {
         "id": "12e576484997",
         "src": "images/projects/agra-and-jaipur/img24.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Taj Mahal beyond its gardens"
       },
       {
         "id": "888b2d47200e",
         "src": "images/projects/agra-and-jaipur/img25.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Young men posing on the Taj Mahal terrace"
       }
     ]
   },
@@ -1392,84 +2314,100 @@
       {
         "id": "7076e1fe75c9",
         "src": "images/projects/old-delhi-india/img01.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Laundry hanging over a crowded Delhi street"
       },
       {
         "id": "4f33325eb617",
         "src": "images/projects/old-delhi-india/img02.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Burlap sacks of dried chilies at a market"
       },
       {
         "id": "476f1cf09291",
         "src": "images/projects/old-delhi-india/img03.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Man and a schoolboy in a cycle rickshaw"
       },
       {
         "id": "39a86906820b",
         "src": "images/projects/old-delhi-india/img04.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Workers loading sacks in a narrow lane"
       },
       {
         "id": "fb2ac0702505",
         "src": "images/projects/old-delhi-india/img05.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman walking down a tangled-wire alley"
       },
       {
         "id": "75514edd8c4c",
         "src": "images/projects/old-delhi-india/img06.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Vegetable vendor handing over a bag"
       },
       {
         "id": "8265b587bbb3",
         "src": "images/projects/old-delhi-india/img07.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Men in turbans sharing a meal"
       },
       {
         "id": "361bd53cd783",
         "src": "images/projects/old-delhi-india/img08.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Volunteers peeling potatoes on the floor"
       },
       {
         "id": "125031c17642",
         "src": "images/projects/old-delhi-india/img09.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Child peering out of a school rickshaw"
       },
       {
         "id": "2a06151d138c",
         "src": "images/projects/old-delhi-india/img10.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Crowded market street in Old Delhi"
       },
       {
         "id": "931d49162b19",
         "src": "images/projects/old-delhi-india/img11.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rooftops above a narrow Delhi lane"
       },
       {
         "id": "c3549eac8171",
         "src": "images/projects/old-delhi-india/img12.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Workers stacking boxes in a workshop"
       },
       {
         "id": "ae348f885a02",
         "src": "images/projects/old-delhi-india/img13.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Painted doorways along a quiet alley"
       },
       {
         "id": "a827a4b4c67e",
         "src": "images/projects/old-delhi-india/img14.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Man among hanging bundles of thread"
       },
       {
         "id": "9996b1254d93",
         "src": "images/projects/old-delhi-india/img15.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Man block-printing red fabric by hand"
       },
       {
         "id": "3f00140231c0",
         "src": "images/projects/old-delhi-india/img16.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Schoolchildren on a balcony above a courtyard"
       }
     ]
   },
@@ -1489,97 +2427,116 @@
       {
         "id": "965c2a6963ac",
         "src": "images/projects/alps/img01.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Jagged granite peak above a glacier"
       },
       {
         "id": "a9fc9be8b288",
         "src": "images/projects/alps/img02.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber squeezing up a granite chimney"
       },
       {
         "id": "bdc09db95514",
         "src": "images/projects/alps/img03.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber below a tall granite tower in fog"
       },
       {
         "id": "8ed713f3529a",
         "src": "images/projects/alps/img04.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber on a misty granite ridge"
       },
       {
         "id": "23fb0ce429bc",
         "src": "images/projects/alps/img05.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climbers standing at the mouth of an ice cave"
       },
       {
         "id": "a0b58b8cc7a7",
         "src": "images/projects/alps/img06.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Dark clouds around a jagged alpine peak"
       },
       {
         "id": "a4a296a025fc",
         "src": "images/projects/alps/img07.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Line of climbers crossing a vast snowfield"
       },
       {
         "id": "558340654a74",
         "src": "images/projects/alps/img08.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber in orange pants scrambling over rock"
       },
       {
         "id": "9d1f4e1b7074",
         "src": "images/projects/alps/img09.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Roped climbers on snow below a rock ridge"
       },
       {
         "id": "82093065c8ce",
         "src": "images/projects/alps/img10.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Lone climber on a steep ice face"
       },
       {
         "id": "1c7d28d586ee",
         "src": "images/projects/alps/img11.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climbers heading toward a hut on a snowy ridge"
       },
       {
         "id": "59b9e918509b",
         "src": "images/projects/alps/img12.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climber in red jamming a granite crack"
       },
       {
         "id": "fe21a80e7489",
         "src": "images/projects/alps/img13.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rock towers fading into fog"
       },
       {
         "id": "6b7b30d04e0c",
         "src": "images/projects/alps/img14.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Granite spires in drifting clouds"
       },
       {
         "id": "577e3e8da75f",
         "src": "images/projects/alps/img15.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Aiguille du Midi summit station on rocky spires"
       },
       {
         "id": "3b69ce26a51a",
         "src": "images/projects/alps/img16.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rime ice coating a granite face"
       },
       {
         "id": "5fddbd655873",
         "src": "images/projects/alps/img17.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Hiker beside a crevasse warning sign"
       },
       {
         "id": "64ae803a6a8b",
         "src": "images/projects/alps/img18.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climbers on a rocky arête above snow"
       },
       {
         "id": "076b17425ea1",
         "src": "images/projects/alps/img19.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climbers gearing up in an ice tunnel"
       }
     ]
   },
@@ -1599,137 +2556,164 @@
       {
         "id": "af8b9567df84",
         "src": "images/projects/iceland-ring-road/img01.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Clouds spilling over a dark ridge"
       },
       {
         "id": "7f6916f68c79",
         "src": "images/projects/iceland-ring-road/img02.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Green valley below cloud-capped mountains"
       },
       {
         "id": "af1b6d233892",
         "src": "images/projects/iceland-ring-road/img03.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Farmhouse below snowy peaks in low clouds"
       },
       {
         "id": "bc555e314fea",
         "src": "images/projects/iceland-ring-road/img04.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Pink sunset over icebergs on a black beach"
       },
       {
         "id": "8880a76f7262",
         "src": "images/projects/iceland-ring-road/img05.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Green northern lights over mountains"
       },
       {
         "id": "b5bea33fe74d",
         "src": "images/projects/iceland-ring-road/img06.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Waterfalls pouring into a rocky pool"
       },
       {
         "id": "c04870b8b8d3",
         "src": "images/projects/iceland-ring-road/img07.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Steam rising from a geothermal lagoon"
       },
       {
         "id": "8007750dd234",
         "src": "images/projects/iceland-ring-road/img08.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Waterfalls in a mossy canyon"
       },
       {
         "id": "7ed89f2b62d5",
         "src": "images/projects/iceland-ring-road/img09.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Field of purple lupines under gray skies"
       },
       {
         "id": "1e20f3cbe010",
         "src": "images/projects/iceland-ring-road/img10.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Water dripping down a mossy cliff"
       },
       {
         "id": "7e7b55e735ca",
         "src": "images/projects/iceland-ring-road/img11.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Explorer touching the walls of a blue ice cave"
       },
       {
         "id": "63c36628bdac",
         "src": "images/projects/iceland-ring-road/img12.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Van parked by a waterfall at dusk"
       },
       {
         "id": "e20357bce95b",
         "src": "images/projects/iceland-ring-road/img13.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "White house below a snowcapped volcano"
       },
       {
         "id": "744027bc089a",
         "src": "images/projects/iceland-ring-road/img14.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Person floating in a steaming hot river"
       },
       {
         "id": "193b94b3ac87",
         "src": "images/projects/iceland-ring-road/img15.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Kirkjufell mountain above twin waterfalls"
       },
       {
         "id": "495c4c0dde85",
         "src": "images/projects/iceland-ring-road/img16.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Snow-streaked volcano"
       },
       {
         "id": "5d5a7f62f64a",
         "src": "images/projects/iceland-ring-road/img17.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Icelandic horses with windblown manes"
       },
       {
         "id": "8e16b407aa37",
         "src": "images/projects/iceland-ring-road/img18.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Two people on a rocky outcrop above a lake"
       },
       {
         "id": "8bcfdba47242",
         "src": "images/projects/iceland-ring-road/img19.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Farmhouse by the sea below a snowy mountain"
       },
       {
         "id": "91ace285dbf1",
         "src": "images/projects/iceland-ring-road/img20.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Waterfall in a green river gorge"
       },
       {
         "id": "a7513097fc94",
         "src": "images/projects/iceland-ring-road/img21.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Clouds pouring over a dark mountain ridge"
       },
       {
         "id": "6c5d6c7aa76b",
         "src": "images/projects/iceland-ring-road/img22.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Clouds draped over dark mountains by a fjord"
       },
       {
         "id": "0c2020f4647c",
         "src": "images/projects/iceland-ring-road/img23.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Pink alpenglow on snowy mountains above a river"
       },
       {
         "id": "9dc944d11ed7",
         "src": "images/projects/iceland-ring-road/img24.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Icebergs on a black sand beach at sunset"
       },
       {
         "id": "58d2d6470637",
         "src": "images/projects/iceland-ring-road/img25.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Ice chunk in pink surf at sunset"
       },
       {
         "id": "6df022f27aca",
         "src": "images/projects/iceland-ring-road/img26.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Glowing ice chunks on the shore at sunset"
       },
       {
         "id": "ad0487011adc",
         "src": "images/projects/iceland-ring-road/img27.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Smooth pebbles on black sand"
       }
     ]
   },
@@ -1749,67 +2733,80 @@
       {
         "id": "15dccbb2785f",
         "src": "images/projects/marrakech/img01.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rugs and goods in a busy souk"
       },
       {
         "id": "7d543a1f1291",
         "src": "images/projects/marrakech/img02.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Men sitting in a narrow pink alley"
       },
       {
         "id": "1773fc17f998",
         "src": "images/projects/marrakech/img03.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Person sitting by a terracotta facade"
       },
       {
         "id": "080536ecdbe9",
         "src": "images/projects/marrakech/img04.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Marrakech rooftops and a minaret at dusk"
       },
       {
         "id": "57188ea4ee92",
         "src": "images/projects/marrakech/img05.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Shops glowing in a covered souk"
       },
       {
         "id": "4bba46a82c73",
         "src": "images/projects/marrakech/img06.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Mules harnessed to carts on a street"
       },
       {
         "id": "f7b40eab4e9c",
         "src": "images/projects/marrakech/img07.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Carved stucco archway in a courtyard"
       },
       {
         "id": "37890b8db6d4",
         "src": "images/projects/marrakech/img08.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Kitten asleep on brass trays"
       },
       {
         "id": "c983e8ac7145",
         "src": "images/projects/marrakech/img09.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Vines on a painted pink wall"
       },
       {
         "id": "ad00f760ed30",
         "src": "images/projects/marrakech/img10.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Boy knocking on a door below Arabic graffiti"
       },
       {
         "id": "005270db0418",
         "src": "images/projects/marrakech/img11.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Boys sitting by a pink wall, seen through a gap"
       },
       {
         "id": "f6034d8db8d9",
         "src": "images/projects/marrakech/img12.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Sunset over Marrakech and the Koutoubia minaret"
       },
       {
         "id": "f64c1569db88",
         "src": "images/projects/marrakech/img13.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Boys around a street bonfire, black and white"
       }
     ]
   },
@@ -1830,72 +2827,85 @@
         "id": "9b25642e729b",
         "src": "images/projects/zermatt/img01.jpg",
         "caption": "",
-        "hidden": false
+        "hidden": false,
+        "alt": "Alpine lake below mountains and a small hut"
       },
       {
         "id": "b22c294cb5b4",
         "src": "images/projects/zermatt/img02.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Clouds swirling around the Matterhorn"
       },
       {
         "id": "1901068abdda",
         "src": "images/projects/zermatt/img03.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Sunlit peak through dark storm clouds"
       },
       {
         "id": "c79d812907f8",
         "src": "images/projects/zermatt/img04.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Matterhorn reflected in a still alpine lake"
       },
       {
         "id": "d4425ef7f8b7",
         "src": "images/projects/zermatt/img06.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climbers on a snowy rock ridge"
       },
       {
         "id": "ef0771e6eca8",
         "src": "images/projects/zermatt/img07.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Rocky summit above glaciers"
       },
       {
         "id": "b6dfdd6a29ca",
         "src": "images/projects/zermatt/img05.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Climbers on a knife-edge snow ridge"
       },
       {
         "id": "e1eb6675a0ca",
         "src": "images/projects/zermatt/img08.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Hiker on a ridge facing the Matterhorn"
       },
       {
         "id": "e11e9430be03",
         "src": "images/projects/zermatt/img09.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Matterhorn veiled in clouds"
       },
       {
         "id": "ece10de9ce59",
         "src": "images/projects/zermatt/img10.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Hiker in a red helmet overlooking glaciers"
       },
       {
         "id": "70d5fb04d960",
         "src": "images/projects/zermatt/img11.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Matterhorn behind a rocky tarn, black and white"
       },
       {
         "id": "f3164360350e",
         "src": "images/projects/zermatt/img12.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Jagged peaks rising above glaciers"
       },
       {
         "id": "eecc162e6bc8",
         "src": "images/projects/zermatt/img13.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Zermatt lights below the Matterhorn at dusk"
       }
     ],
     "hidden": false
@@ -1916,64 +2926,210 @@
       {
         "id": "c028cb2bf4ad",
         "src": "images/projects/waltzing-in-iceland/img01.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman in pink below a mossy waterfall"
       },
       {
         "id": "8ef9432c39d5",
         "src": "images/projects/waltzing-in-iceland/img02.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Green mountainside streaked with waterfalls"
       },
       {
         "id": "a3e015e2bb21",
         "src": "images/projects/waltzing-in-iceland/img03.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Person on the rim of a mossy canyon"
       },
       {
         "id": "75f50d1db0d1",
         "src": "images/projects/waltzing-in-iceland/img04.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Man in a suit on a black sand beach"
       },
       {
         "id": "e4cb84f6eeb9",
         "src": "images/projects/waltzing-in-iceland/img05.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman in red climbing basalt columns by the sea"
       },
       {
         "id": "25761c454870",
         "src": "images/projects/waltzing-in-iceland/img07.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman in a pink gown against black basalt"
       },
       {
         "id": "d0953fea1454",
         "src": "images/projects/waltzing-in-iceland/img08.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Misty green canyon with a river"
       },
       {
         "id": "e4850321b2f0",
         "src": "images/projects/waltzing-in-iceland/img09.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Waterfalls plunging into a mossy gorge"
       },
       {
         "id": "298e265b81a8",
         "src": "images/projects/waltzing-in-iceland/img10.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Woman in a pink gown overlooking a canyon"
       },
       {
         "id": "313a0415faf2",
         "src": "images/projects/waltzing-in-iceland/img11.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "River winding through a mossy canyon"
       },
       {
         "id": "deb81b5c7b63",
         "src": "images/projects/waltzing-in-iceland/img06.jpg",
-        "caption": ""
+        "caption": "",
+        "alt": "Woman in red sitting on basalt columns"
       },
       {
         "id": "aaac240092ab",
         "src": "images/projects/waltzing-in-iceland/img12.jpg",
         "caption": "",
-        "hidden": true
+        "hidden": true,
+        "alt": "Woman soaking in a grassy hot spring"
+      }
+    ]
+  },
+  {
+    "id": "651070d6c9c4",
+    "title": "Construction Crane Above Paris",
+    "slug": "construction-crane-above-paris",
+    "year": 2013,
+    "description": "I was still meeting new friends (and still climbing things) even on my 2nd to last day in Paris. That night I was introduced to Cigale via a mutual Couchsurfing friend. Cigale was an Australian photographer who had been living in Paris for two years. He was quite the character; he sported a classy Salvador Dalí mustache, was an amazing storyteller, and had constructed a room in the west catacomb networks of the GRS. In fact \"Cigale,\" his pseudonym, was an homage to his mustache. I asked Cigale if he wanted to join Averell, Jean-Christophe and I that night as we returned to a small and obscure network in which Averell and Jean-Christophe were constructing a room. I guess I could be considered the temporary \"artist-in-residence\" there ;-)\r\n\r\nAfter a few hours of painting and storytelling underground, we exited the catacombs at 2am. Cigale and I biked north because he lived near the Bastille and I lived near the Champs-Élysées. As we crossed the Seine, we saw a towering construction crane along bank and decided to give it a climb. Neither of us had ever climbed a crane, but the excitement was mutual.",
+    "tags": [
+      "photoblog"
+    ],
+    "template": "blog",
+    "page": "photoblog",
+    "link": "",
+    "gridTitle": "",
+    "gridText": "",
+    "image": "images/1793737738340-54e4f291-opt.jpg",
+    "imageAlt": "Climber standing on the crane jib above Paris under a full moon",
+    "images": [
+      {
+        "id": "b37067466823",
+        "src": "images/1793737738340-54e4f291-opt.jpg",
+        "caption": "",
+        "alt": "Climber standing on the crane jib above Paris under a full moon"
+      },
+      {
+        "id": "2f0fdcfbd403",
+        "src": "images/1793737738348-3534a542-opt.jpg",
+        "caption": "",
+        "alt": "Paris rooftops and the Seine from the top of the crane"
+      },
+      {
+        "id": "f838a65a7830",
+        "src": "images/1793737738357-0e9f559c-opt.jpg",
+        "caption": "",
+        "alt": "Two climbers on the crane platform looking over the city"
+      },
+      {
+        "id": "ebfabc48c584",
+        "src": "images/1793737738365-f70dd405-opt.jpg",
+        "caption": "",
+        "alt": "The Seine and its embankments lit up at night"
+      },
+      {
+        "id": "ed1e0da05b22",
+        "src": "images/1793737738374-10f6bd5b-opt.jpg",
+        "caption": "",
+        "alt": "Climber sitting at the end of the crane jib"
+      },
+      {
+        "id": "c400f6b841a5",
+        "src": "images/1793737738381-f2e0416b-opt.jpg",
+        "caption": "",
+        "alt": "Climber lying back on the crane, looking up"
+      },
+      {
+        "id": "6319faeec7e1",
+        "src": "images/1793737738389-079add88-opt.jpg",
+        "caption": "",
+        "alt": "Glowing Paris skyline from the crane"
+      },
+      {
+        "id": "c436ba51478b",
+        "src": "images/1793737738398-682758a3-opt.jpg",
+        "caption": "We hopped the fence and climbed up rung by rung, ascending the construction crane. Once at the top, we climbed to the jib of the crane and drank in the surreal 360 view of Paris lights and the beautiful Seine, shimmering under a full moon. Cigale drank some water, then poured a bit over the side of the crane. \"Water for my homies!\" he exclaimed.\r\n\r\nIt was an incredulous situation that despite being my second to last night in Paris before flying back to the states, I found myself at the tip of a construction crane at 3AM with an Australian photographer-cataphile. Surreal. Damn, everything was surreal.\r\n\r\n\"Do you recognize all the buildings?\" Cigale asked me. I was excited to identify quite a few: the glowing green of the l'Institute de la Mode jumped out at me. Then Notre Dame and the Panthéon. l'Institut du Monde Arabe with its glowing green horizontal lines. In the distance I could even make out l'Arc du Triomphe, and impressively, la Defense behind it too. The clock of the Musée d'Orsay, maybe? \"Nope! that's actually the Gare de Lyon\", Cigale corrected me. I also recognized Parc de Bercy right across the river, Monmarte and Sacré Coeur in the distance, and too many ornate churches to count ...\r\n\r\nAbsolutely breathtaking. Due to the full moon and light pollution it was a starless night, but down below our feet, the entire world glowed.\r\n\r\nAs we climbed down I asked Cigale, \"Do you think you'll stay in Paris for the rest of your life?\" \r\n\r\nUsually when I ask people questions about the future I get understandably uncertain responses; I was surprised to hear him respond with a confident <i>\"Yup!\"</i> Hearing that somehow gave me a comforting warmth. He loved Paris.\r\n\r\nThe view looking down:",
+        "alt": "Climber at the crane railing above the Seine"
+      },
+      {
+        "id": "9da33983fee6",
+        "src": "images/1793737738405-1bdbc561-opt.jpg",
+        "caption": "\"Don't think I would've done this if I were by myself,\" Cigale told me after we climbed down and back over the construction fencing. He also admitted he was a bit acrophobic. I grinned.\r\n\r\nWe turned around to face the fence one last time. To enter, Cigale had climbed over a weak part of the fence and had consequently created a huge bulge at the top. I was second to climb over, and instead, I spotted a better route via clinging onto some wood reinforcements on the side -- once again, the idea of taking time to puzzle out the best routes. \"Well,\" he defended himself, \"I wanted to spend the least time possible outside looking like a suspect just standing and <i>looking</i> like I wanted to climb over!\"\r\n\r\n\"Who knows,\" he added, \"Maybe they'll think it was some drunk guy that fell.\"",
+        "alt": "Looking straight down through the crane's red frame"
+      }
+    ]
+  },
+  {
+    "id": "7517455f6411",
+    "title": "Williamsburg Bridge",
+    "slug": "williamsburg-bridge",
+    "year": 2014,
+    "description": "[<i>July 2014</i>] It promised to be a pretty remarkable day where there would be a double dose of natural phenomena: a supermoon and Manhattanhenge, a twice-a-year solar phenomenon is during which the setting sun is aligned with the east-west streets of the main street grid of Manhattan. And later, it turns out, this would also be the day we climbed up to the top of the Williamsburg bridge.",
+    "tags": [
+      "photoblog"
+    ],
+    "template": "blog",
+    "page": "photoblog",
+    "link": "",
+    "gridTitle": "",
+    "gridText": "",
+    "image": "images/1793737684696-f1212b66.jpg",
+    "imageAlt": "Williamsburg Bridge roadway lit up at night, seen from the tower",
+    "images": [
+      {
+        "id": "8826a217a3f0",
+        "src": "images/1793737684696-f1212b66.jpg",
+        "caption": "When I meet someone I don't know or go somewhere I've never been my senses are subconsciously alert for signs: a sign that things are going to be good or terrible. Lucas called to tell me that he had just arrived at the subway station and put me on hold as he walked around to find me. As he strolled I could through the receiver that he was casually whistling a tune. I knew this was going to be good.\r\n\r\nLucas was a Couchsurfer who I can contacted because of our mutual interest in UE. We first headed to the Red Hook Grain Elevator, an abandoned grain silo in the Red Hook area -- the apparent appetizer before we would attempt the Williamsburg. \"Red Hook\" sounds pretty ominous, I remarked. We crossed a wet, dewy soccer field where the water soaked through our socks to our toes, then scaled a brick wall to hop over to the other side, scanning the area, trying to find an in. There were rungs up to the chimney stack of Red Hook but a few were cut off strategically before the 20 ft mark. There were also a few admirable ships at the dock and as we're engrossed in our photography a cat purrs and brushes against us (\"Hi kitty! Good kee-tty\" Lucas coos). Shortly after a man bikes up to the ship...\r\n\r\nA middle-aged man who introduced himself as Mattias warned us in a French-like accent \"I can tell you guys are pretty, but don't come here without people. theres a guard that comes every 30 min and I could've told security. But I can tell you are pretty so I won't report. Other people come here to do bad things. You are pretty, but it's a bad idea. You should leave right now.\" \r\n\r\nAfter recapping this encounter with Lucas I realized he was saying \"friendly\" not \"pretty.\" <i>Oh.</i>\r\n\r\nIt wasn't even midnight yet so the two of us decided to kill time till 2 or 3AM. \"That's when there's least people\" Lucas mulls. He has never climbed the Williamsburg bridge before either, but we had both watched Undercity, featuring urban explorer Steve Duncan as he climbs the Williamsburg. That was our starting point: that it was possible.",
+        "alt": "Williamsburg Bridge roadway lit up at night, seen from the tower"
+      },
+      {
+        "id": "2c52ba0bb639",
+        "src": "images/1793737684720-4b156928.jpg",
+        "caption": "<i>3:15AM.</i> We approach the bridge and notice there are very few people, mostly drunk couples returning from parties, struggling to ride bikes, struggling to walk. We walk past the first tower \"The Manhattan side sees more traffic so let's go to the Brooklyn-side tower\" Lucas explains. \r\n\r\nWe stop to put on gloves, jackets, headlamps, and discuss a plan -- not that there was a plan. The tall gate seemed easy to hop, but there was a huge blockage preventing trespassers from immediately accessing the stairs. This meant we would have to climb directly on the bridge lattice like they did in Undercity. Without actually being on the bridge, I found it hard to imagine myself crossing from one side to the other -- dangling feet, a huge drop below to the rush of cars, and an inconveniently placed metal barrier.\r\n\r\nAs we stared at our target silently, we saw a tall man walking up with his bike, approaching us from the distance. He introduced himself with a smile as Paul. I swore he bore a slight resemblance to Steve Duncan himself. Apparently Paul had considered climbing it 3 times before as he biked across but never has … yet. He had spotted us just as he had biked up to the tower on the other side. \"I was really annoyed at first. I was waiting for you two to leave so I could try heading up the tower but you weren't leaving. Then I realized what you were up to, of course! And I biked really fast to get all the way here, hoping you'd still be on the walkway when I got here.\"  I was amused. Paul's enthusiasm, despite our cumulative lack of experience, really sparked a determination in our collective group of 3. We swung our legs over the gate and started climbing the metal lattice like cats with our tush in the air, a delicate balancing act.\r\n\r\nIt takes two to tango; three to trespass onto a bridge tower.",
+        "alt": "Bridge deck and Manhattan skyline from the tower top at night"
+      },
+      {
+        "id": "de5e18ba2f93",
+        "src": "images/1793737684747-4351f29e.jpg",
+        "caption": "We found a set of rungs in the interior of the bridge and we climbed into a room at the very top of the tower. There were tiny windows with Sharpied graffiti. One read, \"The view up here sucks!\" \r\n\r\nWe walked from one end of the bridge tower to the other and saw a sleeping pad spread out on the floor. I instantly thought back to Moses Gate's book \"Hidden Cities\" where he described him and his girlfriend having sex on the top of the Williamsburg -- which inspired him to start a Sex on Bridges Club (akin to the Mile High Club.) \r\n\r\nI was standing right there, right now, in the belly of the bridge. At the scene of the crime. There was a window that opened to the cables and Paul and I took turns walking out onto the massive steel cable. It was exhilarating following the curve of the cable down towards the cars below, with a backdrop of a thousand city lights. I would've walked further had I not been afraid of being seen.",
+        "alt": "Suspension cables and steel arches inside the bridge tower"
+      },
+      {
+        "id": "0906526554b1",
+        "src": "images/1793737684797-67f25166.jpg",
+        "caption": "",
+        "alt": "Climber silhouetted in a tower window above the bridge"
+      },
+      {
+        "id": "7c37b476f1c6",
+        "src": "images/1793737684826-9eed181d.jpg",
+        "caption": "",
+        "alt": "Manhattan skyline across the East River at night"
+      },
+      {
+        "id": "fd6178e5af88",
+        "src": "images/1793737684853-52f9cc30.jpg",
+        "caption": "There must be a way to the very, very top, Paul said. All three of us had watched \"Undercity.\" We should pull it up on our phone and see how they did it, Lucas joked. \r\n\r\nWe eventually found a window and opened with some coaxing. The view was stunning; this was only my second time seeing the Manhattan skyline, and was no better place than from the top of this bridge tower, right next to the gigantic red airplane beacon at the apex.",
+        "alt": "Rooftop of the bridge tower overlooking the city lights"
+      },
+      {
+        "id": "63ccf3e2869d",
+        "src": "images/1793737684881-8f68f488.jpg",
+        "caption": "<a href=\"https://vimeo.com/18280328\" target=\"_blank\">UNDERCITY</a> from Andrew Wonder on Vimeo. Go to the 25:00 min mark to see Steve's climb of the Williamsburg.",
+        "alt": "Climber lying on the tower top below the red beacon"
       }
     ]
   },
@@ -1994,12 +3150,14 @@
       {
         "id": "e5d97ce80adf",
         "src": "images/1789500536639-56b4afd7.jpg",
-        "caption": "test 2"
+        "caption": "test 2",
+        "alt": "Framed print above a dresser with flowers"
       },
       {
         "id": "bf8298d3206a",
         "src": "images/1789500544022-2cad0391.jpg",
-        "caption": "test 3"
+        "caption": "test 3",
+        "alt": "Print of white poppies in a glass vase"
       }
     ],
     "hidden": true

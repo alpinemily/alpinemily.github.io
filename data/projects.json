@@ -837,7 +837,8 @@
         "id": "06408590ce70",
         "src": "images/1793733923063-fe15bc02.jpg",
         "caption": "",
-        "alt": "Woman lying under the coffee table, smiling"
+        "alt": "Woman lying under the coffee table, smiling",
+        "hidden": true
       },
       {
         "id": "b7af8c415f63",

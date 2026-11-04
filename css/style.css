@@ -118,6 +118,10 @@ nav a {
   right: 0;
   transform: translateY(-50%);
   text-align: left;
+  /* The transform makes this a stacking context, so the dropdown's own
+     z-index only counts inside it. Lift the whole pill above later
+     positioned content like the homepage slideshow. */
+  z-index: 50;
 }
 
 /* Between phone and wide desktop the centered menu would run into the pill,

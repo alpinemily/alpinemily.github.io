@@ -362,7 +362,8 @@
         // Prev/next arrows and "More Work" stay within the project's own page
         // (Photoblog or Misc).
         const page = project.page || "photoblog";
-        const samePage = projects.filter((p) => (p.page || "photoblog") === page);
+        // Skip hidden posts — they have no built page, so linking to one 404s.
+        const samePage = projects.filter((p) => (p.page || "photoblog") === page && !p.hidden);
         const index = samePage.findIndex((p) => p.id === project.id);
         const prev = index > 0 ? samePage[index - 1] : null;
         const next = index < samePage.length - 1 ? samePage[index + 1] : null;

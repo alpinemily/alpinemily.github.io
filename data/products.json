@@ -87,11 +87,11 @@
       {
         "id": "7c385e94",
         "label": "Per hour",
-        "price": 150
+        "price": 180
       }
     ],
     "imagePosition": "30% 50%",
-    "priceLabel": "$150 / hour",
+    "priceLabel": "$180 / hour",
     "gallery": [
       {
         "src": "images/shop/guided-ride/02.jpg",
@@ -162,10 +162,6 @@
         "alt": "Rider descending a golden hillside road at sunset"
       },
       {
-        "src": "images/shop/guided-ride/19.jpg",
-        "alt": "Cyclists descending toward the bay at golden hour"
-      },
-      {
         "src": "images/shop/guided-ride/20.jpg",
         "alt": "Bikes leaning by a rock outcrop above Ocean Beach"
       },
@@ -204,6 +200,10 @@
       {
         "src": "images/shop/guided-ride/30.jpg",
         "alt": "Rider swinging from a rope swing beside a bike"
+      },
+      {
+        "src": "images/shop/guided-ride/31.jpg",
+        "alt": "Night rider with a bike light on a wooded trail"
       }
     ],
     "hideQty": true,

@@ -999,104 +999,6 @@
     ]
   },
   {
-    "id": "8be2505d6c89",
-    "title": "BathHaus",
-    "year": 2021,
-    "description": "I was lucky to shelter-in-place in a community house during the COVID pandemic. BathHaus was one of many pandemic art projects my housemates and I did on a whim.",
-    "tags": [
-      "photoblog"
-    ],
-    "image": "images/projects/bathhaus/img01.jpg",
-    "imageAlt": "BathHaus",
-    "template": "side-caption",
-    "slug": "bathhaus",
-    "images": [
-      {
-        "id": "ec7a3419df0d",
-        "src": "images/projects/bathhaus/img01.jpg",
-        "caption": "",
-        "alt": "Woman floating in a milky bathtub"
-      },
-      {
-        "id": "cdb757acfee6",
-        "src": "images/projects/bathhaus/img02.jpg",
-        "caption": "",
-        "alt": "Man in a cloud-print suit in a bathtub"
-      },
-      {
-        "id": "fe27ee77b994",
-        "src": "images/projects/bathhaus/img03.jpg",
-        "caption": "",
-        "alt": "Woman in red light in a flower-strewn bathtub"
-      },
-      {
-        "id": "1126110241ee",
-        "src": "images/projects/bathhaus/img04.jpg",
-        "caption": "",
-        "hidden": true,
-        "alt": "Woman lying in a bathtub with flowers"
-      },
-      {
-        "id": "9ad81f3deba7",
-        "src": "images/projects/bathhaus/img05.jpg",
-        "caption": "",
-        "alt": "Woman in a turquoise bath holding a cigar"
-      },
-      {
-        "id": "eac05f4e3d62",
-        "src": "images/projects/bathhaus/img06.jpg",
-        "caption": "",
-        "alt": "Woman curled up in a milky white bath"
-      },
-      {
-        "id": "b4ce73f9c648",
-        "src": "images/projects/bathhaus/img07.jpg",
-        "caption": "",
-        "hidden": true,
-        "alt": "Woman with glitter makeup in a milky bath"
-      },
-      {
-        "id": "c5d99612c20f",
-        "src": "images/projects/bathhaus/img08.jpg",
-        "caption": "",
-        "hidden": true,
-        "alt": "Hand placing a red rose in a bathtub"
-      },
-      {
-        "id": "b64f7deb2fd4",
-        "src": "images/projects/bathhaus/img09.jpg",
-        "caption": "",
-        "hidden": true,
-        "alt": "Water poured over a man in a turquoise bath"
-      },
-      {
-        "id": "16671c3fe83d",
-        "src": "images/projects/bathhaus/img10.jpg",
-        "caption": "",
-        "hidden": true,
-        "alt": "Man resting in a bath with pink flowers"
-      },
-      {
-        "id": "5994164aa751",
-        "src": "images/projects/bathhaus/img11.jpg",
-        "caption": "",
-        "alt": "Man in a bath with flowers, holding a glass"
-      },
-      {
-        "id": "89ff5b4ec913",
-        "src": "images/projects/bathhaus/img12.jpg",
-        "caption": "",
-        "hidden": true,
-        "alt": "Photographer shooting a woman in a bathtub"
-      }
-    ],
-    "page": "photoblog",
-    "link": "",
-    "hideYear": false,
-    "gridTitle": "",
-    "gridText": ""
-  },
-  {
     "id": "2c5304609a68",
     "title": "Ptarmigan Traverse",
     "slug": "ptarmigan",
@@ -1318,30 +1220,6 @@
     "hideYear": false
   },
   {
-    "id": "d62a53e53380",
-    "title": "Mood Atlas",
-    "slug": "mood-atlas",
-    "year": 2026,
-    "description": "Mood Atlas is an <a href=\"https://obsidian.md\" target=\"_blank\">Obsidian</a> plugin that expands your emotional vocabulary as you journal. Type any emotion word followed by a trigger key to pull up all the feeling words in the same emotional region - helping you find the most precise word for what you're experiencing.\n\nType an emotion word, then press ^ (configurable). A dropdown appears showing all emotions in the same region, so you can choose the one that fits best.\n\nThree emotion word lists are available, and each can be customized in the plugin settings: Hoffman/NVC Combined (the default), the Hoffman Institute feelings list, and the feelings list from Marshall Rosenberg's <i>Nonviolent Communication</i>.\n\n<a href=\"https://community.obsidian.md/plugins/mood-atlas\" target=\"_blank\">Get Mood Atlas in the Obsidian community plugins</a> · <a href=\"https://github.com/alpinemily/obsidian-mood-atlas\" target=\"_blank\">Source on GitHub</a>",
-    "tags": [],
-    "template": "photo-column",
-    "page": "misc",
-    "link": "",
-    "hideYear": true,
-    "gridTitle": "",
-    "gridText": "",
-    "image": "images/1793739212375-d07a77e4.jpg",
-    "imageAlt": "Mood Atlas plugin card: expand your emotional vocabulary beyond happy and sad",
-    "images": [
-      {
-        "id": "d12c35b12268",
-        "src": "images/projects/mood-atlas/demo.gif",
-        "caption": "",
-        "alt": "Demo: typing \"happy\" and pressing ^ opens a dropdown of related emotion words in Obsidian"
-      }
-    ]
-  },
-  {
     "id": "57d784ea60e7",
     "title": "Dark Divide 300",
     "slug": "dark-divide-300",
@@ -1492,107 +1370,213 @@
     "gridText": ""
   },
   {
-    "id": "d6fe976c76b9",
-    "title": "Portraits",
-    "year": 2021,
-    "description": "TBD.",
+    "id": "d62a53e53380",
+    "title": "Mood Atlas",
+    "slug": "mood-atlas",
+    "year": 2026,
+    "description": "Mood Atlas is an <a href=\"https://obsidian.md\" target=\"_blank\">Obsidian</a> plugin that expands your emotional vocabulary as you journal. Type any emotion word followed by a trigger key to pull up all the feeling words in the same emotional region - helping you find the most precise word for what you're experiencing.\n\nType an emotion word, then press ^ (configurable). A dropdown appears showing all emotions in the same region, so you can choose the one that fits best.\n\nThree emotion word lists are available, and each can be customized in the plugin settings: Hoffman/NVC Combined (the default), the Hoffman Institute feelings list, and the feelings list from Marshall Rosenberg's <i>Nonviolent Communication</i>.\n\n<a href=\"https://community.obsidian.md/plugins/mood-atlas\" target=\"_blank\">Get Mood Atlas in the Obsidian community plugins</a> · <a href=\"https://github.com/alpinemily/obsidian-mood-atlas\" target=\"_blank\">Source on GitHub</a>",
+    "tags": [],
+    "template": "photo-column",
+    "page": "misc",
+    "link": "",
+    "hideYear": true,
+    "gridTitle": "",
+    "gridText": "",
+    "image": "images/1793739212375-d07a77e4.jpg",
+    "imageAlt": "Mood Atlas plugin card: expand your emotional vocabulary beyond happy and sad",
+    "images": [
+      {
+        "id": "d12c35b12268",
+        "src": "images/projects/mood-atlas/demo.gif",
+        "caption": "",
+        "alt": "Demo: typing \"happy\" and pressing ^ opens a dropdown of related emotion words in Obsidian"
+      }
+    ]
+  },
+  {
+    "id": "0c2b4e3dbd7c",
+    "title": "Portraits misc.",
+    "slug": "portraits-misc",
+    "year": 2025,
+    "description": "",
     "tags": [
       "photoblog"
     ],
-    "image": "images/projects/forestwater/img01.jpg",
-    "imageAlt": "Portraits",
     "template": "side-caption",
-    "slug": "portraits",
+    "image": "images/1790053959198-20c7f88b-opt.jpg",
+    "imageAlt": "Portraits misc.",
     "images": [
       {
-        "id": "6acf0613b2aa",
-        "src": "images/projects/forestwater/img01.jpg",
-        "caption": "",
-        "alt": "Woman reflected in a mirror on fallen leaves"
+        "id": "2bffa2b208ac",
+        "src": "images/1790053958462-1924c664-opt.jpg",
+        "caption": "Ivar Slik, winner of Unbound 2022. I had the opportunity to be on the media team to photograph Unbound that year.",
+        "alt": "Mud-splattered cyclist splashing through a puddle"
       },
       {
-        "id": "cd4edb12e10e",
-        "src": "images/projects/forestwater/img02.jpg",
-        "caption": "",
-        "alt": "Woman holding a mirror among ferns"
+        "id": "00ee3a200cbd",
+        "src": "images/1790053958599-c8bc7103-opt.jpg",
+        "caption": "Portrait of Neil riding the trails of Laguna Honda.",
+        "alt": "Rider among white calla lilies in a forest"
       },
       {
-        "id": "4823dc0b3719",
-        "src": "images/projects/forestwater/img03.jpg",
+        "id": "9f8f638c1704",
+        "src": "images/1790053959350-2881ee72-opt.jpg",
         "caption": "",
-        "hidden": false,
-        "alt": "Woman touching her face in a mirror in the woods"
+        "alt": "Cyclist riding at sunset above the city"
       },
       {
-        "id": "17e8393e0a66",
-        "src": "images/projects/forestwater/img04.jpg",
-        "caption": "",
-        "alt": "Woman holding a mirror framing an amphitheater"
+        "id": "479a7104b2bc",
+        "src": "images/1790053959198-20c7f88b-opt.jpg",
+        "caption": "Portrait of Jenna riding in the Marin Headlands.",
+        "alt": "Cyclist on a coastal ridge above the sea"
       },
       {
-        "id": "49e1be1c3054",
-        "src": "images/projects/forestwater/img05.jpg",
-        "caption": "",
-        "hidden": true,
-        "alt": "Figure lying on a yellow blanket in an empty amphitheater"
+        "id": "25590a170a79",
+        "src": "images/1790053958677-9554634d-opt.jpg",
+        "caption": "A family portrait series for Kendra and Adam.",
+        "alt": "Parents playing with their child in a redwood grove"
       },
       {
-        "id": "989065f50d69",
-        "src": "images/projects/forestwater/img06.jpg",
+        "id": "404ceff8d8cd",
+        "src": "images/1790053958851-88ae0ec0-opt.jpg",
         "caption": "",
-        "alt": "Mirror standing in tall grass by a lagoon"
+        "alt": "Family riding e-bikes with a toddler seat"
       },
       {
-        "id": "33b241d42fe8",
-        "src": "images/projects/forestwater/img07.jpg",
+        "id": "d2deb8e5b66e",
+        "src": "images/1790053959003-8fd6f9b4-opt.jpg",
         "caption": "",
-        "alt": "Dancer on a log reflected in a mirror"
+        "alt": "Dancer arching back in a pink dress, framed by rock"
       },
       {
-        "id": "7340b0d39df1",
-        "src": "images/projects/forestwater/img08.jpg",
+        "id": "a70362497dd3",
+        "src": "images/1790053959109-97c941f8-opt.jpg",
         "caption": "",
-        "alt": "Barefoot dancer reflected in still water"
+        "alt": "Dancer in a pink dress leaning back over water"
       },
       {
-        "id": "082257876e39",
-        "src": "images/projects/forestwater/img09.jpg",
-        "caption": "",
-        "hidden": true,
-        "alt": "Dancer in a pink lace dress arching over water"
+        "id": "5a04b7beb5fc",
+        "src": "images/1790053959441-b9355cf7-opt.jpg",
+        "caption": "Photo Pace city slickers ride.",
+        "alt": "Cyclist riding through a city alley"
       },
       {
-        "id": "c36ad409a499",
-        "src": "images/projects/forestwater/img10.jpg",
-        "caption": "",
-        "alt": "Dancer in pink reflected in a mirror by the water"
+        "id": "648318106f09",
+        "src": "images/1790053959513-912a2a6d-opt.jpg",
+        "caption": "Photography for gravel team Easton Overland.",
+        "alt": "Two gravel cyclists chatting on a dry hillside"
       },
       {
-        "id": "04fff09fcf4a",
-        "src": "images/projects/forestwater/img11.jpg",
-        "caption": "",
-        "alt": "Dancer in pink lace posing beside water"
+        "id": "3527e0cc1000",
+        "src": "images/1790053959579-a2944bec-opt.jpg",
+        "caption": "Yelly and Leo in their sprinter van named Betty White.",
+        "alt": "Couple sharing a meal inside a camper van"
       },
       {
-        "id": "c3998b74257e",
-        "src": "images/projects/forestwater/img12.jpg",
-        "caption": "",
-        "hidden": true,
-        "alt": "Woman in a pink lace dress lying in grass"
+        "id": "92de6f56fbdb",
+        "src": "images/1790053959643-fa04b973-opt.jpg",
+        "caption": "In 2021 my friends Anthony and Megan did a DIY Ironman 140.6 after the COVID pandemic cancelled their race.",
+        "alt": "Triathlete standing on a road at night"
       },
       {
-        "id": "ff45515e08d4",
-        "src": "images/projects/forestwater/img13.jpg",
+        "id": "5671cc030826",
+        "src": "images/1790053959714-71d4c853-opt.jpg",
         "caption": "",
-        "hidden": true,
-        "alt": "Woman asleep on a pillow at the water's edge"
+        "alt": "Runners with headlamps on a dark road"
+      },
+      {
+        "id": "9890811ca6e8",
+        "src": "images/1790053959782-b486d80a-opt.jpg",
+        "caption": "",
+        "alt": "Runners and cyclists with headlamps, black and white"
+      },
+      {
+        "id": "38ba63df5625",
+        "src": "images/1790053959855-576b2492-opt.jpg",
+        "caption": "I led and photographed an intro to bikepacking event for non-profit Trail Mixed Co.",
+        "alt": "Group of bikepackers posing by the coast"
+      },
+      {
+        "id": "046a0d6cedf4",
+        "src": "images/1790053959934-7b240f65-opt.jpg",
+        "caption": "",
+        "alt": "Cyclists riding over a golden coastal hill"
+      },
+      {
+        "id": "e940fe7dcb5b",
+        "src": "images/1790053960013-91eb3634-opt.jpg",
+        "caption": "Album photography for the band Lunar Noon",
+        "alt": "Band members on a grassy coastal bluff at sunset"
+      },
+      {
+        "id": "9e1138a50f8c",
+        "src": "images/1790053960080-1bab9856-opt.jpg",
+        "caption": "",
+        "alt": "Musicians laughing on a coastal bluff at sunset"
+      },
+      {
+        "id": "808f9fcedfe5",
+        "src": "images/1790053960143-0899a039-opt.jpg",
+        "caption": "",
+        "alt": "String players performing on a bluff at sunset"
+      },
+      {
+        "id": "cf6845288452",
+        "src": "images/1790053960210-e7010dc9-opt.jpg",
+        "caption": "",
+        "alt": "Four people walking along a grassy sea cliff"
+      },
+      {
+        "id": "5280aa99af32",
+        "src": "images/1790053960280-4224a045-opt.jpg",
+        "caption": "",
+        "alt": "Smiling woman with windblown hair by the ocean"
+      },
+      {
+        "id": "835b4d1a4404",
+        "src": "images/1790053960342-d78a00cd-opt.jpg",
+        "caption": "",
+        "alt": "Group of cyclists riding down a city street",
+        "hidden": true
+      },
+      {
+        "id": "f35e832084c5",
+        "src": "images/1790053960844-8321e436-opt.jpg",
+        "caption": "Danza de los Voladores in Mexico City.",
+        "alt": "Danza de los Voladores performer hanging from a rope",
+        "hidden": true
+      },
+      {
+        "id": "a4ebbb9daa27",
+        "src": "images/1795052322510-2bb8639a-opt.jpg",
+        "caption": "Death Valley photoshoot for Alpina x National Parks Foundation",
+        "alt": "cyclist and bike in desert"
+      },
+      {
+        "id": "70ddf6ab5167",
+        "src": "images/1795052335202-5c61468c-opt.jpg",
+        "caption": "",
+        "alt": "cyclist waterbottle heat"
+      },
+      {
+        "id": "72248049588f",
+        "src": "images/1790053960485-d07f16a0-opt.jpg",
+        "caption": "",
+        "alt": "Bikepacker riding past blooming lilac bushes"
+      },
+      {
+        "id": "d2494d57b992",
+        "src": "images/1790053960647-58d640f1-opt.jpg",
+        "caption": "Photography for San Francisco Bicycle Coalition's Bike to Anywhere campgain",
+        "alt": "Cyclists riding along the waterfront by the Bay Bridge"
+      },
+      {
+        "id": "21dda4049c43",
+        "src": "images/1790053960711-e3deba8e-opt.jpg",
+        "caption": "Crevasse rescue practice on Mt Shasta's north side glaciers.",
+        "alt": "Climber in an ice crevasse on Mt Shasta"
       }
-    ],
-    "page": "photoblog",
-    "link": "",
-    "hideYear": false,
-    "gridTitle": "",
-    "gridText": ""
+    ]
   },
   {
     "id": "5f4b7602f812",
@@ -1974,6 +1958,119 @@
     "gridText": ""
   },
   {
+    "id": "845ea6bf9be4",
+    "title": "Old Delhi",
+    "year": 2020,
+    "description": "Men crouch by their storefronts, pouring basins of cold water over their leathery skin. As a part of their morning ritual the shopkeepers of Old Delhi bathe their bodies out in the open. The typically hectic Chandni Chowk market is quiet at 6am. But tucked in a winding alley while the rest of the world yawns awake, a scant team of five workers toil away. They are kulcha bread makers who bake and distribute 40 thousand kulcha breads every day.\r\n\r\nHere I am in the heart of it all, to witness the intimate ritual of Old Delhi waking up.\r\n\r\nThese kulcha makers move like clockwork. Each man has one job: one man manages the oven. One man takes the baked kulcha tray and slides it across the ground to the next man. This man constructs neat stacks 24 trays high. Another man has the job of moving these stacks back and forth. This routine outputs 4 breads every 3 seconds!\r\n\r\nThis is impressive manpower, but Anchit reminds me there are kulcha machines that do this work far more efficiently. In this case though, technology is purposefully set aside for the sake of creating more jobs.\r\n\r\nNext, we bike through Khari Baoli, Asia's largest spice market. Anchit points out a women shopkeeper, calm and poised. She’s the only woman shopkeeper in this market and she took on this work as the head of the household when the patriarch of the family died. We make an unexpected turn into a building and spiral up an outdoor staircase where spice workers labored away on each level. Anchit equates this to modern day slavery; they work for 10 months at a time toiling and living in these quarters without seeing their family. During the other 2 months they return home, but only to provide the manpower to swap out the farm crops.\r\n\r\nOur final destination is the Sikh temple of the old city, Gurudwara Sis Ganj Sahib ji. We take off our shoes and glide through a shallow pool of water to clean our feet. We also tie pink cloths to cover our hair before stepping inside the place of worship. Unexpectedly, I find a community kitchen beyond the prayer halls. It’s all hands on deck: women are sitting crossed legged on the ground rolling kulcha dough into balls. A portly man oversees a massive boiling pot of lentils, the lip of the pot rising from his feet up to his waist. Outside under an awning, women and men sit together and chop vegetables. These are men and women are all volunteers, donating their time to the community before they start their work day. The Sikh religion focuses on doing good. I learn that every man and woman must donate 10% of their income or 10% of their time volunteering.\r\n\r\nWe visit the mess hall where men and women sit in neat rows, eating from their trays, drinking chai. A young boy walks around scooping lentils onto their plates. A man smiles at me and insists I take a bag of mystery crackers. This is why no one in Old Delhi ever dies of starvation, Anchit proclaims proudly. Anyone can visit the temple for a meal, even if they are not Sikh. Free housing is provided, too. No questions asked.\r\n\r\nThat was the final leg of an eye-opening day. But let’s rewind—how did I get here? For my last day of my business trip in India I booked a city bike tour with SpinMonkey Tours. It started at 6am. I was staying in the city of Gurgaon which meant I needed to get up at  4am to take a long taxi ride. When I was dropped off the sun had not yet risen. All the shops on the block were closed. Wild dogs roamed the unkempt street. I had no idea if I was where I should be. Many adventure starts with slight discomfort and nervous anticipation, after all. The discomfort was quickly forgotten after I was greeted by Anchit, the founder of the bike tour company.  As we wove through the overwhelming traffic of Old Delhi via bike, dodging rickshaws, pedestrians, horse wheeled carts, mopeds, and the occasional water buffalo, he showed me the city through his eyes.",
+    "tags": [
+      "photoblog"
+    ],
+    "image": "images/projects/old-delhi-india/img01.jpg",
+    "imageAlt": "Old Delhi, India",
+    "template": "photo-column",
+    "slug": "old-delhi-india",
+    "images": [
+      {
+        "id": "7076e1fe75c9",
+        "src": "images/projects/old-delhi-india/img01.jpg",
+        "caption": "",
+        "alt": "Laundry hanging over a crowded Delhi street"
+      },
+      {
+        "id": "4f33325eb617",
+        "src": "images/projects/old-delhi-india/img02.jpg",
+        "caption": "",
+        "alt": "Burlap sacks of dried chilies at a market"
+      },
+      {
+        "id": "476f1cf09291",
+        "src": "images/projects/old-delhi-india/img03.jpg",
+        "caption": "",
+        "hidden": true,
+        "alt": "Man and a schoolboy in a cycle rickshaw"
+      },
+      {
+        "id": "39a86906820b",
+        "src": "images/projects/old-delhi-india/img04.jpg",
+        "caption": "",
+        "alt": "Workers loading sacks in a narrow lane"
+      },
+      {
+        "id": "fb2ac0702505",
+        "src": "images/projects/old-delhi-india/img05.jpg",
+        "caption": "",
+        "alt": "Woman walking down a tangled-wire alley"
+      },
+      {
+        "id": "75514edd8c4c",
+        "src": "images/projects/old-delhi-india/img06.jpg",
+        "caption": "",
+        "alt": "Vegetable vendor handing over a bag"
+      },
+      {
+        "id": "8265b587bbb3",
+        "src": "images/projects/old-delhi-india/img07.jpg",
+        "caption": "",
+        "alt": "Men in turbans sharing a meal"
+      },
+      {
+        "id": "361bd53cd783",
+        "src": "images/projects/old-delhi-india/img08.jpg",
+        "caption": "",
+        "alt": "Volunteers peeling potatoes on the floor"
+      },
+      {
+        "id": "125031c17642",
+        "src": "images/projects/old-delhi-india/img09.jpg",
+        "caption": "",
+        "alt": "Child peering out of a school rickshaw"
+      },
+      {
+        "id": "2a06151d138c",
+        "src": "images/projects/old-delhi-india/img10.jpg",
+        "caption": "",
+        "alt": "Crowded market street in Old Delhi"
+      },
+      {
+        "id": "931d49162b19",
+        "src": "images/projects/old-delhi-india/img11.jpg",
+        "caption": "",
+        "alt": "Rooftops above a narrow Delhi lane"
+      },
+      {
+        "id": "c3549eac8171",
+        "src": "images/projects/old-delhi-india/img12.jpg",
+        "caption": "",
+        "alt": "Workers stacking boxes in a workshop"
+      },
+      {
+        "id": "ae348f885a02",
+        "src": "images/projects/old-delhi-india/img13.jpg",
+        "caption": "",
+        "alt": "Painted doorways along a quiet alley"
+      },
+      {
+        "id": "a827a4b4c67e",
+        "src": "images/projects/old-delhi-india/img14.jpg",
+        "caption": "",
+        "alt": "Man among hanging bundles of thread"
+      },
+      {
+        "id": "9996b1254d93",
+        "src": "images/projects/old-delhi-india/img15.jpg",
+        "caption": "",
+        "hidden": true,
+        "alt": "Man block-printing red fabric by hand"
+      },
+      {
+        "id": "3f00140231c0",
+        "src": "images/projects/old-delhi-india/img16.jpg",
+        "caption": "",
+        "alt": "Schoolchildren on a balcony above a courtyard"
+      }
+    ]
+  },
+  {
     "id": "c508df812bb6",
     "title": "All 汉字 Hànzì On Deck",
     "slug": "all-hands-on-deck",
@@ -2234,119 +2331,6 @@
     "gridTitle": "Making of",
     "gridText": "Just a few photos of the many processes used to build the Transforming Coffee Table project. (Processes not pictured include: woodworking, lots of drilling and grinding, cold saw, powder coating, prototyping, CADding, etc.)",
     "hideYear": true
-  },
-  {
-    "id": "845ea6bf9be4",
-    "title": "Old Delhi",
-    "year": 2020,
-    "description": "Men crouch by their storefronts, pouring basins of cold water over their leathery skin. As a part of their morning ritual the shopkeepers of Old Delhi bathe their bodies out in the open. The typically hectic Chandni Chowk market is quiet at 6am. But tucked in a winding alley while the rest of the world yawns awake, a scant team of five workers toil away. They are kulcha bread makers who bake and distribute 40 thousand kulcha breads every day.\r\n\r\nHere I am in the heart of it all, to witness the intimate ritual of Old Delhi waking up.\r\n\r\nThese kulcha makers move like clockwork. Each man has one job: one man manages the oven. One man takes the baked kulcha tray and slides it across the ground to the next man. This man constructs neat stacks 24 trays high. Another man has the job of moving these stacks back and forth. This routine outputs 4 breads every 3 seconds!\r\n\r\nThis is impressive manpower, but Anchit reminds me there are kulcha machines that do this work far more efficiently. In this case though, technology is purposefully set aside for the sake of creating more jobs.\r\n\r\nNext, we bike through Khari Baoli, Asia's largest spice market. Anchit points out a women shopkeeper, calm and poised. She’s the only woman shopkeeper in this market and she took on this work as the head of the household when the patriarch of the family died. We make an unexpected turn into a building and spiral up an outdoor staircase where spice workers labored away on each level. Anchit equates this to modern day slavery; they work for 10 months at a time toiling and living in these quarters without seeing their family. During the other 2 months they return home, but only to provide the manpower to swap out the farm crops.\r\n\r\nOur final destination is the Sikh temple of the old city, Gurudwara Sis Ganj Sahib ji. We take off our shoes and glide through a shallow pool of water to clean our feet. We also tie pink cloths to cover our hair before stepping inside the place of worship. Unexpectedly, I find a community kitchen beyond the prayer halls. It’s all hands on deck: women are sitting crossed legged on the ground rolling kulcha dough into balls. A portly man oversees a massive boiling pot of lentils, the lip of the pot rising from his feet up to his waist. Outside under an awning, women and men sit together and chop vegetables. These are men and women are all volunteers, donating their time to the community before they start their work day. The Sikh religion focuses on doing good. I learn that every man and woman must donate 10% of their income or 10% of their time volunteering.\r\n\r\nWe visit the mess hall where men and women sit in neat rows, eating from their trays, drinking chai. A young boy walks around scooping lentils onto their plates. A man smiles at me and insists I take a bag of mystery crackers. This is why no one in Old Delhi ever dies of starvation, Anchit proclaims proudly. Anyone can visit the temple for a meal, even if they are not Sikh. Free housing is provided, too. No questions asked.\r\n\r\nThat was the final leg of an eye-opening day. But let’s rewind—how did I get here? For my last day of my business trip in India I booked a city bike tour with SpinMonkey Tours. It started at 6am. I was staying in the city of Gurgaon which meant I needed to get up at  4am to take a long taxi ride. When I was dropped off the sun had not yet risen. All the shops on the block were closed. Wild dogs roamed the unkempt street. I had no idea if I was where I should be. Many adventure starts with slight discomfort and nervous anticipation, after all. The discomfort was quickly forgotten after I was greeted by Anchit, the founder of the bike tour company.  As we wove through the overwhelming traffic of Old Delhi via bike, dodging rickshaws, pedestrians, horse wheeled carts, mopeds, and the occasional water buffalo, he showed me the city through his eyes.",
-    "tags": [
-      "photoblog"
-    ],
-    "image": "images/projects/old-delhi-india/img01.jpg",
-    "imageAlt": "Old Delhi, India",
-    "template": "photo-column",
-    "slug": "old-delhi-india",
-    "images": [
-      {
-        "id": "7076e1fe75c9",
-        "src": "images/projects/old-delhi-india/img01.jpg",
-        "caption": "",
-        "alt": "Laundry hanging over a crowded Delhi street"
-      },
-      {
-        "id": "4f33325eb617",
-        "src": "images/projects/old-delhi-india/img02.jpg",
-        "caption": "",
-        "alt": "Burlap sacks of dried chilies at a market"
-      },
-      {
-        "id": "476f1cf09291",
-        "src": "images/projects/old-delhi-india/img03.jpg",
-        "caption": "",
-        "hidden": true,
-        "alt": "Man and a schoolboy in a cycle rickshaw"
-      },
-      {
-        "id": "39a86906820b",
-        "src": "images/projects/old-delhi-india/img04.jpg",
-        "caption": "",
-        "alt": "Workers loading sacks in a narrow lane"
-      },
-      {
-        "id": "fb2ac0702505",
-        "src": "images/projects/old-delhi-india/img05.jpg",
-        "caption": "",
-        "alt": "Woman walking down a tangled-wire alley"
-      },
-      {
-        "id": "75514edd8c4c",
-        "src": "images/projects/old-delhi-india/img06.jpg",
-        "caption": "",
-        "alt": "Vegetable vendor handing over a bag"
-      },
-      {
-        "id": "8265b587bbb3",
-        "src": "images/projects/old-delhi-india/img07.jpg",
-        "caption": "",
-        "alt": "Men in turbans sharing a meal"
-      },
-      {
-        "id": "361bd53cd783",
-        "src": "images/projects/old-delhi-india/img08.jpg",
-        "caption": "",
-        "alt": "Volunteers peeling potatoes on the floor"
-      },
-      {
-        "id": "125031c17642",
-        "src": "images/projects/old-delhi-india/img09.jpg",
-        "caption": "",
-        "alt": "Child peering out of a school rickshaw"
-      },
-      {
-        "id": "2a06151d138c",
-        "src": "images/projects/old-delhi-india/img10.jpg",
-        "caption": "",
-        "alt": "Crowded market street in Old Delhi"
-      },
-      {
-        "id": "931d49162b19",
-        "src": "images/projects/old-delhi-india/img11.jpg",
-        "caption": "",
-        "alt": "Rooftops above a narrow Delhi lane"
-      },
-      {
-        "id": "c3549eac8171",
-        "src": "images/projects/old-delhi-india/img12.jpg",
-        "caption": "",
-        "alt": "Workers stacking boxes in a workshop"
-      },
-      {
-        "id": "ae348f885a02",
-        "src": "images/projects/old-delhi-india/img13.jpg",
-        "caption": "",
-        "alt": "Painted doorways along a quiet alley"
-      },
-      {
-        "id": "a827a4b4c67e",
-        "src": "images/projects/old-delhi-india/img14.jpg",
-        "caption": "",
-        "alt": "Man among hanging bundles of thread"
-      },
-      {
-        "id": "9996b1254d93",
-        "src": "images/projects/old-delhi-india/img15.jpg",
-        "caption": "",
-        "hidden": true,
-        "alt": "Man block-printing red fabric by hand"
-      },
-      {
-        "id": "3f00140231c0",
-        "src": "images/projects/old-delhi-india/img16.jpg",
-        "caption": "",
-        "alt": "Schoolchildren on a balcony above a courtyard"
-      }
-    ]
   },
   {
     "id": "0e8e0dc44a89",
@@ -2926,177 +2910,6 @@
     "gridText": ""
   },
   {
-    "id": "0c2b4e3dbd7c",
-    "title": "Portraits misc.",
-    "slug": "portraits-misc",
-    "year": 2025,
-    "description": "",
-    "tags": [
-      "photoblog"
-    ],
-    "template": "side-caption",
-    "image": "images/1790053959350-2881ee72-opt.jpg",
-    "imageAlt": "Portraits misc.",
-    "images": [
-      {
-        "id": "2bffa2b208ac",
-        "src": "images/1790053958462-1924c664-opt.jpg",
-        "caption": "Ivar Slik, winner of Unbound 2022. I had the opportunity to be on the media team to photograph Unbound that year.",
-        "alt": "Mud-splattered cyclist splashing through a puddle"
-      },
-      {
-        "id": "00ee3a200cbd",
-        "src": "images/1790053958599-c8bc7103-opt.jpg",
-        "caption": "Portrait of Neil riding the trails of Laguna Honda.",
-        "alt": "Rider among white calla lilies in a forest"
-      },
-      {
-        "id": "25590a170a79",
-        "src": "images/1790053958677-9554634d-opt.jpg",
-        "caption": "A family portrait series for Kendra and Adam.",
-        "alt": "Parents playing with their child in a redwood grove"
-      },
-      {
-        "id": "404ceff8d8cd",
-        "src": "images/1790053958851-88ae0ec0-opt.jpg",
-        "caption": "",
-        "alt": "Family riding e-bikes with a toddler seat"
-      },
-      {
-        "id": "d2deb8e5b66e",
-        "src": "images/1790053959003-8fd6f9b4-opt.jpg",
-        "caption": "",
-        "alt": "Dancer arching back in a pink dress, framed by rock"
-      },
-      {
-        "id": "a70362497dd3",
-        "src": "images/1790053959109-97c941f8-opt.jpg",
-        "caption": "",
-        "alt": "Dancer in a pink dress leaning back over water"
-      },
-      {
-        "id": "479a7104b2bc",
-        "src": "images/1790053959198-20c7f88b-opt.jpg",
-        "caption": "Portrait of Jenna riding in the Marin Headlands.",
-        "alt": "Cyclist on a coastal ridge above the sea"
-      },
-      {
-        "id": "9f8f638c1704",
-        "src": "images/1790053959350-2881ee72-opt.jpg",
-        "caption": "",
-        "alt": "Cyclist riding at sunset above the city"
-      },
-      {
-        "id": "5a04b7beb5fc",
-        "src": "images/1790053959441-b9355cf7-opt.jpg",
-        "caption": "Photo Pace city slickers ride.",
-        "alt": "Cyclist riding through a city alley"
-      },
-      {
-        "id": "648318106f09",
-        "src": "images/1790053959513-912a2a6d-opt.jpg",
-        "caption": "Photography for gravel team Easton Overland.",
-        "alt": "Two gravel cyclists chatting on a dry hillside"
-      },
-      {
-        "id": "3527e0cc1000",
-        "src": "images/1790053959579-a2944bec-opt.jpg",
-        "caption": "Yelly and Leo in their sprinter van named Betty White.",
-        "alt": "Couple sharing a meal inside a camper van"
-      },
-      {
-        "id": "92de6f56fbdb",
-        "src": "images/1790053959643-fa04b973-opt.jpg",
-        "caption": "In 2021 my friends Anthony and Megan did a DIY Ironman 140.6 after the COVID pandemic cancelled their race.",
-        "alt": "Triathlete standing on a road at night"
-      },
-      {
-        "id": "5671cc030826",
-        "src": "images/1790053959714-71d4c853-opt.jpg",
-        "caption": "",
-        "alt": "Runners with headlamps on a dark road"
-      },
-      {
-        "id": "9890811ca6e8",
-        "src": "images/1790053959782-b486d80a-opt.jpg",
-        "caption": "",
-        "alt": "Runners and cyclists with headlamps, black and white"
-      },
-      {
-        "id": "38ba63df5625",
-        "src": "images/1790053959855-576b2492-opt.jpg",
-        "caption": "I led and photographed an intro to bikepacking event for non-profit Trail Mixed Co.",
-        "alt": "Group of bikepackers posing by the coast"
-      },
-      {
-        "id": "046a0d6cedf4",
-        "src": "images/1790053959934-7b240f65-opt.jpg",
-        "caption": "",
-        "alt": "Cyclists riding over a golden coastal hill"
-      },
-      {
-        "id": "e940fe7dcb5b",
-        "src": "images/1790053960013-91eb3634-opt.jpg",
-        "caption": "Album photography for the band Lunar Noon",
-        "alt": "Band members on a grassy coastal bluff at sunset"
-      },
-      {
-        "id": "9e1138a50f8c",
-        "src": "images/1790053960080-1bab9856-opt.jpg",
-        "caption": "",
-        "alt": "Musicians laughing on a coastal bluff at sunset"
-      },
-      {
-        "id": "808f9fcedfe5",
-        "src": "images/1790053960143-0899a039-opt.jpg",
-        "caption": "",
-        "alt": "String players performing on a bluff at sunset"
-      },
-      {
-        "id": "cf6845288452",
-        "src": "images/1790053960210-e7010dc9-opt.jpg",
-        "caption": "",
-        "alt": "Four people walking along a grassy sea cliff"
-      },
-      {
-        "id": "5280aa99af32",
-        "src": "images/1790053960280-4224a045-opt.jpg",
-        "caption": "",
-        "alt": "Smiling woman with windblown hair by the ocean"
-      },
-      {
-        "id": "835b4d1a4404",
-        "src": "images/1790053960342-d78a00cd-opt.jpg",
-        "caption": "",
-        "alt": "Group of cyclists riding down a city street"
-      },
-      {
-        "id": "72248049588f",
-        "src": "images/1790053960485-d07f16a0-opt.jpg",
-        "caption": "",
-        "alt": "Bikepacker riding past blooming lilac bushes"
-      },
-      {
-        "id": "d2494d57b992",
-        "src": "images/1790053960647-58d640f1-opt.jpg",
-        "caption": "Photography for San Francisco Bicycle Coalition's Bike to Anywhere campgain",
-        "alt": "Cyclists riding along the waterfront by the Bay Bridge"
-      },
-      {
-        "id": "21dda4049c43",
-        "src": "images/1790053960711-e3deba8e-opt.jpg",
-        "caption": "Crevasse rescue practice on Mt Shasta's north side glaciers.",
-        "alt": "Climber in an ice crevasse on Mt Shasta"
-      },
-      {
-        "id": "f35e832084c5",
-        "src": "images/1790053960844-8321e436-opt.jpg",
-        "caption": "Danza de los Voladores in Mexico City.",
-        "alt": "Danza de los Voladores performer hanging from a rope"
-      }
-    ]
-  },
-  {
     "id": "c31fc15eccb8",
     "title": "Mexico Bikepacking",
     "slug": "mexico-bikepacking",
@@ -3336,6 +3149,207 @@
       }
     ],
     "hideYear": false
+  },
+  {
+    "id": "d6fe976c76b9",
+    "title": "Portraits",
+    "year": 2021,
+    "description": "TBD.",
+    "tags": [
+      "photoblog"
+    ],
+    "image": "images/projects/forestwater/img01.jpg",
+    "imageAlt": "Portraits",
+    "template": "side-caption",
+    "slug": "portraits",
+    "images": [
+      {
+        "id": "6acf0613b2aa",
+        "src": "images/projects/forestwater/img01.jpg",
+        "caption": "",
+        "alt": "Woman reflected in a mirror on fallen leaves"
+      },
+      {
+        "id": "cd4edb12e10e",
+        "src": "images/projects/forestwater/img02.jpg",
+        "caption": "",
+        "alt": "Woman holding a mirror among ferns"
+      },
+      {
+        "id": "4823dc0b3719",
+        "src": "images/projects/forestwater/img03.jpg",
+        "caption": "",
+        "hidden": false,
+        "alt": "Woman touching her face in a mirror in the woods"
+      },
+      {
+        "id": "17e8393e0a66",
+        "src": "images/projects/forestwater/img04.jpg",
+        "caption": "",
+        "alt": "Woman holding a mirror framing an amphitheater"
+      },
+      {
+        "id": "49e1be1c3054",
+        "src": "images/projects/forestwater/img05.jpg",
+        "caption": "",
+        "hidden": true,
+        "alt": "Figure lying on a yellow blanket in an empty amphitheater"
+      },
+      {
+        "id": "989065f50d69",
+        "src": "images/projects/forestwater/img06.jpg",
+        "caption": "",
+        "alt": "Mirror standing in tall grass by a lagoon"
+      },
+      {
+        "id": "33b241d42fe8",
+        "src": "images/projects/forestwater/img07.jpg",
+        "caption": "",
+        "alt": "Dancer on a log reflected in a mirror"
+      },
+      {
+        "id": "7340b0d39df1",
+        "src": "images/projects/forestwater/img08.jpg",
+        "caption": "",
+        "alt": "Barefoot dancer reflected in still water"
+      },
+      {
+        "id": "082257876e39",
+        "src": "images/projects/forestwater/img09.jpg",
+        "caption": "",
+        "hidden": true,
+        "alt": "Dancer in a pink lace dress arching over water"
+      },
+      {
+        "id": "c36ad409a499",
+        "src": "images/projects/forestwater/img10.jpg",
+        "caption": "",
+        "alt": "Dancer in pink reflected in a mirror by the water"
+      },
+      {
+        "id": "04fff09fcf4a",
+        "src": "images/projects/forestwater/img11.jpg",
+        "caption": "",
+        "alt": "Dancer in pink lace posing beside water"
+      },
+      {
+        "id": "c3998b74257e",
+        "src": "images/projects/forestwater/img12.jpg",
+        "caption": "",
+        "hidden": true,
+        "alt": "Woman in a pink lace dress lying in grass"
+      },
+      {
+        "id": "ff45515e08d4",
+        "src": "images/projects/forestwater/img13.jpg",
+        "caption": "",
+        "hidden": true,
+        "alt": "Woman asleep on a pillow at the water's edge"
+      }
+    ],
+    "page": "photoblog",
+    "link": "",
+    "hideYear": false,
+    "gridTitle": "",
+    "gridText": ""
+  },
+  {
+    "id": "8be2505d6c89",
+    "title": "BathHaus",
+    "year": 2021,
+    "description": "I was lucky to shelter-in-place in a community house during the COVID pandemic. BathHaus was one of many pandemic art projects my housemates and I did on a whim.",
+    "tags": [
+      "photoblog"
+    ],
+    "image": "images/projects/bathhaus/img01.jpg",
+    "imageAlt": "BathHaus",
+    "template": "side-caption",
+    "slug": "bathhaus",
+    "images": [
+      {
+        "id": "ec7a3419df0d",
+        "src": "images/projects/bathhaus/img01.jpg",
+        "caption": "",
+        "alt": "Woman floating in a milky bathtub"
+      },
+      {
+        "id": "cdb757acfee6",
+        "src": "images/projects/bathhaus/img02.jpg",
+        "caption": "",
+        "alt": "Man in a cloud-print suit in a bathtub"
+      },
+      {
+        "id": "fe27ee77b994",
+        "src": "images/projects/bathhaus/img03.jpg",
+        "caption": "",
+        "alt": "Woman in red light in a flower-strewn bathtub"
+      },
+      {
+        "id": "1126110241ee",
+        "src": "images/projects/bathhaus/img04.jpg",
+        "caption": "",
+        "hidden": true,
+        "alt": "Woman lying in a bathtub with flowers"
+      },
+      {
+        "id": "9ad81f3deba7",
+        "src": "images/projects/bathhaus/img05.jpg",
+        "caption": "",
+        "alt": "Woman in a turquoise bath holding a cigar"
+      },
+      {
+        "id": "eac05f4e3d62",
+        "src": "images/projects/bathhaus/img06.jpg",
+        "caption": "",
+        "alt": "Woman curled up in a milky white bath"
+      },
+      {
+        "id": "b4ce73f9c648",
+        "src": "images/projects/bathhaus/img07.jpg",
+        "caption": "",
+        "hidden": true,
+        "alt": "Woman with glitter makeup in a milky bath"
+      },
+      {
+        "id": "c5d99612c20f",
+        "src": "images/projects/bathhaus/img08.jpg",
+        "caption": "",
+        "hidden": true,
+        "alt": "Hand placing a red rose in a bathtub"
+      },
+      {
+        "id": "b64f7deb2fd4",
+        "src": "images/projects/bathhaus/img09.jpg",
+        "caption": "",
+        "hidden": true,
+        "alt": "Water poured over a man in a turquoise bath"
+      },
+      {
+        "id": "16671c3fe83d",
+        "src": "images/projects/bathhaus/img10.jpg",
+        "caption": "",
+        "hidden": true,
+        "alt": "Man resting in a bath with pink flowers"
+      },
+      {
+        "id": "5994164aa751",
+        "src": "images/projects/bathhaus/img11.jpg",
+        "caption": "",
+        "alt": "Man in a bath with flowers, holding a glass"
+      },
+      {
+        "id": "89ff5b4ec913",
+        "src": "images/projects/bathhaus/img12.jpg",
+        "caption": "",
+        "hidden": true,
+        "alt": "Photographer shooting a woman in a bathtub"
+      }
+    ],
+    "page": "photoblog",
+    "link": "",
+    "hideYear": false,
+    "gridTitle": "",
+    "gridText": ""
   },
   {
     "id": "7afb2edeec6b",
